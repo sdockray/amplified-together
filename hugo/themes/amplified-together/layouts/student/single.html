@@ -1,0 +1,41 @@
+{{ define "main" }}
+<main>
+
+{{ $themes := split ($.Param "curatorial_themes") ", " }}
+
+{{ with $.Param "preferred_name" }}
+<h1>{{- . -}}</h1>
+{{ else }}
+<h1>{{ $.Param "first_name" }} {{ $.Param "last_name" }}</h1>
+{{ end }}
+<p>{{ $.Param "discipline_area" }}</p>
+<p>{{ $.Param "your_degree" }}</p>
+<p>{{ $.Param "biography" }}</p>
+<p>
+    <img src="{{ $.Param "image_location" }}"><br/>
+    {{ $.Param "image_caption" }}<br/>
+    {{ $.Param "name_of_photographer" }}
+</p>
+<h2>{{ $.Param "artwork_title" }}</h2>
+{{ $.Param "the_image_is_of_a" }}, {{ $.Param "year" }}, {{ $.Param "medium" }}<br/>
+<p>
+{{ with $.Param "dimensions" }}
+{{- . -}}
+{{ else }}
+{{ $.Param "width_cm" }}x{{ $.Param "height_cm" }}x{{ $.Param "depth_cm" }}
+{{ end }}
+{{ with $.Param "duration_for_digital_work" }}{{- . -}}{{ end }}
+</p>
+<p>
+    <a href="{{ $.Param "portfolio_url" }}">portfolio</a> ({{ $.Param "portfolio_format" }})
+</p>
+
+<h3>themes</h3>
+<ul>
+{{ range $themes }}
+    <li>{{- . -}}</li>
+{{ end }}
+</ul>
+
+</main>
+{{ end }}
