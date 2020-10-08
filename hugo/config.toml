@@ -2,3 +2,6 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Amplified Together"
 theme = "amplified-together"
+
+[taxonomies]
+    themes = "themes"

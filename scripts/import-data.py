@@ -23,6 +23,7 @@ STUDENT_RANGE_NAME = 'A1:AC200'
 # Spreadsheet fields to filter out (for privacy, relevance) or rename
 EVENTS_FIELD_RENAME = {}
 EVENTS_FIELD_FILTER = []
+EVENTS_FIELD_TAXONOMIES = []
 
 STUDENT_FIELD_RENAME = {
     "please_provide_your_biography_or_statement_written_in_third_person_max_150_words": "biography",
@@ -33,8 +34,10 @@ STUDENT_FIELD_RENAME = {
     "url_for_your_student_portfolio_to_be_featured_on_the_graduation_exhibition_website": "portfolio_url",
     "format_of_your_student_portfolio": "portfolio_format",
     "tags_for_your_work_select_all_that_apply": "tags",
+    "curatorial_themes": "themes",
 }
 STUDENT_FIELD_FILTER = ["", "email_address" , "anu_u_number", "mobile_phone_number", ]
+STUDENT_FIELD_TAXONOMIES = ["themes"]
 
 
 def get_spreadsheet_values(id, range, rename_fields={}):
@@ -89,7 +92,7 @@ def get_spreadsheet_values(id, range, rename_fields={}):
         return data     
 
 
-def data_to_toml(data, filetype='toml', filter_fields=[]):
+def data_to_toml(data, filetype='toml', filter_fields=[], taxonomy_fields=[]):
     """
     Takes a list of pairs and turns it into TOML format
     """
@@ -97,9 +100,17 @@ def data_to_toml(data, filetype='toml', filter_fields=[]):
     for a,b in data:
         if a not in filter_fields:
             if filetype=="md":
-                content += f"{a}: \"{b}\"\n"
+                if a in taxonomy_fields:
+                    items = "\n".join([f"- {b1}" for b1 in b.split(", ")])
+                    content += f"{a}:\n{items}\n"
+                else:
+                    content += f"{a}: \"{b}\"\n"
             else:
-                content += f"{a} = \"{b}\"\n"
+                if a in taxonomy_fields:
+                    items = ", ".join([f"\"{b1}\"" for b1 in b.split(", ")])
+                    content += f"{a} = [{items}]\n"
+                else:
+                    content += f"{a} = \"{b}\"\n"
     if filetype=="md":
         content = f"---\n{content}---\n\nDefault content"
     return content
@@ -114,7 +125,10 @@ def import_events(dest, filetype="toml"):
     data = get_spreadsheet_values(EVENTS_SPREADSHEET_ID, EVENTS_RANGE_NAME, rename_fields=EVENTS_FIELD_RENAME)
     for idx, d in enumerate(data):
         with open(os.path.join(dest, f"{idx:02}.{filetype}"), 'w') as f:
-            f.write(data_to_toml(d, filetype=filetype, filter_fields=EVENTS_FIELD_FILTER))
+            f.write(data_to_toml(d, 
+                filetype=filetype, 
+                filter_fields=EVENTS_FIELD_FILTER, 
+                taxonomy_fields=STUDENT_FIELD_TAXONOMIES))
 
 
 def import_students(dest, filetype="md"):
@@ -126,7 +140,10 @@ def import_students(dest, filetype="md"):
     data = get_spreadsheet_values(STUDENT_SPREADSHEET_ID, STUDENT_RANGE_NAME, rename_fields=STUDENT_FIELD_RENAME)
     for idx, d in enumerate(data):
         with open(os.path.join(dest, f"student-{idx:03}.{filetype}"), 'w') as f:
-            f.write(data_to_toml(d, filetype=filetype, filter_fields=STUDENT_FIELD_FILTER))
+            f.write(data_to_toml(d, 
+                filetype=filetype, 
+                filter_fields=STUDENT_FIELD_FILTER, 
+                taxonomy_fields=STUDENT_FIELD_TAXONOMIES))
 
 
 def main():

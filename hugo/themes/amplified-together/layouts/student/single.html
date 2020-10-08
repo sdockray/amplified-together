@@ -1,13 +1,7 @@
 {{ define "main" }}
 <main>
 
-{{ $themes := split ($.Param "curatorial_themes") ", " }}
-
-{{ with $.Param "preferred_name" }}
-<h1>{{- . -}}</h1>
-{{ else }}
-<h1>{{ $.Param "first_name" }} {{ $.Param "last_name" }}</h1>
-{{ end }}
+<h1>{{ partial "studentname.html" . }}</h1>
 <p>{{ $.Param "discipline_area" }}</p>
 <p>{{ $.Param "your_degree" }}</p>
 <p>{{ $.Param "biography" }}</p>
@@ -32,7 +26,7 @@
 
 <h3>themes</h3>
 <ul>
-{{ range $themes }}
+{{ range $.Param "themes" }}
     <li>{{- . -}}</li>
 {{ end }}
 </ul>

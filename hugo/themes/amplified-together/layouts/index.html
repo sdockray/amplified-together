@@ -1,4 +1,21 @@
+{{ define "main" }}
+
 <h2>Events</h2>
 {{ range $.Site.Data.events }}
    {{ partial "event.html" . }}
+{{ end }}
+
+<h2>Themes</h2>
+<ul>
+   {{ range .Site.Taxonomies.themes }}
+           <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
+   {{ end }}
+</ul>
+
+<h2>Students</h2>
+{{ $pages := where .Site.RegularPages "Type" "student" }}
+{{ range $pages }}
+   {{ partial "studentpreview.html" . }}
+{{ end }}
+
 {{ end }}

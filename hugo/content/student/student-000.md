@@ -21,9 +21,13 @@ duration_for_digital_work: ""
 photographer_name: "TEST TEST "
 portfolio_url: "https://docs.google.com/forms/d/e/1FAIpQLSdD2Dd2EpWkMTVL6HBeVZ0dAYiDJKHidPS8DLNBb6z6Qgbv7A/formResponse"
 portfolio_format: "External website"
-curatorial_themes: "Option 2, Option 3, Option 4"
+themes:
+- Option 2
+- Option 3
+- Option 4
 tags: "Option 1, Test, TEST, test"
 discipline_area: "Ceramics"
+type: "student"
 ---
 
-Default contentt
+Default content
