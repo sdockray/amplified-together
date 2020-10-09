@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/sdockray/amplified-together#readme",
   "dependencies": {
-    "autoprefixer": "^10.0.1",
+    "autoprefixer": "^9.0.0",
     "postcss-cli": "^8.1.0",
     "postcss-import": "^12.0.1"
   }
