@@ -1,0 +1,24 @@
+{
+  "name": "amplified-together",
+  "version": "1.0.0",
+  "description": "Hugo website for the 2020 ANU School of Art and Design graduating students along with a Python script that pulls data from some Google spreadsheets for the content to build the site,",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdockray/amplified-together.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdockray/amplified-together/issues"
+  },
+  "homepage": "https://github.com/sdockray/amplified-together#readme",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss-cli": "^8.1.0",
+    "postcss-import": "^12.0.1"
+  }
+}

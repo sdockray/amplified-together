@@ -3,3 +3,4 @@ scripts/venv3
 scripts/token.pickle
 hugo/public
 hugo/resources
+node_modules
