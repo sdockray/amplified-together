@@ -1,21 +1,55 @@
 {{ define "main" }}
-
-<h2>Events</h2>
-{{ range $.Site.Data.events }}
-   {{ partial "event.html" . }}
-{{ end }}
-
-<h2>Themes</h2>
-<ul>
-   {{ range .Site.Taxonomies.themes }}
-           <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
-   {{ end }}
-</ul>
-
-<h2>Students</h2>
-{{ $pages := where .Site.RegularPages "Type" "student" }}
-{{ range $pages }}
-   {{ partial "studentpreview.html" . }}
-{{ end }}
-
+<div class="wrap">
+    <div class="box wide info">
+        <img src="/img/logo.png"/>
+    </div>
+    <div class="box info">
+        <p>ANU School of Art &amp; Design</p>
+        <p>Graduating Exhibition 2020</p>
+    </div>
+    <div class="box"></div>
+    <div class="box info">
+        <p>Online Launch Party<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;6pm<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;Friday<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;4 December<br/>
+        </p>
+        <p>
+            <a href="https://www.eventbrite.com.au/e/2020-graduating-exhibition-online-launch-party-tickets-124641860159">RSVP</a>
+        </p>
+    </div>
+    <div class="box"></div>
+    <div class="box info">
+        <p>
+            Visual Arts<br/>
+            Design<br/>
+            Curatorship<br/>
+            Art History &amp;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;Theory
+        </p>
+    </div>
+    <div class="box info">
+        <p>Website coming soon</p>
+    </div>
+    <div class="box"></div>
+    <div class="box info">
+        <p>Online Award<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;6pm<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;Friday<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;4 December<br/>
+        </p>
+        <p>
+            <a href="https://www.eventbrite.com.au/e/2020-graduating-exhibition-online-awards-presentation-tickets-124642688637">RSVP</a>
+        </p>
+    </div>
+    <div class="box wide contact info">
+        <p>
+            <a href="https://soad.cass.anu.edu.au/about">ANU School of Art & Design</a>
+        </p>
+        <p>
+            Media Contact<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:sofagallery@anu.edu.au">sofagallery@anu.edu.au</a>
+        </p>
+    </div>
+</div>
 {{ end }}

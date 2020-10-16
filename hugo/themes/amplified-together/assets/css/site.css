@@ -1,5 +1,10 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
+@font-face {
+  font-family: Larsseit;
+  src: url(/fonts/Larsseit-Medium.ttf);
+}
+
 /* Document
    ========================================================================== */
 
@@ -21,8 +26,8 @@ html {
  */
 
 body {
-  margin: 2em;
-  font-family: sans-serif;
+  margin: 0;
+  font-family: Larsseit, sans-serif;
   color: #333;
 }
 
@@ -45,6 +50,68 @@ h1 {
 }
 
 a {
-  color: black;
-  font-weight: bold;
+  color: #2B3990;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 1080px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+}
+
+.box {
+  width: 190px;
+  height: 190px;
+  border: 2px solid #2B3990;
+  padding: 5px 15px 5px 20px;
+  vertical-align: middle;
+  text-align: left;
+  margin: 20px 0 0 20px;
+  position: relative;
+  line-height: 23px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #2B3990;
+}
+
+.box.wide {
+  width: 438px;
+}
+
+.box img {
+  max-height: 80%;
+  max-width: 80%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.box.contact {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 767px) {
+  .box {
+    width: 100%;
+    height: auto;
+    border: 5px solid #2B3990;
+    padding-top: 100%;
+    margin-left: 0;
+    order:2;
+    display: none;
+  }
+  .box.wide {
+    width: 100%;
+  }
+  .box.info {
+    order: 1;
+    display: block;
+  }
 }
