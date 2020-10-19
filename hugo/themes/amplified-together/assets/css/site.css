@@ -98,11 +98,14 @@ a {
 }
 
 @media only screen and (max-width: 767px) {
+  .wrap {
+    width: 95%;
+  }  
   .box {
     width: 100%;
-    height: auto;
+    height: 0;
     border: 5px solid #2B3990;
-    padding-top: 100%;
+    padding-bottom: 90%;
     margin-left: 0;
     order:2;
     display: none;
