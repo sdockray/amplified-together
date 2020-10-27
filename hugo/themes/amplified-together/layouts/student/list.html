@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main>
+<main class="box content">
 
   <article>
     <header>
@@ -11,7 +11,7 @@
   <ul class="students">
     {{ range .Pages }}
     <li>
-        <a href="{{.Permalink}}">{{ .Params.title }} {{ .Params.last_name }}</a>
+      {{ partial "studentpreview.html" . }}
     </li>
     {{ end }}  
   </ul>

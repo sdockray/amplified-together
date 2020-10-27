@@ -80,6 +80,15 @@ a {
   width: 438px;
 }
 
+.box.content {
+  width: 438px;
+  height:100%;
+  text-transform: none;
+  vertical-align: text-top;
+  break-before: always;
+  break-after: always;
+}
+
 .box img {
   max-height: 80%;
   max-width: 80%;

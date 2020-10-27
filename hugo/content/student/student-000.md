@@ -3,7 +3,7 @@ timestamp: "10/09/2020 12:27:25"
 title: "Ms"
 first_name: "Saskia "
 last_name: "Scott"
-preferred_name_as_you_would_like_it_displayed_in_exhibition_and_promotional_texts: ""
+preferred_name: ""
 your_degree: "Bachelor of  Arts / Bachelor of Visual Arts"
 biography: "TEST WORDS "
 image_location: ""
@@ -26,8 +26,7 @@ themes:
 - Option 3
 - Option 4
 tags: "Option 1, Test, TEST, test"
-discipline_area: "Ceramics"
-type: "student"
+disciplines: "Ceramics"
 ---
 
 Default content

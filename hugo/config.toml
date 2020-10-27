@@ -4,4 +4,5 @@ title = "Amplified Together"
 theme = "amplified-together"
 
 [taxonomies]
-    themes = "themes"
+    theme = "themes"
+    discipline = "disciplines"
