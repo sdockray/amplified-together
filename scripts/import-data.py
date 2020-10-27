@@ -27,7 +27,7 @@ EVENTS_FIELD_TAXONOMIES = []
 
 STUDENT_FIELD_RENAME = {
     "please_provide_your_biography_or_statement_written_in_third_person_max_150_words": "biography",
-    "preferred_name_as_you_would_like_it_displayed_in_exhibition_and_promotional_texts_": "preferred_name",
+    "preferred_name_as_you_would_like_it_displayed_in_exhibition_and_promotional_texts": "preferred_name",
     "please_upload_the_image_you_would_like_included_on_the_website_max_file_size_is_10mb": "image_location",
     "name_of_photographer_if_applicable": "photographer_name",
     "year_the_work_was_created": "year",
@@ -35,6 +35,7 @@ STUDENT_FIELD_RENAME = {
     "format_of_your_student_portfolio": "portfolio_format",
     "tags_for_your_work_select_all_that_apply": "tags",
     "curatorial_themes": "themes",
+    "discipline_area": "disciplines"
 }
 STUDENT_FIELD_FILTER = ["", "email_address" , "anu_u_number", "mobile_phone_number", ]
 STUDENT_FIELD_TAXONOMIES = ["themes"]
