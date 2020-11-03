@@ -1,5 +1,5 @@
 {{ with $.Param "preferred_name" }}
-    {{- . -}}
+    {{- . -}}&nbsp;{{ $.Param "last_name" }}
 {{ else }}
-    {{ $.Param "first_name" }} {{ $.Param "last_name" }}
+    {{ $.Param "first_name" }}&nbsp;{{ $.Param "last_name" }}
 {{ end }}

@@ -23,3 +23,10 @@
 
 {{ $style := resources.Get "css/site.css" | postCSS (dict "config" "assets/css/postcss.config.js") | minify }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script type="text/javascript">var relPathDepth = {{- .RelPermalink | strings.Count "/" -}};</script>
+{{ $sjsopts := dict "targetPath" "js/main.js" "minify" "true"}}
+{{ $sjs := resources.Get "js/main.js" | js.Build $sjsopts }}
+<script defer src='{{ $sjs.RelPermalink }}' type="application/javascript"></script>

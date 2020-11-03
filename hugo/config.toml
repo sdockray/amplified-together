@@ -1,4 +1,4 @@
-baseURL = "https://boring-jepsen-70e6cc.netlify.app/"
+baseURL = "https://gradshow.com.au"
 languageCode = "en-us"
 title = "Amplified Together"
 theme = "amplified-together"
@@ -6,3 +6,6 @@ theme = "amplified-together"
 [taxonomies]
     theme = "themes"
     discipline = "disciplines"
+
+[markup.goldmark.renderer]
+    unsafe= true

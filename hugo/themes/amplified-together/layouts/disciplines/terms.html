@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main class="box content">
+<main class="wrap">
 
     <article>
       <header>
@@ -8,11 +8,11 @@
       {{.Content}}
     </article>
   
-    <ul class="disciplines">
+    <div class="right disciplines">
         {{ range .Data.Terms.Alphabetical }}
-            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
+            <h2><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h2>
         {{ end }}
-    </ul>
+    </div>
   
 </main>
 {{ end }}

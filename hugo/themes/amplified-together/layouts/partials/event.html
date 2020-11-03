@@ -1,4 +1,5 @@
-<p>
-    <b>{{ .event_name }}</b><br/>
-    {{ .date }}
-</p>
+<div class="event">
+    <div class="date">{{ .date }} {{ .time }}</div>
+    <div class="location">{{ .location }}</div>
+    <div class="description indent">{{ .event_name }}</div>
+</div>

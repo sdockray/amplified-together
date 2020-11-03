@@ -1,20 +1,15 @@
 {{ define "main" }}
-<main class="box content">
+<main>
 
     <article>
         <header>
             <h1>{{.Title}}</h1>
         </header>
-        {{.Content}}
+        <h3>{{.Content}}</h3>
+        {{range .Pages.ByParam "last_name" }}
+            <h3>{{ partial "studentpreview.html" . }}</h3>
+        {{ end }}
     </article>
-    
-    <ul class="students">  
-        {{ range .Pages }}
-            <li>
-            {{ partial "studentpreview.html" . }}  
-            </li>      
-        {{ end }}        
-    </ul>
     
 </main>      
 {{ end }}

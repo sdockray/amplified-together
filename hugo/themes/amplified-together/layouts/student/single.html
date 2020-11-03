@@ -1,36 +1,41 @@
 {{ define "main" }}
-<main class="box content">
+<main class="student">
 <h1>{{ partial "studentname.html" . }}</h1>
-<p>{{ $.Param "disciplines" }}</p>
-<p>{{ $.Param "your_degree" }}</p>
-<p>{{ $.Param "biography" }}</p>
-<p>
-    <img src="{{ $.Param "image_location" }}"><br/>
-    {{ $.Param "image_caption" }}<br/>
-    {{ $.Param "name_of_photographer" }}
-</p>
-<h2>{{ $.Param "artwork_title" }}</h2>
-{{ $.Param "the_image_is_of_a" }}, {{ $.Param "year" }}, {{ $.Param "medium" }}<br/>
-<p>
-{{ with $.Param "dimensions" }}
-{{- . -}}
-{{ else }}
-{{ $.Param "width_cm" }}x{{ $.Param "height_cm" }}x{{ $.Param "depth_cm" }}
-{{ end }}
-{{ with $.Param "duration_for_digital_work" }}{{- . -}}{{ end }}
-</p>
-<p>
-    <a href="{{ $.Param "portfolio_url" }}">portfolio</a> ({{ $.Param "portfolio_format" }})
-</p>
+<!--<p>{{ $.Param "disciplines" }}</p> -->
+<h2>{{ $.Param "your_degree" }}</h2>
 
-<h3>themes</h3>
-<ul>
-{{ range $.Param "themes" }}
-    {{ with $.Site.GetPage ( printf "/%s" . ) }}
-    <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+<div class="photo">
+    <p>
+        <img src="{{ replace ($.Param "image_location") "/open?" "/uc?" }}"><br/>
+        {{ $.Param "image_caption" }}<br/>
+        {{ $.Param "name_of_photographer" }}
+    </p>
+    <h2>{{ $.Param "artwork_title" }}</h2>
+    {{ $.Param "the_image_is_of_a" }}, {{ $.Param "year" }}, {{ $.Param "medium" }}<br/>
+    <p>
+    {{ with $.Param "dimensions" }}
+    {{- . -}}
+    {{ else }}
+    {{ $.Param "width_cm" }}x{{ $.Param "height_cm" }}x{{ $.Param "depth_cm" }}
     {{ end }}
-{{ end }}
-</ul>
+    {{ with $.Param "duration_for_digital_work" }}{{- . -}}{{ end }}
+    </p>
+
+    <h2>Curated Spaces</h2>
+    {{ range $.Param "themes" }}
+        {{ with $.Site.GetPage ( printf "/%s" . ) }}
+        <h3 class="indent"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h3>
+        {{ end }}
+    {{ end }}
+
+</div>
+
+<div class="text">
+    <div>{{ $.Param "biography" }}</div>
+    <h2>
+        <a href="{{ $.Param "portfolio_url" }}" target="_new">portfolio</a><!--({{ $.Param "portfolio_format" }})-->
+    </h2>
+</div>
 
 </main>
 {{ end }}

@@ -1,20 +1,28 @@
 {{ define "main" }}
-<main class="box content">
+<main class="wrap">
 
   <article>
     <header>
         <h1>{{.Title}}</h1>
     </header>
     {{.Content}}
-  </article>
 
-  <ul class="students">
-    {{ range .Pages }}
-    <li>
-      {{ partial "studentpreview.html" . }}
-    </li>
-    {{ end }}  
-  </ul>
+    {{ if ne .RelPermalink "/student/" }}
+      {{range .Pages.ByParam "last_name" }}
+        {{ partial "studentpreview.html" . }}
+      {{ end }}
+    {{ end }}
+  </article>
+  
+  {{ if eq .RelPermalink "/student/" }}
+  <div class="right letters">
+    {{range .Pages }}
+      <h2 class="letter">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h2>
+    {{ end }}
+  </div>
+  {{ end }}
 
 </main>
 {{ end }}

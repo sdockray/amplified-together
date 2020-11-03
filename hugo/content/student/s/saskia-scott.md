@@ -1,7 +1,7 @@
 ---
 timestamp: "10/09/2020 12:27:25"
 title: "Ms"
-first_name: "Saskia "
+first_name: "Saskia"
 last_name: "Scott"
 preferred_name: ""
 your_degree: "Bachelor of  Arts / Bachelor of Visual Arts"

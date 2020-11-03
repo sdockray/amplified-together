@@ -6,6 +6,7 @@ from __future__ import print_function
 import pickle
 import os.path
 import re
+import urllib
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
@@ -98,8 +99,10 @@ def data_to_toml(data, filetype='toml', filter_fields=[], taxonomy_fields=[]):
     Takes a list of pairs and turns it into TOML format
     """
     content = ""
+    fields = {}
     for a,b in data:
         if a not in filter_fields:
+            fields[a] = b
             if filetype=="md":
                 if a in taxonomy_fields:
                     items = "\n".join([f"- {b1}" for b1 in b.split(", ")])
@@ -114,7 +117,30 @@ def data_to_toml(data, filetype='toml', filter_fields=[], taxonomy_fields=[]):
                     content += f"{a} = \"{b}\"\n"
     if filetype=="md":
         content = f"---\n{content}---\n\nDefault content"
-    return content
+    return content, fields
+
+
+def data_to_filename(d, filetype, base_dir=False, append=0):
+    """
+    Generate a unique, urlized filename
+    """
+    fn = False
+    fn = f'{d.setdefault("first_name", "")}-{d.setdefault("last_name", "")}' if not d['preferred_name'] else f'{d.setdefault("preferred_name", "")}-{d.setdefault("last_name", "")}'
+    if append and append>0:
+        fn = f"{fn}-{append}"
+    fn = f"{fn}.{filetype}"
+    fn = urllib.parse.quote(fn.replace(" ", "-").lower(), safe="")
+    letter = d["last_name"][0:1].lower()
+    os.makedirs(os.path.join(base_dir, letter), exist_ok=True)
+    with open(os.path.join(base_dir, letter, "_index.md"), 'w') as f:
+        f.write(f'---\ntitle: "{letter.upper()}"\n---\n')
+    """
+    # Need to figure out how to overwrite with new data, while alos preserving uniqueness
+    if base_dir and os.path.exists(os.path.join(base_dir, letter, fn)):
+        append += 1
+        return data_to_filename(data, filetype, base_dir=base_dir, append=append)
+    """
+    return os.path.join(letter, fn)
 
 
 def import_events(dest, filetype="toml"):
@@ -125,11 +151,12 @@ def import_events(dest, filetype="toml"):
     # Get the spreadsheet data as [(field, value), ...]
     data = get_spreadsheet_values(EVENTS_SPREADSHEET_ID, EVENTS_RANGE_NAME, rename_fields=EVENTS_FIELD_RENAME)
     for idx, d in enumerate(data):
+        content, _ =data_to_toml(d, 
+            filetype=filetype, 
+            filter_fields=EVENTS_FIELD_FILTER, 
+            taxonomy_fields=STUDENT_FIELD_TAXONOMIES)
         with open(os.path.join(dest, f"{idx:02}.{filetype}"), 'w') as f:
-            f.write(data_to_toml(d, 
-                filetype=filetype, 
-                filter_fields=EVENTS_FIELD_FILTER, 
-                taxonomy_fields=STUDENT_FIELD_TAXONOMIES))
+            f.write(content)
 
 
 def import_students(dest, filetype="md"):
@@ -140,11 +167,15 @@ def import_students(dest, filetype="md"):
     # Get the spreadsheet data as [(field, value), ...]
     data = get_spreadsheet_values(STUDENT_SPREADSHEET_ID, STUDENT_RANGE_NAME, rename_fields=STUDENT_FIELD_RENAME)
     for idx, d in enumerate(data):
-        with open(os.path.join(dest, f"student-{idx:03}.{filetype}"), 'w') as f:
-            f.write(data_to_toml(d, 
-                filetype=filetype, 
-                filter_fields=STUDENT_FIELD_FILTER, 
-                taxonomy_fields=STUDENT_FIELD_TAXONOMIES))
+        content, fields = data_to_toml(d, 
+            filetype=filetype, 
+            filter_fields=STUDENT_FIELD_FILTER, 
+            taxonomy_fields=STUDENT_FIELD_TAXONOMIES)
+        filename = data_to_filename(fields, filetype, base_dir=dest)
+        if filename:
+            print("Writing:", filename)
+            with open(os.path.join(dest, filename), 'w') as f:
+                f.write(content)
 
 
 def main():

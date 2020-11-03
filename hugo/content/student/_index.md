@@ -1,4 +1,3 @@
 ---
-title: "Students"
+title: "Graduates [A-Z]"
 ---
-This is some text.

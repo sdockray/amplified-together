@@ -1,5 +1,5 @@
 ---
 title: "Amplified Together"
-type: "holdingpage"
+type: "homepage"
 ---
 This is some text.

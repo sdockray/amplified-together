@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<div class="homepage-logo">
+    <img src="/img/logo.png"/>
+</div>
+
+<h1>ANU School of Art &amp; Design<br/>
+    2020 Graduating Exhibition</h1>
+
+
+<div class="text">
+    {{.Content}}
+</div>
+
+<div class="events">
+    <h3>Events</h3>
+    {{ range $.Site.Data.events }}
+    {{ partial "event.html" . }}
+    {{ end }}
+</div>
+
+<div class="themes">
+    <h2>Curated Spaces</h2>
+    <div class="wrap">
+    {{ range .Site.Taxonomies.themes }}
+        <div class="theme box {{ .Page.Name | urlize }}"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></div>
+    {{ end }}
+    </div>
+</div>
+
+<h2>Students</h2>
+{{ $pages := where .Site.RegularPages "Type" "student" }}
+{{ range $pages }}
+   {{ partial "studentpreview.html" . }}
+{{ end }}
+
+{{ end }}
