@@ -108,6 +108,7 @@ def data_to_toml(data, filetype='toml', filter_fields=[], taxonomy_fields=[]):
                     items = "\n".join([f"- {b1}" for b1 in b.split(", ")])
                     content += f"{a}:\n{items}\n"
                 else:
+                    b = b.replace('"', '\\"').strip()
                     content += f"{a}: \"{b}\"\n"
             else:
                 if a in taxonomy_fields:

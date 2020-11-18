@@ -1,5 +1,9 @@
 {{ with $.Param "preferred_name" }}
-    {{- . -}}&nbsp;{{ $.Param "last_name" }}
+    {{ if strings.HasSuffix . ($.Param "last_name") }}
+        {{- . -}}
+    {{ else }}
+        {{- . -}}&nbsp;{{ $.Param "last_name" }}
+    {{ end }}
 {{ else }}
     {{ $.Param "first_name" }}&nbsp;{{ $.Param "last_name" }}
 {{ end }}
