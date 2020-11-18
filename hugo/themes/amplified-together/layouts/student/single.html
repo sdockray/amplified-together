@@ -1,12 +1,20 @@
 {{ define "main" }}
+{{ $imgsrc := replace ($.Param "image_location") "/open?" "/uc?" }}
 <main class="student">
 <h1>{{ partial "studentname.html" . }}</h1>
 <!--<p>{{ $.Param "disciplines" }}</p> -->
 <h2>{{ $.Param "your_degree" }}</h2>
 
+<!-- Favorite box, move this to wherever -->
+<div class="add-favorite" 
+    data-studentname="{{ partial "studentname.html" . }}" 
+    data-img="{{ $imgsrc }}" 
+    data-url="{{ .Permalink }}"
+    >add to favorites</div>
+
 <div class="photo">
     <p>
-        <img src="{{ replace ($.Param "image_location") "/open?" "/uc?" }}"><br/>
+        <img src="{{ $imgsrc }}"><br/>
         {{ $.Param "image_caption" }}<br/>
         {{ $.Param "name_of_photographer" }}
     </p>
