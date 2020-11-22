@@ -29,7 +29,7 @@ body {
   margin: 0;
   font-family: Larsseit, sans-serif;
   color: #2B3990;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 /**
@@ -51,7 +51,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.8em;
   text-align: center;
   font-weight: 400;
 }
@@ -72,13 +72,8 @@ a {
 }
 
 .plus:before {
-  content: '\FF0B';
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  border: 2px solid #2B3990;
+  content: '\229E';
+  font-size: 0.9em;
 }
 
 
@@ -91,8 +86,9 @@ a {
 }
 
 .brand {
-  width: 200px;
-  height: 50px;
+  width: 240px;
+  height: 60px;
+  float: left;
   position: relative;
 }
 
@@ -121,28 +117,33 @@ a {
   max-width: 1000px;
   min-height: 50px;
   margin: 0 auto;
+  padding-bottom: 40px;
   border-bottom: 1px solid #2B3990;
 }
 
 nav {
-  float: right;
+/*  float: right; */
 }
+
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 nav ul li {
-  float: left;
-  position: relative;
+  float: right;
 }
+
 nav ul li a,
 nav ul li a:visited {
   display: block;
-  padding: 0 20px;
+  padding: 10px 15px;
   text-transform: uppercase;
   text-decoration: none;
+  font-size: 0.9em;
 }
+
 nav ul li a:hover,
 nav ul li a:visited:hover {
 
@@ -166,8 +167,9 @@ nav ul li a:visited:hover {
 
   nav {
     width: 100%;
-    padding: 70px 0 15px;
+  /*  padding: 70px 0 15px; */
   }
+
   nav ul {
     display: none;
   }
@@ -189,11 +191,44 @@ nav ul li a:visited:hover {
     position: static;
   }
 }
+
+/* DESKTOP */
+
 @media screen and (min-width: 768px) {
-  .nav-list {
-    display: block !important;
+    .nav-list {
+      display: block !important;
+  }
+
+  .disciplines, .letters {
+    margin: auto;
+    float: right;
+    display: block;
+}
+
+  .text, .themes {
+    max-width: 60%;
+    margin-left: 10px;
+}
+
+  .events {
+    max-width: 30%;
+    float: right;
+}
+
+  .themes .theme.box {
+    width:150px;
+    height:150px;
+    font-size:0.9em;
+    margin:6px 0 0 6px
+}
+
+  .text {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
   }
 }
+
 #nav-toggle {
   position: absolute;
   left: 18px;
@@ -201,6 +236,7 @@ nav ul li a:visited:hover {
   cursor: pointer;
   padding: 10px 35px 16px 0px;
 }
+
 #nav-toggle span,
 #nav-toggle span:before,
 #nav-toggle span:after {
@@ -305,6 +341,23 @@ nav ul li a:visited:hover {
     order: 1;
     display: block;
   }
+  .text, .themes {
+    max-width: 100%;
+    text-align: center;
+}
+
+  .events {
+      max-width: 90%;
+      margin: 0 auto;
+  }
+
+  .themes .theme.box {
+      width:150px;
+      height:150px;
+      font-size:0.9em;
+      margin:6px 0 0 6px
+
+  }
 }
 
 .indent {
@@ -328,6 +381,7 @@ main.page .text h2 {
   padding-left: 1.0em;
   text-indent:-1.0em;
   margin: 0px;
+  float: right;
 }
 
 /* Student preview */
@@ -343,13 +397,12 @@ main.page .text h2 {
 
 /* Events */
 .events {
-  width: 190px;
+/*  width: 190px; */
   border: 2px solid #2B3990;
   padding: 5px 15px 5px 20px;
   text-align: left;
-  margin: 20px 0 0 20px;
   position: relative;
-  font-size: 14px;
+  font-size: 1em;
   text-transform: uppercase;
   color: #2B3990;
 }
@@ -359,12 +412,27 @@ main.page .text h2 {
 }
 
 /* Curated Spaces */
-.themes .theme.box {
-  width: 100px;
-  height: 100px;
-  font-size: 12px;
-  margin: 6px 0 0 6px;
-}
+
 .themes .theme a {
   text-decoration: none;
+}
+
+.themes .theme a {
+  text-decoration:none;
+}
+
+.theme.box.communication a, .theme.box.identity a {
+  position: absolute;
+  top: 30%;
+}
+  
+.theme.box.community a, .theme.box.space-and-place a {
+  position: absolute;
+  top: 60%;
+  justify-content: center;
+}
+
+.description.indent {
+  padding-bottom: 20px;
+
 }
