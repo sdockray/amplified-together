@@ -3,10 +3,10 @@ timestamp: "18/11/2020 14:17:58"
 title: "Mr"
 first_name: "Aowen"
 last_name: "Zheng"
-preferred_name: ""
+preferred_name: "Aowen Zheng"
 your_degree: "Master of Visual Arts"
-please_provide_your_artist_statement_max_150_words: "Aowen Zheng is a Chinise photographer currently live in Canberra. He has just completed his studies of Visual Arts at ANU.
-Aowen Zheng focused on Surrealism Photography and Collage a lot during his visual arts studies. He aims to break the traditional cognitive of photography by his camera."
+please_provide_your_artist_statement_max_150_words: "Aowen Zheng is a Chinese photographer who currently lives in Canberra. He has just completed his studies in Visual Arts at ANU.
+Aowen Zheng focused on Surrealism Photography and Collage during his visual arts studies. He aims to break the traditional cognitive of photography by his camera."
 image_location: "https://drive.google.com/open?id=12ez5xm2XaDM7GSJg9rTNd6H8HtBYTa2m"
 image_caption: "Windows, 2020, digital photograph, 4000x4000 pixels"
 name_of_photographer: "Aowen Zheng"

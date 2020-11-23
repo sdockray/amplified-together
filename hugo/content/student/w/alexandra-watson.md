@@ -3,7 +3,7 @@ timestamp: "18/11/2020 13:34:50"
 title: "Miss"
 first_name: "Alexandra"
 last_name: "Watson"
-preferred_name: ""
+preferred_name: "Alexandra Watson"
 your_degree: "Bachelor of Visual Arts / Bachelor of Arts"
 please_provide_your_artist_statement_max_150_words: "This work opens up a different kind of imaginative thinking about the Anthropocene, drawing from ideas around the global mobility of humans and animals. It invites you to bear witness to a fictional, but entirely possible, historical apocalyptic turning point: imagining a Gypsy Moth invasion which would pose a great threat to Australian agriculture. The life cycle and spread of this highly invasive species is captured in Future Fossil 1-3 and brought to life through augmented reality. International Package: the disturbing release heightens the sense of threat at a personal level, by unleashing ravenous Gypsy Moth caterpillar in domestic space.  
 

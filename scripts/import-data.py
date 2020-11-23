@@ -18,7 +18,8 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 EVENTS_SPREADSHEET_ID = '1rdp3ll9gMX18RMCpwOIKmUWhLAN266mgea4PbLsJMBA'
 EVENTS_RANGE_NAME = 'A1:G50'
 
-STUDENT_SPREADSHEET_ID = '1BoCYvSTdUe5KAu1PfiHCVZqxzutNmoLv3WPnna0aGk0'
+STUDENT_SPREADSHEET_ID = '1lXAEVHKVwAKF0B9dIXVuuOO3_219o-2B-7HwvLHS4uI'
+# STUDENT_SPREADSHEET_ID = '1BoCYvSTdUe5KAu1PfiHCVZqxzutNmoLv3WPnna0aGk0'
 STUDENT_RANGE_NAME = 'A1:AC200'
 
 # Spreadsheet fields to filter out (for privacy, relevance) or rename
@@ -126,7 +127,11 @@ def data_to_filename(d, filetype, base_dir=False, append=0):
     Generate a unique, urlized filename
     """
     fn = False
-    fn = f'{d.setdefault("first_name", "")}-{d.setdefault("last_name", "")}' if not d['preferred_name'] else f'{d.setdefault("preferred_name", "")}-{d.setdefault("last_name", "")}'
+    fn = d.setdefault("first_name", "").strip()
+    ln = d.setdefault("last_name", "").strip()
+    pn = d.setdefault("preferred_name", fn).strip()
+    fn = f"{pn}" if pn.endswith(ln) else f"{pn}-{ln}" 
+    #fn = f'{d.setdefault("first_name", "")}-{d.setdefault("last_name", "")}' if not d['preferred_name'] else f'{d.setdefault("preferred_name", "")}-{d.setdefault("last_name", "")}'
     if append and append>0:
         fn = f"{fn}-{append}"
     fn = f"{fn}.{filetype}"

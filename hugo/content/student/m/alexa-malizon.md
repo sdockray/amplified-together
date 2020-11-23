@@ -3,7 +3,7 @@ timestamp: "17/11/2020 13:43:05"
 title: "Miss"
 first_name: "Alexa"
 last_name: "Malizon"
-preferred_name: ""
+preferred_name: "Alexa Malizon"
 your_degree: "Bachelor of Visual Arts (Honours)"
 please_provide_your_artist_statement_max_150_words: "Alexa Malizon is an artist and photographer based in Canberra. Her practice encompasses a range of photographic media and focuses on using personal experiences to re-connect with her cultural roots and engage questions of identity and cultural difference. She exhibited her work in the ANU School of Art and Design Graduating Exhibition in 2019 and VIEW2020 in PhotoAccess at the beginning of 2020.
 

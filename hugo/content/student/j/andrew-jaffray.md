@@ -5,15 +5,11 @@ first_name: "Andrew"
 last_name: "Jaffray"
 preferred_name: "Andrew Jaffray"
 your_degree: "Bachelor of Visual Arts"
-please_provide_your_artist_statement_max_150_words: "Andrew Jaffray 
-Australian Painter
-Artist Statement
-
-Andrew lives on a rural property near the Regional City of Orange in the Central Tablelands of New South Wales.
+please_provide_your_artist_statement_max_150_words: "Andrew Jaffray lives on a rural property near the Regional City of Orange in the Central Tablelands of New South Wales.
 
 The natural environment where Andrew lives has had a significant influence and forms a building block for much of his work.  Many of his works capture elements of the differing topography and vegetation as one journeys west from the Tablelands to the Plains of the Western Outback. 
 
-In recent years Andrew has completed an Advanced Diploma of Visual Art at TAFE and has completed the Bachelor of Visual Arts course at the ANU School of Art and Design in Canberra.
+In recent years Andrew has completed an Advanced Diploma of Visual Art at TAFE and has completed the Bachelor of Visual Arts course at the ANU School of Art & Design in Canberra.
 
 His practice continues to evolve with new ideas developed under the guidance of tutors at the School of Art and Design. These include the use of mapping as a source material and an expressive distortion of the landscape."
 image_location: "https://drive.google.com/open?id=192RX3yScHQ4R01YJFK5vMN9mPIqx8j7I"
