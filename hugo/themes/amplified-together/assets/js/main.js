@@ -71,6 +71,7 @@
           ? JSON.parse(localStorage.getItem('faves'))
           : []
         for (fave of faves) {
+          $h3 = $('<h3></h3>')
           $student = $('<div class="student preview"></div>')
           $imgdiv = $('<div class="image"></div>')
           $img = $('<img src="' + fave.img + '">')
@@ -78,7 +79,8 @@
           $img.appendTo($imgdiv)
           $imgdiv.appendTo($student)
           $name.appendTo($student)
-          $student.appendTo($(this))
+          $student.appendTo($h3)
+          $h3.appendTo($(this))
         }
       })
     }); // end DOM ready
