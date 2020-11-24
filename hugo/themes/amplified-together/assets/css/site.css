@@ -63,7 +63,8 @@ article h3 {
 }
 
 .student .text h2 a {
-  font-size: 3em;
+  font-size: 2.4em;
+  margin-top: 0;
 }
 
 a {
@@ -160,6 +161,8 @@ nav ul li a:visited:hover {
   width: 70px;
 }
 
+/* MOBILE */
+
 @media only screen and (max-width: 767px) {
   .nav-mobile {
     display: block;
@@ -190,6 +193,32 @@ nav ul li a:visited:hover {
   .nav-dropdown {
     position: static;
   }
+
+    h1 {
+        text-align: center;
+    }
+    .content {
+        width: 100%;
+    }
+
+    main.student  {
+        margin-left:5px;
+        margin-right:5px;
+        width: 100%;
+    }
+
+    main.student h1 {
+        text-align: left;
+    }
+
+    main.student .text {
+        margin-left: 0;
+        float: left;
+    }
+
+    .photo {
+        width: 95%;
+    }
 }
 
 /* DESKTOP */
@@ -227,6 +256,22 @@ nav ul li a:visited:hover {
     float: left;
     margin-left: 10px;
   }
+  main.student .text {
+    float: right;
+    max-width: 45%;
+    display: inline-block;
+    position: absolute;
+    top: 125px;
+    right: calc(50% - 500px);
+}
+.add-favorite {
+    float: right;
+    max-width: 45%;
+    display: inline-block;
+    position: absolute;
+    top: 220px;
+    right: calc(50% - 500px);
+}
 }
 
 #nav-toggle {
@@ -435,4 +480,44 @@ main.page .text h2 {
 .description.indent {
   padding-bottom: 20px;
 
+}
+
+/* Student Profile */
+
+.student  {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    page-break-after: always;
+    flex: 1;
+}
+
+.student h1{
+    margin-bottom: 0;
+    text-align: left;
+}
+
+
+.add-favorite:after {
+    content: '\229E';
+    font-size: 2.8em;
+}
+
+main.student img {
+    max-width: 300px;
+    padding-right: 20px;
+}
+
+main.student .photo p {
+}
+
+main.student .text h2 {
+   font-size: 1.2em;
+   text-decoration: none;
+   font-weight: 400;
+}
+
+
+main.student h3.indent {
+    padding-left: 50px;
 }
