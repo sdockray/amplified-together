@@ -20,7 +20,7 @@ width_cm: "56"
 depth_cm: ""
 duration_for_digital_work: ""
 photographer_name: "Prue Hazelgrove"
-portfolio_url: "https://www.instagram.com/art.bygreta/"
+portfolio_url: "https://sites.google.com/view/life-after-the-wildfires/home"
 portfolio_format: ""
 themes:
 - Materiality
