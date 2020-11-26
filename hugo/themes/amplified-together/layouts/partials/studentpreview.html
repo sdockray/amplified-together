@@ -1,6 +1,6 @@
 <div class="student preview">
     <div class="image">
-        <img src="{{ replace ($.Param "image_location") "/open?" "/uc?" }}">
+        <a href="{{ .Permalink }}">{{ partial "image.html" . }}</a>
     </div>
     <a href="{{ .Permalink }}">{{ partial "studentname.html" . }}</a>
 </div>

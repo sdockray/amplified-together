@@ -14,7 +14,7 @@
 
 <div class="photo">
     <p>
-        <img src="{{ $imgsrc }}"><br/>
+        {{ partial "image.html" . }}<br/>
         {{ $.Param "image_caption" }}<br/>
         {{ $.Param "name_of_photographer" }}
     </p>

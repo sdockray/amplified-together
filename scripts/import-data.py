@@ -5,14 +5,20 @@ Imports data from the shared Google spreadsheets
 from __future__ import print_function
 import pickle
 import os.path
+import io
 import re
 import urllib
+from pprint import pprint
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
+from googleapiclient.http import MediaIoBaseDownload 
 
 # If modifying these scopes, delete the file token.pickle.
-SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
+SCOPES = [
+    'https://www.googleapis.com/auth/spreadsheets.readonly',
+    'https://www.googleapis.com/auth/drive.readonly'
+    ]
 
 # The ID and range of events and student profiles spreadsheet.
 EVENTS_SPREADSHEET_ID = '1rdp3ll9gMX18RMCpwOIKmUWhLAN266mgea4PbLsJMBA'
@@ -43,10 +49,7 @@ STUDENT_FIELD_FILTER = ["", "email_address" , "anu_u_number", "mobile_phone_numb
 STUDENT_FIELD_TAXONOMIES = ["themes"]
 
 
-def get_spreadsheet_values(id, range, rename_fields={}):
-    """Shows basic usage of the Sheets API.
-    Prints values from a sample spreadsheet.
-    """
+def get_google_creds():
     creds = None
     # The file token.pickle stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first
@@ -65,6 +68,14 @@ def get_spreadsheet_values(id, range, rename_fields={}):
         # Save the credentials for the next run
         with open('token.pickle', 'wb') as token:
             pickle.dump(creds, token)
+    return creds
+
+
+def get_spreadsheet_values(id, range, rename_fields={}):
+    """Shows basic usage of the Sheets API.
+    Prints values from a sample spreadsheet.
+    """
+    creds = get_google_creds()
 
     service = build('sheets', 'v4', credentials=creds)
 
@@ -92,7 +103,7 @@ def get_spreadsheet_values(id, range, rename_fields={}):
             else:
                 print(row)
             idx += 1
-        return data     
+        return data
 
 
 def data_to_toml(data, filetype='toml', filter_fields=[], taxonomy_fields=[]):
@@ -146,7 +157,7 @@ def data_to_filename(d, filetype, base_dir=False, append=0):
         append += 1
         return data_to_filename(data, filetype, base_dir=base_dir, append=append)
     """
-    return os.path.join(letter, fn)
+    return os.path.join(letter, fn), fn
 
 
 def import_events(dest, filetype="toml"):
@@ -165,10 +176,14 @@ def import_events(dest, filetype="toml"):
             f.write(content)
 
 
-def import_students(dest, filetype="md"):
+def import_students(dest, images_dest, filetype="md"):
     """
     Import students and write data to disk
     """
+    # Prepare for downlaoding images
+    creds = get_google_creds()
+    drive = build('drive', 'v3', credentials=creds)
+    # Now process student data
     os.makedirs(dest, exist_ok=True)
     # Get the spreadsheet data as [(field, value), ...]
     data = get_spreadsheet_values(STUDENT_SPREADSHEET_ID, STUDENT_RANGE_NAME, rename_fields=STUDENT_FIELD_RENAME)
@@ -177,19 +192,41 @@ def import_students(dest, filetype="md"):
             filetype=filetype, 
             filter_fields=STUDENT_FIELD_FILTER, 
             taxonomy_fields=STUDENT_FIELD_TAXONOMIES)
-        filename = data_to_filename(fields, filetype, base_dir=dest)
+        filename, slug = data_to_filename(fields, filetype, base_dir=dest)
         if filename:
             print("Writing:", filename)
             with open(os.path.join(dest, filename), 'w') as f:
                 f.write(content)
+        # write image
+        download_image(fields['image_location'], drive, slug, images_dest)
+
+
+def download_image(url, drive, slug, dest):
+    #filename = "test.jpg"
+    #urllib.request.urlretrieve(url,filename) 
+    parts = url.split('=')
+    if len(parts)==2:
+        file_id = parts[1]
+        # data = drive.files().get(fileId=file_id, fields='*').execute()
+        # pprint(data)
+        request = drive.files().get_media(fileId=file_id)
+        fh = io.FileIO(os.path.join(dest, f"{slug}.jpg"), mode='wb')
+        downloader = MediaIoBaseDownload(fh, request)
+        done = False
+        while done is False:
+            status, done = downloader.next_chunk()
+            print("Download %d%%." % int(status.progress() * 100))
+
 
 
 def main():
     """ 
     """
     import_events("/mnt/d/dev/websites/amplified-together/hugo/data/events")
-    import_students("/mnt/d/dev/websites/amplified-together/hugo/content/student")
-
-
+    import_students("/mnt/d/dev/websites/amplified-together/hugo/content/student", "/mnt/d/dev/websites/amplified-together/hugo/static/images")
+    # creds = get_google_creds()
+    # drive = build('drive', 'v3', credentials=creds)
+    # download_image("https://drive.google.com/open?id=13i0ae2dgs_HHJpJ_0KshCYONqvj7-YKu", drive, '.')
+    
 if __name__ == '__main__':
     main()
