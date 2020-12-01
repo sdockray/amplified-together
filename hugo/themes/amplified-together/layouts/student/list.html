@@ -16,7 +16,7 @@
   
   {{ if eq .RelPermalink "/student/" }}
   <div class="right letters">
-    {{range .Pages }}
+    {{range .Pages.ByTitle }}
       <h2 class="letter">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
       </h2>

@@ -5,7 +5,7 @@ first_name: "Elizabeth"
 last_name: "Brebner"
 preferred_name: "Liz Brebner"
 your_degree: "Bachelor of Visual Arts (Honours)"
-please_provide_your_artist_statement_max_150_words: "My spatial art practice is often inspired by cultural ideas and theories. My making process involves playing with different formats to bring an artwork to fruition. My art practice can be described as experimental play in a local everyday environment. I try to highlight what is conventionally unseen background noise by bringing it into the foreground.  
+biography: "My spatial art practice is often inspired by cultural ideas and theories. My making process involves playing with different formats to bring an artwork to fruition. My art practice can be described as experimental play in a local everyday environment. I try to highlight what is conventionally unseen background noise by bringing it into the foreground.  
 
 My artwork 'unofficial walking' (www.unofficialwalking.com) is a walk on the Australian National University campus and highlights barriers on campus.  When a person encounters a barrier in their life it requires action, be it physical or psychological. The action might be to witness and abide by the barrier, or it might be to traverse the barrier and transgress its instruction or to shift the barrier altogether. The walk shows barriers on campus that are conventionally unseen by people because they are obvious and have become a known part of our everyday lives. Barriers are so embedded in our everyday lives we barely notice their effect. 
 

@@ -5,7 +5,7 @@ first_name: "Sarah"
 last_name: "Turrin"
 preferred_name: "Sarah Turrin"
 your_degree: "Bachelor of Visual Arts"
-please_provide_your_artist_statement_max_150_words: "These paintings are painted in 2020 and are acrylic and oil on canvas.
+biography: "These paintings are painted in 2020 and are acrylic and oil on canvas.
 
 The series of works in my exhibit examine the abstract human form in relation to what we project to the world and what we keep private.
 

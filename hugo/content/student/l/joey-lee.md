@@ -5,7 +5,7 @@ first_name: "Joey"
 last_name: "Lee"
 preferred_name: "Joey Lee"
 your_degree: "Bachelor of Visual Arts"
-please_provide_your_artist_statement_max_150_words: "Joey Lee (1999) is a multi-disciplinary Canberra-born artist undertaking a Bachelor of Visual arts, majoring in animation and video and minoring in Music Technology from the Australian National University.
+biography: "Joey Lee (1999) is a multi-disciplinary Canberra-born artist undertaking a Bachelor of Visual arts, majoring in animation and video and minoring in Music Technology from the Australian National University.
  
 Her main practice lies in the realm of 2D digital illustration and animation, but she  has spent the last 12 years of her life working with oil paints, watercolour and photography/cinematography.
  

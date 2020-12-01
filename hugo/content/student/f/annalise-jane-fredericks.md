@@ -5,7 +5,7 @@ first_name: "Annalise"
 last_name: "Fredericks"
 preferred_name: "Annalise Jane"
 your_degree: "Bachelor of Visual Arts"
-please_provide_your_artist_statement_max_150_words: "Presented as a vintage knitwear catalogue, 'Maille Order' combines our current need for personal protection and how we might consider what we wear as armour, with kitsch styling. The ‘knitting’ of armoured face masks, an apron and jumper, conflates women’s work and the masculine associations of chain maille. Asking questions about how function and value can be subverted through material associations and tongue-in-cheek tropes.  
+biography: "Presented as a vintage knitwear catalogue, 'Maille Order' combines our current need for personal protection and how we might consider what we wear as armour, with kitsch styling. The ‘knitting’ of armoured face masks, an apron and jumper, conflates women’s work and the masculine associations of chain maille. Asking questions about how function and value can be subverted through material associations and tongue-in-cheek tropes.  
 The viewer is invited to leaf through this fashion pamphlet and to indulge in the product's absurd futility."
 image_location: "https://drive.google.com/open?id=1_9IPf6yho0Zy1jUHUgyCfiR9wR1tmcgW"
 image_caption: ""

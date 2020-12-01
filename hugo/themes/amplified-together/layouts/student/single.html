@@ -1,49 +1,54 @@
 {{ define "main" }}
-{{ $imgsrc := replace ($.Param "image_location") "/open?" "/uc?" }}
+{{ $imgsrc := printf "/images/%s.md.jpg" (path.Base .RelPermalink) }}
 <main class="student">
-<h1>{{ partial "studentname.html" . }}</h1>
-<!--<p>{{ $.Param "disciplines" }}</p> -->
-<h2>{{ $.Param "your_degree" }}</h2>
 
-<!-- Favorite box, move this to wherever -->
-<div class="add-favorite" 
-    data-studentname="{{ partial "studentname.html" . }}" 
-    data-img="{{ $imgsrc }}" 
-    data-url="{{ .Permalink }}"
-    >add to favorites</div>
+    <h1>{{ partial "studentname.html" . }}</h1>
+    <!--<p>{{ $.Param "disciplines" }}</p> -->
+    <h2>{{ $.Param "your_degree" }}</h2>
 
-<div class="photo">
-    <p>
-        {{ partial "image.html" . }}<br/>
-        {{ $.Param "image_caption" }}<br/>
-        {{ $.Param "name_of_photographer" }}
-    </p>
-    <h2>{{ $.Param "artwork_title" }}</h2>
-    {{ $.Param "the_image_is_of_a" }}, {{ $.Param "year" }}, {{ $.Param "medium" }}<br/>
-    <p>
-    {{ with $.Param "dimensions" }}
-    {{- . -}}
-    {{ else }}
-    {{ $.Param "width_cm" }}x{{ $.Param "height_cm" }}x{{ $.Param "depth_cm" }}
-    {{ end }}
-    {{ with $.Param "duration_for_digital_work" }}{{- . -}}{{ end }}
-    </p>
+    <!-- Favorite box, move this to wherever -->
+    <div class="add-favorite" 
+        data-studentname="{{ partial "studentname.html" . }}" 
+        data-img="{{ $imgsrc }}" 
+        data-url="{{ .Permalink }}"
+        >add to favorites</div>
 
-    <h2>Curated Spaces</h2>
-    {{ range $.Param "themes" }}
-        {{ with $.Site.GetPage ( printf "/%s" . ) }}
-        <h3 class="indent"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h3>
+    <div class="photo">
+        <p>
+            {{ partial "image.html" . }}<br/>
+            {{ $.Param "image_caption" }}<br/>
+            Photographer: {{ $.Param "name_of_photographer" }}
+        </p>
+        <p>
+        {{- with $.Param "artwork_title" -}}"{{ . }}"{{ end }}
+        {{- with $.Param "the_image_is_of_a" -}}, {{ . }}{{ end }}
+        {{- with $.Param "year" -}}, {{ . }}{{ end }}
+        {{- with $.Param "medium" -}}, {{ $.Param "medium" }}{{ end }}
+        {{- with $.Param "dimensions" -}}
+        , {{ . }}
+        {{- else -}}
+            {{- with $.Param "width_cm" -}}
+            , {{ . }}x{{ $.Param "height_cm" }}{{ with $.Param "depth_cm" }}x{{ . }}{{ end }}cm
+            {{ end }}
         {{ end }}
-    {{ end }}
+        {{- with $.Param "duration_for_digital_work" -}}, {{ . }}{{ end }}
+        </p>
 
-</div>
+        <h2>Curated Spaces</h2>
+        {{ range $.Param "themes" }}
+            {{ with $.Site.GetPage ( printf "/%s" . ) }}
+            <h3 class="indent"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h3>
+            {{ end }}
+        {{ end }}
 
-<div class="text">
-    <div>{{ $.Param "biography" }}</div>
-    <h2>
-        <a href="{{ $.Param "portfolio_url" }}" target="_new">portfolio</a><!--({{ $.Param "portfolio_format" }})-->
-    </h2>
-</div>
+    </div>
+
+    <div class="text">
+        <div>{{ $.Param "biography" }}</div>
+        <h2>
+            <a href="{{ $.Param "portfolio_url" }}" target="_new">portfolio</a><!--({{ $.Param "portfolio_format" }})-->
+        </h2>
+    </div>
 
 </main>
 {{ end }}

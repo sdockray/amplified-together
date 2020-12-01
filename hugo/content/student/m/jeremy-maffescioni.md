@@ -5,7 +5,7 @@ first_name: "Jeremy"
 last_name: "Maffescioni"
 preferred_name: "Jeremy Maffescioni"
 your_degree: "Bachelor of Visual Arts"
-please_provide_your_artist_statement_max_150_words: "I search for profundity and detail in complex concepts, and present aesthetic objects as proof.
+biography: "I search for profundity and detail in complex concepts, and present aesthetic objects as proof.
 
 In my current investigation of light, colour, and vision, I am creating a method of form finding to mathematically describe the experience of seeing existing glass art objects, transformed in a new virtual and material dimensionality.
 

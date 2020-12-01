@@ -5,7 +5,7 @@ first_name: "Andrew"
 last_name: "Jaffray"
 preferred_name: "Andrew Jaffray"
 your_degree: "Bachelor of Visual Arts"
-please_provide_your_artist_statement_max_150_words: "Andrew Jaffray lives on a rural property near the Regional City of Orange in the Central Tablelands of New South Wales.
+biography: "Andrew Jaffray lives on a rural property near the Regional City of Orange in the Central Tablelands of New South Wales.
 
 The natural environment where Andrew lives has had a significant influence and forms a building block for much of his work.  Many of his works capture elements of the differing topography and vegetation as one journeys west from the Tablelands to the Plains of the Western Outback. 
 

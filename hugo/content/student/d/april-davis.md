@@ -5,7 +5,7 @@ first_name: "April"
 last_name: "Davis"
 preferred_name: "April Davis"
 your_degree: "Bachelor of Visual Arts (Honours)"
-please_provide_your_artist_statement_max_150_words: "Australian Contemporary Photographer, April Davis explores the concepts of life, death, regeneration, growth, and the Anthropocene. Through documenting the 2020 bushfire that ravished, the Pialligo Redwood Forest. Davis explores the regeneration of Pialligo Redwood Forest in the series Anthropogenic.
+biography: "Australian Contemporary Photographer, April Davis explores the concepts of life, death, regeneration, growth, and the Anthropocene. Through documenting the 2020 bushfire that ravished, the Pialligo Redwood Forest. Davis explores the regeneration of Pialligo Redwood Forest in the series Anthropogenic.
 
 Anthropogenic explores the history of the Pialligo Estate. In which the artist has used photography and videography to show the effects the bushfire has on the environment and the effects the manmade forest has on the ecosystem.
 

@@ -1,5 +1,9 @@
+<a href="{{- with .registration_url -}}{{ . }}{{ else }}#{{ end }}" title="{{- with .registration_display_text -}}{{ . }}{{ end }}">
 <div class="event">
     <div class="date">{{ .date }} {{ .time }}</div>
-    <div class="location">{{ .location }}</div>
+    <div class="location">{{ .location }}
+        
+    </div>
     <div class="description indent">{{ .event_name }}</div>
 </div>
+</a>

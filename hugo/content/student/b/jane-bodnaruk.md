@@ -5,7 +5,7 @@ first_name: "Jane"
 last_name: "Bodnaruk"
 preferred_name: "Jane Bodnaruk"
 your_degree: "Master of Visual Arts (Advanced)"
-please_provide_your_artist_statement_max_150_words: "My work investigates the changes in both materiality and agency of a domestic textile through memory, touch and collaboration. I made variations of square muslin and wool-roving cloths and concurrently recorded short videos of volunteer collaborators handling these cloths. Bodies are in contact with textile from the moment we are born. Our world is woven with textiles and their memories, experiences and projections … the fabric of life. 
+biography: "My work investigates the changes in both materiality and agency of a domestic textile through memory, touch and collaboration. I made variations of square muslin and wool-roving cloths and concurrently recorded short videos of volunteer collaborators handling these cloths. Bodies are in contact with textile from the moment we are born. Our world is woven with textiles and their memories, experiences and projections … the fabric of life. 
 “Domestic textiles may not be highly regarded in the big scheme of things. As they were integral to my family’s life and experience, I consider them worthy of study.”
 My final presentation is a video featuring a curated selection of muslin cloths and volunteer interactions. The unique gestures of touch enliven the cloths, and translate textures, emotions and folds to the viewer’s screen.
 ‘Handling’ was undertaken in 2nd semester 2020, to fulfil the requirements of an Advanced Practice Led Research Project to complete the Master of Visual Arts (Advanced) at the Australian National University, School of Art & Design.

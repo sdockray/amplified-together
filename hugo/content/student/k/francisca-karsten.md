@@ -5,7 +5,7 @@ first_name: "Francisca"
 last_name: "Karsten"
 preferred_name: "Francisca Karsten"
 your_degree: "Bachelor of Visual Arts"
-please_provide_your_artist_statement_max_150_words: "Historically, indoor plants have been a way to bring nature into the house in small doses. Looking after a ‘garden’ all year where normally one would be limited by weather and season brings a positive sense of accomplishment and responsibility. 
+biography: "Historically, indoor plants have been a way to bring nature into the house in small doses. Looking after a ‘garden’ all year where normally one would be limited by weather and season brings a positive sense of accomplishment and responsibility. 
 
 Green Thumb was made to figure out exactly how to illustrate a scene that will evoke the most amount of serenity within the viewer based on greenery, and how to work the composition into a fitting frame. 
 

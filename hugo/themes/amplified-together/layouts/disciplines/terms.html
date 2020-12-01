@@ -11,6 +11,11 @@
     <div class="right disciplines">
         {{ range .Data.Terms.Alphabetical }}
             <h2><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h2>
+            {{ if eq .Page.Title "Centre for Art History & Theory" }}
+                {{ with .Page.GetPage "/disciplines/ceramics/" }}
+                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                {{ end }}
+            {{ end }}
         {{ end }}
     </div>
   

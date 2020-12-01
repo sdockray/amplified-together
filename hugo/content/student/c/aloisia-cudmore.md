@@ -5,7 +5,7 @@ first_name: "Aloisia"
 last_name: "Cudmore"
 preferred_name: "Aloisia Cudmore"
 your_degree: "Bachelor of Visual Arts (Honours)"
-please_provide_your_artist_statement_max_150_words: "Living Inside Intimacy' explores intimacy in the age of COVID-19. The artwork originated as an installation for my Honours Thesis Assessment, which then transformed into purely digital art. 
+biography: "Living Inside Intimacy' explores intimacy in the age of COVID-19. The artwork originated as an installation for my Honours Thesis Assessment, which then transformed into purely digital art. 
 
 Through the following website there are installation photographs and videos of the physical artwork. In addition to this, the website showcases the digital artwork that I have created. 
 

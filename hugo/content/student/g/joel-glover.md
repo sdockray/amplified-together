@@ -5,7 +5,7 @@ first_name: "Joel"
 last_name: "Glover"
 preferred_name: "Joel Glover"
 your_degree: "Bachelor of Visual Arts (Honours)"
-please_provide_your_artist_statement_max_150_words: "How can one use the medium of photography and visual language to encourage an audience to see how surveillance is impacting their lives in overt and covert ways?
+biography: "How can one use the medium of photography and visual language to encourage an audience to see how surveillance is impacting their lives in overt and covert ways?
 
 'Visualising Surveillance' seeks to develop a visual language for explaining the largely unseen and invisible networks of power that define contemporary Surveillance Capitalism.  
 
