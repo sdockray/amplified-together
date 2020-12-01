@@ -35,6 +35,7 @@ EVENTS_FIELD_TAXONOMIES = []
 
 STUDENT_FIELD_RENAME = {
     "please_provide_your_biography_or_statement_written_in_third_person_max_150_words": "biography",
+    "please_provide_your_artist_statement_max_150_words": "biography",
     "preferred_name_as_you_would_like_it_displayed_in_exhibition_and_promotional_texts": "preferred_name",
     "please_upload_the_image_you_would_like_included_on_the_website_max_file_size_is_10mb": "image_location",
     "name_of_photographer_if_applicable": "photographer_name",
@@ -204,18 +205,20 @@ def import_students(dest, images_dest, filetype="md"):
 def download_image(url, drive, slug, dest):
     #filename = "test.jpg"
     #urllib.request.urlretrieve(url,filename) 
-    parts = url.split('=')
-    if len(parts)==2:
-        file_id = parts[1]
-        # data = drive.files().get(fileId=file_id, fields='*').execute()
-        # pprint(data)
-        request = drive.files().get_media(fileId=file_id)
-        fh = io.FileIO(os.path.join(dest, f"{slug}.jpg"), mode='wb')
-        downloader = MediaIoBaseDownload(fh, request)
-        done = False
-        while done is False:
-            status, done = downloader.next_chunk()
-            print("Download %d%%." % int(status.progress() * 100))
+    file_dest = os.path.join(dest, f"{slug}.jpg")
+    if not os.path.exists(file_dest):
+        parts = url.split('=')
+        if len(parts)==2:
+            file_id = parts[1]
+            # data = drive.files().get(fileId=file_id, fields='*').execute()
+            # pprint(data)
+            request = drive.files().get_media(fileId=file_id)
+            fh = io.FileIO(file_dest, mode='wb')
+            downloader = MediaIoBaseDownload(fh, request)
+            done = False
+            while done is False:
+                status, done = downloader.next_chunk()
+                print("Download %d%%." % int(status.progress() * 100))
 
 
 
