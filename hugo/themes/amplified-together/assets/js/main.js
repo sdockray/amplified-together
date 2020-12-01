@@ -61,7 +61,11 @@
           localStorage.setItem('faves', JSON.stringify(faves))
           console.log(fave.studentname, "ADDED to faves")
         } else {
-          console.log(fave.studentname, "is already a fave")
+          faves = faves.filter(function( obj ) {
+            return obj.studentname !== fave.studentname;
+          })
+          localStorage.setItem('faves', JSON.stringify(faves))
+          console.log(fave.studentname, "removed from faves")
         }
       })
 
