@@ -63,7 +63,7 @@ article h3 {
 }
 
 .student .text h2 a {
-  font-size: 2.4em;
+  font-size: 3em;
   margin-top: 0;
 }
 
@@ -73,10 +73,15 @@ a {
 }
 
 .plus:before {
-  content: '\229E';
-  font-size: 0.9em;
-}
+    content: '\229E';
+    font-size: 1.4em;
+    position: absolute;
+    top: 3px;
+  }
 
+.fav {
+    padding-right: 30px
+  }
 
 /*
  * Navigation
@@ -139,7 +144,7 @@ nav ul li {
 nav ul li a,
 nav ul li a:visited {
   display: block;
-  padding: 10px 15px;
+  padding: 10px 20px 10px 5px;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 0.9em;
@@ -170,7 +175,7 @@ nav ul li a:visited:hover {
 
   nav {
     width: 100%;
-  /*  padding: 70px 0 15px; */
+    padding: 70px 0 15px;
   }
 
   nav ul {
@@ -193,6 +198,8 @@ nav ul li a:visited:hover {
   .nav-dropdown {
     position: static;
   }
+
+  /* New Styles for student pages */
 
     h1 {
         text-align: center;
@@ -219,6 +226,14 @@ nav ul li a:visited:hover {
     .photo {
         width: 95%;
     }
+
+    .student .text {
+        text-align: left;
+    }
+
+    .student .text h2 a {
+        font-size: 2.5em;
+    }
 }
 
 /* DESKTOP */
@@ -226,6 +241,7 @@ nav ul li a:visited:hover {
 @media screen and (min-width: 768px) {
     .nav-list {
       display: block !important;
+      direction: rtl;
   }
 
   .disciplines, .letters {
@@ -255,15 +271,24 @@ nav ul li a:visited:hover {
     display: inline-block;
     float: left;
     margin-left: 10px;
-  }
-  main.student .text {
-    float: right;
-    max-width: 45%;
-    display: inline-block;
-    position: absolute;
-    top: 125px;
-    right: calc(50% - 500px);
 }
+ 
+
+main.student .text {
+    float: right;
+    max-width: 40%;
+}
+
+main.student h1,
+main.student h2 {
+    max-width: 45%;
+}
+
+main.student .photo {
+      max-width: 40%;
+      float: left;
+}
+
 .add-favorite {
     float: right;
     max-width: 45%;
@@ -272,6 +297,13 @@ nav ul li a:visited:hover {
     top: 220px;
     right: calc(50% - 500px);
 }
+.student .text h2 a {
+    font-size: 2.4em;
+  }
+
+  .student .text {
+      padding-left: 45px;
+  }
 }
 
 #nav-toggle {
@@ -371,17 +403,19 @@ nav ul li a:visited:hover {
     width: 94%;
   }  
   .box {
-    width: 100%;
-    height: 0;
-    border: 5px solid #2B3990;
-    padding-bottom: 90%;
+    max-width: 85%;
+    min-height: 200px;
+    border: 2px solid #2B3990;
     margin-left: 0;
     order:2;
-    display: none;
+/*change made for new update here because homepage will be diff. */
+  /*  display: none; */
   }
+/* intentionally broke the boxes */
   .box.wide {
     width: 100%;
   }
+
   .box.info {
     order: 1;
     display: block;
@@ -392,17 +426,25 @@ nav ul li a:visited:hover {
 }
 
   .events {
-      max-width: 90%;
+      max-width: 85%;
       margin: 0 auto;
   }
 
-  .themes .theme.box {
-      width:150px;
-      height:150px;
-      font-size:0.9em;
-      margin:6px 0 0 6px
+.content h1,
+.content h2 {
+  padding-left: 20px;
+}
 
-  }
+.themes .theme.box {
+  margin: 5px auto;
+  vertical-align: middle;
+  position: relative;
+  text-transform: uppercase;
+  color: #2B3990;
+  width: 250px;
+  height: 250px;
+  font-size: 1em;
+}
 }
 
 .indent {
@@ -431,10 +473,11 @@ main.page .text h2 {
 
 /* Student preview */
 .student.preview .image {
-  width: 300px;
-  height: auto;
-  padding-bottom: 20px;
-}
+    width: 300px;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 40px;
+  }
 
 .student.preview .image img {
   max-width:100%;
@@ -486,14 +529,6 @@ main.page .text h2 {
 
 /* Student Profile */
 
-.student  {
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-    page-break-after: always;
-    flex: 1;
-}
-
 .student h1{
     margin-bottom: 0;
     text-align: left;
@@ -502,7 +537,7 @@ main.page .text h2 {
 
 .add-favorite:after {
     content: '\229E';
-    font-size: 2.8em;
+    font-size: 4.2em;
 }
 
 main.student img {
@@ -510,8 +545,6 @@ main.student img {
     padding-right: 20px;
 }
 
-main.student .photo p {
-}
 
 main.student .text h2 {
    font-size: 1.2em;
@@ -523,3 +556,41 @@ main.student .text h2 {
 main.student h3.indent {
     padding-left: 50px;
 }
+
+/*student bio */
+.text div {
+    padding-bottom: 20px;
+  }
+
+  .add-favorite.faved::after  {
+    content: '\229F';
+    font-size: 4.2em;
+  }
+
+  .photo h2 {
+      padding-top: 40px;
+  }
+
+  .right.disciplines h2 {
+    padding-top: 0.8em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    float: right;
+  }
+  
+  .letters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 40%;
+    margin-left: 270px;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .right.letters h2 {
+    font-size: 2em;
+    padding: 0.2em;
+  }
