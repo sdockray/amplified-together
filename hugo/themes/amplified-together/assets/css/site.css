@@ -532,12 +532,17 @@ main.page .text h2 {
 .student h1{
     margin-bottom: 0;
     text-align: left;
+    min-height: 110px;
 }
 
 
 .add-favorite:after {
     content: '\229E';
     font-size: 4.2em;
+}
+
+.add-favorite.faved {
+    opacity: .25; 
 }
 
 main.student img {

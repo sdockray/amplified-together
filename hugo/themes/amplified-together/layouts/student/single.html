@@ -11,13 +11,15 @@
         data-studentname="{{ partial "studentname.html" . }}" 
         data-img="{{ $imgsrc }}" 
         data-url="{{ .Permalink }}"
-        >add to favorites</div>
+        >favourites</div>
 
     <div class="photo">
         <p>
             {{ partial "image.html" . }}<br/>
             {{ $.Param "image_caption" }}<br/>
-            Photographer: {{ $.Param "name_of_photographer" }}
+            {{ with $.Param "name_of_photographer" }}
+            Photographer: {{ . }}
+            {{ end }} 
         </p>
         <p>
         {{- with $.Param "artwork_title" -}}"{{ . }}"{{ end }}

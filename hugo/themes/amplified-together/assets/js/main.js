@@ -20,6 +20,19 @@
         this.classList.toggle('active');
       });
 
+      setNumFaves();
+
+      function setNumFaves() {
+        var faves = (localStorage.getItem('faves')) 
+          ? JSON.parse(localStorage.getItem('faves'))
+          : []
+        if (faves.length > 0) {
+          $('.num-faves').text('('+faves.length+')')
+        } else {
+          $('.num-faves').text()
+        }
+      }
+
       // Builds the fave data for an element
       function buildFave($ele) {
         return {
@@ -60,13 +73,16 @@
           faves.push(fave)
           localStorage.setItem('faves', JSON.stringify(faves))
           console.log(fave.studentname, "ADDED to faves")
+          $(this).addClass('faved')
         } else {
           faves = faves.filter(function( obj ) {
             return obj.studentname !== fave.studentname;
           })
           localStorage.setItem('faves', JSON.stringify(faves))
           console.log(fave.studentname, "removed from faves")
+          $(this).removeClass('faved')
         }
+        setNumFaves()
       })
 
       // Show favorites!
