@@ -29,5 +29,13 @@ jobs:
       - name: Adding Known Hosts
         run: ssh-keyscan -H ${{ secrets.SSH_HOST_DEPLOY }} >> ~/.ssh/known_hosts
     
-      - name: Deploy with rsync
-        run: rsync -avz README.md ${{ secrets.SSH_USER_DEPLOY }}@${{ secrets.SSH_HOST_DEPLOY }}:/var/www/gradshow.com.au/testing/
+      - name: Deploy to sandbox via rsync
+        uses: trendyminds/github-actions-rsync@master
+        with:
+          RSYNC_OPTIONS: -avzr --delete --exclude node_modules --exclude '.git*'
+          RSYNC_TARGET: /var/www/gradshow.com.au/testing
+          RSYNC_SOURCE: /hugo
+        env:
+          SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY_DEPLOY}}
+          SSH_USERNAME: ${{secrets.SSH_USER_DEPLOY}}
+          SSH_HOSTNAME: ${{secrets.SSH_HOST_DEPLOY}}
