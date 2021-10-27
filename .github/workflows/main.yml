@@ -20,13 +20,13 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:   
-      - name: Deploy to sandbox via rsync
-        uses: trendyminds/github-actions-rsync@master
+      - uses: actions/checkout@v2
+      - name: rsync deployments
+        uses: burnett01/rsync-deployments@5.1
         with:
-          RSYNC_OPTIONS: -avzr --delete --exclude node_modules --exclude '.git*'
-          RSYNC_TARGET: /var/www/gradshow.com.au/testing
-          RSYNC_SOURCE: /hugo
-        env:
-          SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY_DEPLOY}}
-          SSH_USERNAME: ${{secrets.SSH_USER_DEPLOY}}
-          SSH_HOSTNAME: ${{secrets.SSH_HOST_DEPLOY}}
+          switches: -avzr --delete
+          path: hugo/
+          remote_path: /var/www/gradshow.com.au/testing/
+          remote_host: ${{ secrets.SSH_HOST_DEPLOY }}
+          remote_user: ${{ secrets.SSH_USER_DEPLOY }}
+          remote_key: ${{ secrets.SSH_PRIVATE_KEY_DEPLOY }}
