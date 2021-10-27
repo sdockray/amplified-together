@@ -21,11 +21,34 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:   
       - uses: actions/checkout@v2
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.82.0'
+          extended: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '8.16.0'
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - run: npm ci
+      - run: hugo --minify
+
       - name: rsync deployments
         uses: burnett01/rsync-deployments@5.1
         with:
           switches: -avzr --delete
-          path: hugo/
+          path: public/
           remote_path: /var/www/gradshow.com.au/testing/
           remote_host: ${{ secrets.SSH_HOST_DEPLOY }}
           remote_user: ${{ secrets.SSH_USER_DEPLOY }}
