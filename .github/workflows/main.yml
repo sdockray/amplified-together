@@ -42,7 +42,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - run: npm ci
-      - run: hugo --minify
+      - run: hugo --minify -s hugo
 
       - name: rsync deployments
         uses: burnett01/rsync-deployments@5.1
