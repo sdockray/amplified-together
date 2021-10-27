@@ -21,7 +21,7 @@
 <link rel="manifest" href="/site.webmanifest">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#996561">
 
-{{ $style := resources.Get "css/site.css" | postCSS (dict "config" "assets/css/postcss.config.js") | minify }}
+{{ $style := resources.Get "css/site.css" | minify }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
