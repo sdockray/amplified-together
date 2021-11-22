@@ -1,4 +1,4 @@
-baseURL = "https://gradshow.com.au"
+baseURL = "https://testing.gradshow.com.au"
 languageCode = "en-us"
 title = "Amplified Together"
 theme = "amplified-together"

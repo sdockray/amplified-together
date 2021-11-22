@@ -1,0 +1,28 @@
+---
+timestamp: "2021/11/14 2:47:10 pm GMT+11"
+title: "Miss"
+first_name: "Abbey"
+last_name: "Perticato"
+preferred_name: "Abbey"
+your_degree: "Bachelor of Art History and Curatorship"
+biography: "Hello! Thanks for stopping by! My name is Abbey, and I am currently graduating in Art History and Curatorship this year. What interests me about art history is that the discipline is always evolving through new theories, research, and curatorial interventions. My research interests include examining recent theories that are emerging within contemporary Australian art. I am also interested in exploring the impact that hybrid art practice has in transforming the digital age. I have volunteered at the Drill Hall Gallery, the ANU Archives and other organisations around Canberra throughout my degree."
+image_location: "https://drive.google.com/u/2/open?usp=forms_web&id=1kec0FMXxXp7Rvyo2MFX_I3DIfTBss_8K"
+instagram_image: "https://drive.google.com/u/2/open?usp=forms_web&id=1W6lL0xN9Kndo2yQFdEEIaKm-OGSZHLDj"
+instagram: "#abbeyperticato"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: ""
+the_image_is_of_a: ""
+year: ""
+medium: ""
+artwork_dimensions: ""
+height_in_centimetres_only: ""
+width_in_centimetres_only: ""
+depth_in_centimetres_only: ""
+duration_for_digital_work: ""
+photographer_name: ""
+portfolio_url: "https://drive.google.com/drive/folders/1P1CFiICgzO75x6WeXPPZgvT2BPih5yCI"
+disciplines: "Centre for Art History & Theory"
+---
+
+Default content

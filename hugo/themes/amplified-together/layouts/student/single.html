@@ -29,8 +29,8 @@
         {{- with $.Param "dimensions" -}}
         , {{ . }}
         {{- else -}}
-            {{- with $.Param "width_cm" -}}
-            , {{ . }}x{{ $.Param "height_cm" }}{{ with $.Param "depth_cm" }}x{{ . }}{{ end }}cm
+            {{- with $.Param "width_in_centimetres_only" -}}
+            , {{ . }}x{{ $.Param "height_in_centimetres_only" }}{{ with $.Param "depth_in_centimetres_only" }}x{{ . }}{{ end }}cm
             {{ end }}
         {{ end }}
         {{- with $.Param "duration_for_digital_work" -}}, {{ . }}{{ end }}
@@ -46,9 +46,16 @@
     </div>
 
     <div class="text">
-        <div>{{ $.Param "biography" }}</div>
+        <div>{{ $.Param "biography" | safeHTML }}</div>
         <h2>
-            <a href="{{ $.Param "portfolio_url" }}" target="_new">portfolio</a><!--({{ $.Param "portfolio_format" }})-->
+            {{ with $.Param "portfolio_url" }}
+                {{ if hasPrefix . "http" }}
+                <a href="{{ . }}" target="_new">portfolio</a><!--({{ $.Param "portfolio_format" }})-->
+                {{ else }}
+                <a href="http://{{ . }}" target="_new">portfolio</a><!--({{ $.Param "portfolio_format" }})-->
+                {{ end }}
+            {{ end }}
+            
         </h2>
     </div>
 

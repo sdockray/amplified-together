@@ -1,0 +1,28 @@
+---
+timestamp: "17/11/2021 20:46:01"
+title: "Miss"
+first_name: "Lillian"
+last_name: "Pedvin"
+preferred_name: "Lillian Pedvin"
+your_degree: "Master of Art History and Curatorial Studies"
+biography: "Lillian Pedvin is an artist and curator on Ngunnawal and Ngambri Country, Canberra. Lily completed her undergraduate degree in photomedia (with a minor in art theory) at the Australian National University School of Art in 2017, shortly followed by a Master of Art History and Curatorial Studies. Lily is interested in technology's effect on art such as 3D printing and traditional printmaking, Australian Contemporary art, arts education and institutional critique. Lily successfully curated “Herstory” at M16 Artspace in Canberra, an exhibit demonstrating the talent of local women artists and designers, as well as completing an internship at the National Gallery of Australia within the Education and Learning department."
+image_location: "https://drive.google.com/open?id=1OqCJS9nWY-ZuCXf-_6-lgj_QapXBnB7S"
+instagram_image: ""
+instagram: "#liliianpedvin"
+image_caption: ""
+name_of_photographer: "Lillian Pedvin"
+artwork_title: ""
+the_image_is_of_a: ""
+year: ""
+medium: ""
+artwork_dimensions: ""
+height_in_centimetres_only: ""
+width_in_centimetres_only: ""
+depth_in_centimetres_only: ""
+duration_for_digital_work: ""
+photographer_name: "Lillian Pedvin"
+portfolio_url: "n/a"
+disciplines: "Centre for Art History & Theory"
+---
+
+Default content

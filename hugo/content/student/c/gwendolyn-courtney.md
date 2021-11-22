@@ -1,34 +1,35 @@
 ---
-timestamp: "17/11/2020 09:29:51"
+timestamp: "17/11/2021 14:05:19"
 title: "Miss"
 first_name: "Gwendolyn"
 last_name: "Courtney"
 preferred_name: "Gwendolyn Courtney"
-your_degree: "Bachelor of Design"
-biography: "My design interests really revolves around the object. Recently I have been specifically exploring sustainability in the textile industry with a focus on reusability rather than recycling. I was struck by the reliance on the idea of ‘recycling’, its marketed as an environmental saviour. However I see it as an afterthought. We should instead stop creating so much waste.  
-
-My solution was to design a series of interlocking links that could be assembled, disassembled and reconfigured. Allowing for broken or faulty parts of the objects to be removed and replaces without the death of an item. Also challenging our ever changing preferences in appearance with its ability to be reconfigured. This solution relied on repetitious patterns to function, but I found this created hypnotic visual aesthetics, the idea has limitless scope for pattern generation with variation in material type and colour."
-image_location: "https://drive.google.com/open?id=1t-zAmNbBtNbwbkLkHookQfL2yyBVFIDk"
+your_degree: "Bachelor of Design (Honours)"
+biography: "This Thermo-responsive Handle reveals the invisible temperature relationship between people and objects in a mesmerizing display of colour.
+ 
+ The purpose of highlighting this user-object relationship is to empower mundane objects like handles to respond and reflect their user, demanding attention where they would usually be unnoticed.
+ 
+ This handle is designed with a cylindrical form to be comfortable and maximize the surface area touched by the hand. 3D printed, painted black and then counted in thermochromic ink; the handle appears black until touched (or heat is applied), which is when the thermochromic ink comes to life, outlining exactly where the hand has touched the handle with an array of colour.
+ 
+ This thermo-responsive handle traces interaction visually, echoing the user in colour. Diverting the eye, this handle is autonomous in its ability to reflect its use. This reaction is ephemeral and forgetful, returning to its normal black surface after time."
+image_location: "https://drive.google.com/open?id=1oCTTmV3beKIKHOI2erzFkyGODgzwxg7-"
+instagram_image: "https://drive.google.com/open?id=1Kk2HhNiSjp2MvivOpwMNU50LAok19Ua7"
+instagram: "@_gwencourtney"
 image_caption: ""
 name_of_photographer: ""
-artwork_title: "Nexus"
-the_image_is_of_a: "Complete work"
-year: "2020"
-medium: "Felt"
-dimensions: ""
-height_cm: "30"
-width_cm: "20"
-depth_cm: "3"
+artwork_title: "Thermo-Responsive Handle"
+the_image_is_of_a: "Detail"
+year: "2021"
+medium: "3D Printed PLA, painted black, coated in thermochromic ink."
+artwork_dimensions: ""
+height_in_centimetres_only: "5.25"
+width_in_centimetres_only: "14"
+depth_in_centimetres_only: "6.4"
 duration_for_digital_work: ""
 photographer_name: "Gwendolyn Courtney"
 portfolio_url: "https://www.instagram.com/_gwencourtney/"
-portfolio_format: ""
-themes:
-- Identity
-- Materiality
-- Environment
-tags: ""
 disciplines: "Design"
+processes: "3D printing"
 ---
 
 Default content
