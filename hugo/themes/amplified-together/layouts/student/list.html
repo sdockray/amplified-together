@@ -14,14 +14,28 @@
     {{ end }}
   </article>
   
+  <!-- grid of letters -->
   {{ if eq .RelPermalink "/student/" }}
   <div class="right letters">
     {{range .Pages.ByTitle }}
       <h2 class="letter">
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <a href="#{{ .Title }}">{{ .Title }}</a>
       </h2>
     {{ end }}
   </div>
+
+  <!-- list of students -->
+  {{ $currLet := "0" }}
+  {{range (where .Site.RegularPages.ByTitle "Section" "student" ).ByParam "last_name" }}
+    {{ if not (hasPrefix (.Param "last_name") $currLet) }}
+      {{ $currLet := (substr (.Param "last_name") 0 1) }}
+      {{ with $currLet }}
+      <a name="{{ . }}"></a>
+      {{ end }}
+    {{ end }}
+    <h3>{{ partial "studentpreview.html" . }}</h3>
+  {{ end }}
+
   {{ end }}
 
 </main>

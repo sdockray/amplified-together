@@ -25,7 +25,8 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "GKarov.com"
 disciplines: "Printmedia & Drawing"
-processes: "Drawing"
+processes:
+- Drawing
 ---
 
 Default content

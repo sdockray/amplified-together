@@ -23,7 +23,9 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "rorybransonglass.com"
 disciplines: "Glass"
-processes: "Blown glass, Sculpted glass"
+processes:
+- Blown glass
+- Sculpted glass
 ---
 
 Default content

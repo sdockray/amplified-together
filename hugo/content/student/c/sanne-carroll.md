@@ -25,7 +25,8 @@ duration_for_digital_work: ""
 photographer_name: "Joanna Howard"
 portfolio_url: "sannecarroll.com"
 disciplines: "Printmedia & Drawing"
-processes: "Drawing"
+processes:
+- Drawing
 ---
 
 Default content

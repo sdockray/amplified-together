@@ -25,7 +25,10 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://rosiearmstrongart.com"
 disciplines: "Textiles"
-processes: "Weaving, ceramic burnouts, community participation"
+processes:
+- Weaving
+- ceramic burnouts
+- community participation
 ---
 
 Default content

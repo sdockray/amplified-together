@@ -25,7 +25,10 @@ duration_for_digital_work: ""
 photographer_name: "Shen-Ju Hsieh"
 portfolio_url: "https://www.instagram.com/juju__ceramics/"
 disciplines: "Ceramics"
-processes: "Ceramics, hand squeezing, wheel throwing"
+processes:
+- Ceramics
+- hand squeezing
+- wheel throwing
 ---
 
 Default content

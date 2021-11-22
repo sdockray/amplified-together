@@ -23,7 +23,9 @@ duration_for_digital_work: ""
 photographer_name: "Lisa Wilmot"
 portfolio_url: "https://www.lisawilmot.com/graduation-show-2021"
 disciplines: "Painting"
-processes: "Painting, Abstraction"
+processes:
+- Painting
+- Abstraction
 ---
 
 Default content

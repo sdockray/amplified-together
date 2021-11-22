@@ -37,7 +37,8 @@ duration_for_digital_work: ""
 photographer_name: "Sarah Liu"
 portfolio_url: "https://www.instagram.com/sarahlllliu/"
 disciplines: "Ceramics"
-processes: "Modelling"
+processes:
+- Modelling
 ---
 
 Default content

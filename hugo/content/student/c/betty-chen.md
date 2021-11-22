@@ -3,7 +3,7 @@ timestamp: "18/11/2021 01:12:52"
 title: "Miss"
 first_name: "Betty"
 last_name: "Chen"
-preferred_name: "Betty"
+preferred_name: "Betty Chen"
 your_degree: "Bachelor of Design"
 biography: "In this mid-digital age, we already live in an emerging world with digital technology. New generations are live among with the virtual world. Digital technology become necessity for our communication these days. This artwork is the visualization of 4-dimensional world in my imaginary perspective. As humanities are able to upload their spirits as a data into the 4-dimensional form. This world could be manipulatable to a extends of human creativity. I personally loves the illustration of mixing reality and virtual illustration.
  
@@ -25,7 +25,9 @@ duration_for_digital_work: "00:02:53"
 photographer_name: "Betty Chen"
 portfolio_url: "https://www.instagram.com/p/CWYTFbbFU1f/"
 disciplines: "Video and Animation"
-processes: "Digital video design, Illustration"
+processes:
+- Digital video design
+- Illustration
 ---
 
 Default content

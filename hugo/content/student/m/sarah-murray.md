@@ -23,7 +23,10 @@ duration_for_digital_work: ""
 photographer_name: "Brenton Mcgeachie"
 portfolio_url: "https://sarahmurrayartist.wixsite.com/portfolio"
 disciplines: "Painting"
-processes: "Acrylic painting, Oil painting, Drawing"
+processes:
+- Acrylic painting
+- Oil painting
+- Drawing
 ---
 
 Default content

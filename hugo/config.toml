@@ -4,8 +4,8 @@ title = "Amplified Together"
 theme = "amplified-together"
 
 [taxonomies]
-    theme = "themes"
     discipline = "disciplines"
+    process = "processes"
 
 [markup.goldmark.renderer]
     unsafe= true

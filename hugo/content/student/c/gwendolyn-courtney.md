@@ -29,7 +29,8 @@ duration_for_digital_work: ""
 photographer_name: "Gwendolyn Courtney"
 portfolio_url: "https://www.instagram.com/_gwencourtney/"
 disciplines: "Design"
-processes: "3D printing"
+processes:
+- 3D printing
 ---
 
 Default content

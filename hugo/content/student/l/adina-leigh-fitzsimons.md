@@ -29,7 +29,8 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://adinart2005.wixsite.com/anangeltofew"
 disciplines: "Glass"
-processes: "Cast glass"
+processes:
+- Cast glass
 ---
 
 Default content

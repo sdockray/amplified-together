@@ -27,7 +27,12 @@ duration_for_digital_work: ""
 photographer_name: "David Paterson"
 portfolio_url: "http://lucychetcuti.com"
 disciplines: "Painting"
-processes: "Oil painting, Mixed media, Installation, impasto, expanded painting"
+processes:
+- Oil painting
+- Mixed media
+- Installation
+- impasto
+- expanded painting
 ---
 
 Default content

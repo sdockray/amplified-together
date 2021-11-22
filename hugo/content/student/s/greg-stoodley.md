@@ -23,7 +23,9 @@ duration_for_digital_work: ""
 photographer_name: "Greg Stoodley"
 portfolio_url: "https://www.instagram.com/greg_stoodley/"
 disciplines: "Photography & Media Arts"
-processes: "Film, Photography"
+processes:
+- Film
+- Photography
 ---
 
 Default content

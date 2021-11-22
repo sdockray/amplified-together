@@ -23,7 +23,11 @@ duration_for_digital_work: ""
 photographer_name: "Brennan O'Brien"
 portfolio_url: "https://www.instagram.com/brennan_obrien/"
 disciplines: "Painting"
-processes: "Oil painting, glazing, alla prima, scumbling"
+processes:
+- Oil painting
+- glazing
+- alla prima
+- scumbling
 ---
 
 Default content

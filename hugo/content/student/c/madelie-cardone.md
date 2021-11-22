@@ -23,7 +23,9 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "madelinecardone.com"
 disciplines: "Glass"
-processes: "Kiln formed glass, Digital video."
+processes:
+- Kiln formed glass
+- Digital video.
 ---
 
 Default content

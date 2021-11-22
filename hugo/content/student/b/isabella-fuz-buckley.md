@@ -23,7 +23,11 @@ duration_for_digital_work: "00:01:13"
 photographer_name: ""
 portfolio_url: "https://www.youtube.com/user/MiniBatKitty/videos"
 disciplines: "Video and Animation"
-processes: "Animation, 2D animation, digital animation, paper animation"
+processes:
+- Animation
+- 2D animation
+- digital animation
+- paper animation
 ---
 
 Default content

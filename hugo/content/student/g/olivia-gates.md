@@ -23,7 +23,13 @@ duration_for_digital_work: ""
 photographer_name: "Brenton Mcgeachie"
 portfolio_url: "http://oliviagatesart.com"
 disciplines: "Glass"
-processes: "Murrine, blown glass, engraving, drawing, oil painting, digital video"
+processes:
+- Murrine
+- blown glass
+- engraving
+- drawing
+- oil painting
+- digital video
 ---
 
 Default content

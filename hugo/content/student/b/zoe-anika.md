@@ -23,7 +23,9 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "www.zoeanika.com"
 disciplines: "Design"
-processes: "Digital website, Drawing"
+processes:
+- Digital website
+- Drawing
 ---
 
 Default content

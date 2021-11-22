@@ -23,7 +23,9 @@ duration_for_digital_work: "00:10:00"
 photographer_name: "none (digital capture)"
 portfolio_url: "www.TBA.com.au/whydowemakethewebsite"
 disciplines: "Painting"
-processes: "Virtual reality, digital Video"
+processes:
+- Virtual reality
+- digital Video
 ---
 
 Default content

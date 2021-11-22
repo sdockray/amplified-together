@@ -25,7 +25,9 @@ duration_for_digital_work: ""
 photographer_name: "Kelly Xinyue Zhou"
 portfolio_url: "https://www.instagram.com/graduation_works_by_kelly_zhou/"
 disciplines: "Painting"
-processes: "Digital collage, Painting"
+processes:
+- Digital collage
+- Painting
 ---
 
 Default content

@@ -23,7 +23,11 @@ duration_for_digital_work: ""
 photographer_name: "David Paterson"
 portfolio_url: "natashapidcock.cargo.site"
 disciplines: "Painting"
-processes: "Painting, Collage, Etching, Plaster cast"
+processes:
+- Painting
+- Collage
+- Etching
+- Plaster cast
 ---
 
 Default content

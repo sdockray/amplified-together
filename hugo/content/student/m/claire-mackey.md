@@ -27,7 +27,8 @@ duration_for_digital_work: ""
 photographer_name: "Claire Mackey"
 portfolio_url: "www.instagram.com/clairemackeycreative"
 disciplines: "Painting"
-processes: "Painting"
+processes:
+- Painting
 ---
 
 Default content

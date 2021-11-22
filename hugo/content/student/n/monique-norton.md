@@ -23,7 +23,10 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://monique-norton.com/anu-graduating-exhibition/"
 disciplines: "Printmedia & Drawing"
-processes: "Painting, Animation, Digital video"
+processes:
+- Painting
+- Animation
+- Digital video
 ---
 
 Default content

@@ -23,7 +23,10 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "http://sparticus2000.artifexanu.com/murmurs-2021-graduation-art-project/"
 disciplines: "Textiles"
-processes: "Drawing, painting, digital video"
+processes:
+- Drawing
+- painting
+- digital video
 ---
 
 Default content

@@ -23,7 +23,10 @@ duration_for_digital_work: ""
 photographer_name: "Emily Davidson"
 portfolio_url: "https://instagram.com/edavidson_art?utm_medium=copy_link"
 disciplines: "Painting"
-processes: "Oil painting, digital, oil glazing"
+processes:
+- Oil painting
+- digital
+- oil glazing
 ---
 
 Default content

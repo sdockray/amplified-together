@@ -23,7 +23,11 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://sites.google.com/view/isabel-printmedia-and-drawing/main"
 disciplines: "Printmedia & Drawing"
-processes: "Drawing, Print, Aquatint Etching, Drypoint"
+processes:
+- Drawing
+- Print
+- Aquatint Etching
+- Drypoint
 ---
 
 Default content

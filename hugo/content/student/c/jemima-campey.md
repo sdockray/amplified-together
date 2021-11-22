@@ -23,7 +23,8 @@ duration_for_digital_work: "00:03:06"
 photographer_name: ""
 portfolio_url: "https://jcampey.myportfolio.com/anu-graduating-exhibition-2021"
 disciplines: "Photography & Media Arts"
-processes: "Digital video"
+processes:
+- Digital video
 ---
 
 Default content

@@ -6,13 +6,6 @@
     <!--<p>{{ $.Param "disciplines" }}</p> -->
     <h2>{{ $.Param "your_degree" }}</h2>
 
-    <!-- Favorite box, move this to wherever -->
-    <div class="add-favorite" 
-        data-studentname="{{ partial "studentname.html" . }}" 
-        data-img="{{ $imgsrc }}" 
-        data-url="{{ .Permalink }}"
-        >favourites</div>
-
     <div class="photo">
         <p>
             {{ partial "image.html" . }}<br/>
@@ -36,27 +29,22 @@
         {{- with $.Param "duration_for_digital_work" -}}, {{ . }}{{ end }}
         </p>
 
-        <h2>Curated Spaces</h2>
-        {{ range $.Param "themes" }}
-            {{ with $.Site.GetPage ( printf "/%s" . ) }}
-            <h3 class="indent"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h3>
-            {{ end }}
-        {{ end }}
-
     </div>
 
     <div class="text">
-        <div>{{ $.Param "biography" | safeHTML }}</div>
         <h2>
             {{ with $.Param "portfolio_url" }}
                 {{ if hasPrefix . "http" }}
-                <a href="{{ . }}" target="_new">portfolio</a><!--({{ $.Param "portfolio_format" }})-->
+                <a href="{{ . }}" target="_new">view graduate work</a><!--({{ $.Param "portfolio_format" }})-->
                 {{ else }}
-                <a href="http://{{ . }}" target="_new">portfolio</a><!--({{ $.Param "portfolio_format" }})-->
+                <a href="http://{{ . }}" target="_new">view graduate work</a><!--({{ $.Param "portfolio_format" }})-->
                 {{ end }}
             {{ end }}
             
         </h2>
+        <h3>artist statement</h3>
+        <div>{{ $.Param "biography" | safeHTML }}</div>
+        
     </div>
 
 </main>

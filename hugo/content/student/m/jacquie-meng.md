@@ -25,7 +25,9 @@ duration_for_digital_work: ""
 photographer_name: "David Paterson"
 portfolio_url: "www.jacquiemeng.com/gradshow2021"
 disciplines: "Painting"
-processes: "Painting, Sound"
+processes:
+- Painting
+- Sound
 ---
 
 Default content

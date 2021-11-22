@@ -54,7 +54,7 @@ STUDENT_FIELD_RENAME = {
     "for_promotional_purposes_please_write_the_techniquesprocess_that_apply_to_your_graduating_body_of_work_eg_lithograph_kiln_formed_glass_digital_video_etc__please_use_comma_to_separate": "processes"
 }
 STUDENT_FIELD_FILTER = ["", "email_address" , "anu_u_number_eg_u1234567", "mobile_phone_number", ]
-STUDENT_FIELD_TAXONOMIES = ["themes"]
+STUDENT_FIELD_TAXONOMIES = ["themes", "processes"]
 
 
 def get_google_creds():
@@ -149,8 +149,8 @@ def data_to_filename(d, filetype, base_dir=False, append=0):
     fn = False
     fn = d.setdefault("first_name", "").strip()
     ln = d.setdefault("last_name", "").strip()
-    pn = d.setdefault("preferred_name", fn).strip()
-    fn = f"{pn}" if pn.endswith(ln) else f"{pn}-{ln}" 
+    pn = d.setdefault("preferred_name", "").strip()
+    fn = f"{pn}" if not pn=="" else f"{fn}-{ln}" 
     #fn = f'{d.setdefault("first_name", "")}-{d.setdefault("last_name", "")}' if not d['preferred_name'] else f'{d.setdefault("preferred_name", "")}-{d.setdefault("last_name", "")}'
     if append and append>0:
         fn = f"{fn}-{append}"

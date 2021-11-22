@@ -25,7 +25,12 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://www.behance.net/brodie_feeney"
 disciplines: "Design"
-processes: "Print, Web Design, Collage, Digital Fabrication, Illustration"
+processes:
+- Print
+- Web Design
+- Collage
+- Digital Fabrication
+- Illustration
 ---
 
 Default content

@@ -25,7 +25,8 @@ duration_for_digital_work: ""
 photographer_name: "Jack Black"
 portfolio_url: "https://www.katerice.net/"
 disciplines: "Textiles"
-processes: "Wire weaving"
+processes:
+- Wire weaving
 ---
 
 Default content

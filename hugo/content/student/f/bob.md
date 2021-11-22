@@ -23,7 +23,9 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://fangxingweiai14.myportfolio.com/"
 disciplines: "Printmedia & Drawing"
-processes: "Drawing, Painting"
+processes:
+- Drawing
+- Painting
 ---
 
 Default content

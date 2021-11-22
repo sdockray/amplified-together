@@ -23,7 +23,9 @@ duration_for_digital_work: "00:00:30 Looping"
 photographer_name: ""
 portfolio_url: "maddymccusker.com"
 disciplines: "Sculpture & Spatial Practice"
-processes: "Augmented Reality, painting"
+processes:
+- Augmented Reality
+- painting
 ---
 
 Default content

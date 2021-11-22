@@ -27,7 +27,10 @@ duration_for_digital_work: ""
 photographer_name: "Sophia Thompson"
 portfolio_url: "https://sophia-thompson.wixsite.com/gradshow"
 disciplines: "Ceramics"
-processes: "Wheel throwing, Ceramic forming, Glazing"
+processes:
+- Wheel throwing
+- Ceramic forming
+- Glazing
 ---
 
 Default content

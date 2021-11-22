@@ -27,7 +27,10 @@ duration_for_digital_work: ""
 photographer_name: "Lillian Dorman"
 portfolio_url: "https://www.instagram.com/rosecolouredlily/"
 disciplines: "Textiles"
-processes: "Knitting, Sewing, Assemblage"
+processes:
+- Knitting
+- Sewing
+- Assemblage
 ---
 
 Default content

@@ -25,7 +25,9 @@ duration_for_digital_work: ""
 photographer_name: "Clare Freebairn"
 portfolio_url: "https://clellenf.wixsite.com/creaturecomforts"
 disciplines: "Sculpture & Spatial Practice"
-processes: "Mixed media, Modelling"
+processes:
+- Mixed media
+- Modelling
 ---
 
 Default content

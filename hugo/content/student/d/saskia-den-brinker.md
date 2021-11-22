@@ -23,7 +23,14 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "saskiadenbrinker.com"
 disciplines: "Jewellery & Object"
-processes: "fusing, wire forming, chainmail, fly press disk cutting, doming block, mill, slitting saw"
+processes:
+- fusing
+- wire forming
+- chainmail
+- fly press disk cutting
+- doming block
+- mill
+- slitting saw
 ---
 
 Default content

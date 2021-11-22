@@ -27,7 +27,9 @@ duration_for_digital_work: ""
 photographer_name: "Abbie Holbrook"
 portfolio_url: "abbieholbrook.com/holding-space"
 disciplines: "Textiles"
-processes: "Soft sculpting, quilting"
+processes:
+- Soft sculpting
+- quilting
 ---
 
 Default content

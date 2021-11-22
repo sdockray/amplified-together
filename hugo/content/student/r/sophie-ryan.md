@@ -23,7 +23,8 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://sophieryan1659.wixsite.com/my-site-1"
 disciplines: "Painting"
-processes: "Painting"
+processes:
+- Painting
 ---
 
 Default content

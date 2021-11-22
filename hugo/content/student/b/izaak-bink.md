@@ -23,7 +23,8 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "www.izaakbink.com"
 disciplines: "Printmedia & Drawing"
-processes: "Digitally scanned print"
+processes:
+- Digitally scanned print
 ---
 
 Default content

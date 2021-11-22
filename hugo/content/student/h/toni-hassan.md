@@ -23,7 +23,11 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://www.tonihassan.com/work/body-and-breath-in-the-wake-of-black-summer"
 disciplines: "Sculpture & Spatial Practice"
-processes: "Digital video, photography, performance, Painting"
+processes:
+- Digital video
+- photography
+- performance
+- Painting
 ---
 
 Default content

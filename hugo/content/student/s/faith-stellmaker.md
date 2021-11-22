@@ -28,7 +28,9 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://faithstellmaker.format.com/anu-graduating-show-2021"
 disciplines: "Centre for Art History & Theory"
-processes: "Written work, text"
+processes:
+- Written work
+- text
 ---
 
 Default content

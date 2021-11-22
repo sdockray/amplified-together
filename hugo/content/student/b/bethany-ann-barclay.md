@@ -23,7 +23,9 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://bethanyannbarclay.wixsite.com/artist-website"
 disciplines: "Painting"
-processes: "Oil painting, Acrylic painting"
+processes:
+- Oil painting
+- Acrylic painting
 ---
 
 Default content

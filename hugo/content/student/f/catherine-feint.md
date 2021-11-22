@@ -31,7 +31,10 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "catherinefeint.com"
 disciplines: "Design"
-processes: "Film, photography, model making"
+processes:
+- Film
+- photography
+- model making
 ---
 
 Default content

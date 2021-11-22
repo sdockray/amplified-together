@@ -25,7 +25,13 @@ duration_for_digital_work: "Multiple durational works will add to 00:77:40"
 photographer_name: ""
 portfolio_url: "https://soundcloud.com/elissa-jackson-833969647 https://www.instagram.com/dream_green_apple/"
 disciplines: "Sculpture & Spatial Practice"
-processes: "Sculpture, photography, writing, performance, sound, speech"
+processes:
+- Sculpture
+- photography
+- writing
+- performance
+- sound
+- speech
 ---
 
 Default content

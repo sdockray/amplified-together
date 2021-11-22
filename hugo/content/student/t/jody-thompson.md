@@ -29,7 +29,8 @@ duration_for_digital_work: ""
 photographer_name: "Jody Thompson"
 portfolio_url: "https://www.jody-thompson.com/portfolio/in-stillness-and-movement"
 disciplines: "Glass"
-processes: "Kiln formed glass"
+processes:
+- Kiln formed glass
 ---
 
 Default content

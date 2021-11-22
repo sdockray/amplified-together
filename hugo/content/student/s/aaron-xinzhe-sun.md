@@ -1,9 +1,9 @@
 ---
 timestamp: "2021/11/11 3:18:51 pm GMT+11"
 title: "Mr"
-first_name: "AaronÂ Xinzhe"
+first_name: "Aaron Xinzhe"
 last_name: "Sun"
-preferred_name: "AaronÂ 'Xinzhe' Sun"
+preferred_name: "Aaron 'Xinzhe' Sun"
 your_degree: "Master of Contemporary Practices in Art and Design"
 biography: "In the past two years, I have commonly used 3D modeling, photography, and video as media to create works. In order to connect them with humanistic politics and explore how to use them as a medium to explore the inner connection between digital art and contemporary art. Additionally means to express complex social concepts.
  
@@ -25,7 +25,11 @@ duration_for_digital_work: "still on editing"
 photographer_name: "Aaron"
 portfolio_url: "https://aaronxinzhesun.com/2021-gradation-show/"
 disciplines: "Photography & Media Arts"
-processes: "Digital video, installation, 3D modeling, digital"
+processes:
+- Digital video
+- installation
+- 3D modeling
+- digital
 ---
 
 Default content

@@ -23,7 +23,9 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "www.emilyapril.com"
 disciplines: "Printmedia & Drawing"
-processes: "Digital video, animation"
+processes:
+- Digital video
+- animation
 ---
 
 Default content

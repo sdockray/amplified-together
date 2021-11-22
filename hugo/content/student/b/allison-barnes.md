@@ -24,7 +24,10 @@ duration_for_digital_work: ""
 photographer_name: "Allison Barnes"
 portfolio_url: "https://www.allisonbarnesart.com/2021-honours-works"
 disciplines: "Printmedia & Drawing"
-processes: "Screen print, Relief print, Acrylic panting"
+processes:
+- Screen print
+- Relief print
+- Acrylic panting
 ---
 
 Default content

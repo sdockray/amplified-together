@@ -23,7 +23,8 @@ duration_for_digital_work: ""
 photographer_name: "Miriam Penrose"
 portfolio_url: "miriampenrose.com"
 disciplines: "Printmedia & Drawing"
-processes: "Papermaking"
+processes:
+- Papermaking
 ---
 
 Default content

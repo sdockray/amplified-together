@@ -25,7 +25,13 @@ duration_for_digital_work: "00:02:35"
 photographer_name: "Rory Gillen"
 portfolio_url: "https://www.saskiamorris.com/arresting-the-echo"
 disciplines: "Sculpture & Spatial Practice"
-processes: "Performance, Sound, Sculpture, Video, Installation, spatial"
+processes:
+- Performance
+- Sound
+- Sculpture
+- Video
+- Installation
+- spatial
 ---
 
 Default content

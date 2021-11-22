@@ -24,7 +24,8 @@ duration_for_digital_work: "2 minutes"
 photographer_name: "Charlotte Craib"
 portfolio_url: "https://charlottecraib.wixsite.com/2021"
 disciplines: "Hybrid Arts"
-processes: "Cast ceramic"
+processes:
+- Cast ceramic
 ---
 
 Default content

@@ -27,7 +27,12 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "rah-makes.com"
 disciplines: "Ceramics"
-processes: "Wheel throwing, underglaze, porcelain, mid-fire ceramic, post-firing manipulation"
+processes:
+- Wheel throwing
+- underglaze
+- porcelain
+- mid-fire ceramic
+- post-firing manipulation
 ---
 
 Default content

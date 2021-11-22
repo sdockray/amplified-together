@@ -31,7 +31,9 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://suspension.digital/"
 disciplines: "Printmedia & Drawing"
-processes: "Drawing, drawn rotoscopes"
+processes:
+- Drawing
+- drawn rotoscopes
 ---
 
 Default content

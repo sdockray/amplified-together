@@ -27,7 +27,8 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://sashatrail.wixsite.com/portfolio"
 disciplines: "Hybrid Arts"
-processes: "Digital painting"
+processes:
+- Digital painting
 ---
 
 Default content

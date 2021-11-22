@@ -25,7 +25,14 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://marthaderamos.wixsite.com/portfolio/2021-grad"
 disciplines: "Ceramics"
-processes: "Digital video, Photography, Glaze sculpture, Glaze, Gas Kiln, Throwing, Hand building"
+processes:
+- Digital video
+- Photography
+- Glaze sculpture
+- Glaze
+- Gas Kiln
+- Throwing
+- Hand building
 ---
 
 Default content

@@ -27,7 +27,8 @@ duration_for_digital_work: ""
 photographer_name: "Florie Lafon"
 portfolio_url: "https://www.instagram.com/florieart1/?hl=en"
 disciplines: "Painting"
-processes: "Acrylic painting"
+processes:
+- Acrylic painting
 ---
 
 Default content

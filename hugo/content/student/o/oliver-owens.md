@@ -3,7 +3,7 @@ timestamp: "2021/11/11 4:35:50 pm GMT+11"
 title: "Mr"
 first_name: "Oliver"
 last_name: "Owens"
-preferred_name: "Oliver"
+preferred_name: "Oliver Owens"
 your_degree: "Bachelor of Visual Arts"
 biography: "Inspired by the land and seascapes of coastal areas in southern New South Wales, my ceramic vessels explore the relationships humans share with place through abstracted depiction of landscape. 
  
@@ -27,7 +27,10 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://oliverowensceramics.wixsite.com/3c6t"
 disciplines: "Ceramics"
-processes: "Wheel-throwing, Glazing, Kiln firing."
+processes:
+- Wheel-throwing
+- Glazing
+- Kiln firing.
 ---
 
 Default content

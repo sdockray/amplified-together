@@ -23,7 +23,10 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://aulikkilaver.wordpress.com/"
 disciplines: "Printmedia & Drawing"
-processes: "Etching, woodblock printing, drawing"
+processes:
+- Etching
+- woodblock printing
+- drawing
 ---
 
 Default content

@@ -24,7 +24,9 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://andreaprojects.wixsite.com/byandrea"
 disciplines: "Design"
-processes: "Design, Painting"
+processes:
+- Design
+- Painting
 ---
 
 Default content

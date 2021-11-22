@@ -25,7 +25,9 @@ duration_for_digital_work: ""
 photographer_name: "Kris Kerehona"
 portfolio_url: "https://sprays.faith"
 disciplines: "Painting"
-processes: "Painting, postering"
+processes:
+- Painting
+- postering
 ---
 
 Default content

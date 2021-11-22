@@ -35,7 +35,17 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://acparnell.com/"
 disciplines: "Sculpture & Spatial Practice"
-processes: "Digital video, Photography, Text, Collage, Porcelain, Installation, Sound, Zines, seed bombs, plant noticing worksheets"
+processes:
+- Digital video
+- Photography
+- Text
+- Collage
+- Porcelain
+- Installation
+- Sound
+- Zines
+- seed bombs
+- plant noticing worksheets
 ---
 
 Default content

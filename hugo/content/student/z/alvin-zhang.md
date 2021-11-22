@@ -3,7 +3,7 @@ timestamp: "2021/10/27 2:53:45 pm GMT+11"
 title: "Mr"
 first_name: "Yongqi"
 last_name: "Zhang"
-preferred_name: "Alvin"
+preferred_name: "Alvin Zhang"
 your_degree: "Master of Visual Arts (Advanced)"
 biography: "Yongqi Zhang is a contemporary artist based in the Canberra region, His artistic practice is based on 3D computer graphics with experimental techniques and focuses on the ideas behind human experiences, such as life and death, religion, future, and consciousness. Yongqi has a Master(advanced) in Contemporary Practices in Art and Design (2021) and a Master of Visual Arts from ANU School of Art & Design.
  
@@ -25,7 +25,8 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://www.alvinzhang.art/"
 disciplines: "Photography & Media Arts"
-processes: "Computer graphics"
+processes:
+- Computer graphics
 ---
 
 Default content

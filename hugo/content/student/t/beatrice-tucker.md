@@ -27,7 +27,14 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "www.campustour.xyz"
 disciplines: "Sculpture & Spatial Practice"
-processes: "Digital video, oral history interview, digital audio, digital map, psychogeographical experience, campus tour, audio tour"
+processes:
+- Digital video
+- oral history interview
+- digital audio
+- digital map
+- psychogeographical experience
+- campus tour
+- audio tour
 ---
 
 Default content

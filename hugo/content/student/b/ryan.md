@@ -29,7 +29,8 @@ duration_for_digital_work: ""
 photographer_name: "Ryan Blake"
 portfolio_url: "https://ryan.blaketec.com"
 disciplines: "Design"
-processes: "3D Printing"
+processes:
+- 3D Printing
 ---
 
 Default content

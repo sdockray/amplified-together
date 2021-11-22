@@ -32,7 +32,13 @@ duration_for_digital_work: ""
 photographer_name: "Nyx Mathews/KUNST CONSORTIUM"
 portfolio_url: "http://mathewsnyx.wixsite.com/portfolio"
 disciplines: "Hybrid Arts"
-processes: "Sculpture, digital photography, digital collage, writing, miniaturisation, parafiction"
+processes:
+- Sculpture
+- digital photography
+- digital collage
+- writing
+- miniaturisation
+- parafiction
 ---
 
 Default content

@@ -28,7 +28,9 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "adelinehiggins.com"
 disciplines: "Ceramics"
-processes: "Wheel throwing, glazing"
+processes:
+- Wheel throwing
+- glazing
 ---
 
 Default content

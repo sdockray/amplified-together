@@ -8,7 +8,7 @@
       {{.Content}}
     </article>
   
-    <ul class="themes">
+    <ul class="processes">
         {{ range .Data.Terms.Alphabetical }}
             <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
         {{ end }}

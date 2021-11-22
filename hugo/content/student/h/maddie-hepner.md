@@ -23,7 +23,9 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "maddiehepner.com"
 disciplines: "Photography & Media Arts"
-processes: "Digital video, photography"
+processes:
+- Digital video
+- photography
 ---
 
 Default content

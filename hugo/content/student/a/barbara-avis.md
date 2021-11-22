@@ -27,7 +27,10 @@ duration_for_digital_work: ""
 photographer_name: "Barbara Avis"
 portfolio_url: "https://bavis59.wixsite.com/gradshow"
 disciplines: "Furniture"
-processes: "Parquetry furniture"
+processes:
+- Parquetry furniture
+- timber
+- wood
 ---
 
 Default content

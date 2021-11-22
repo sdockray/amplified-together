@@ -25,7 +25,11 @@ duration_for_digital_work: ""
 photographer_name: "Sophie Dumaresq"
 portfolio_url: "http://www.sophiedumaresq.com"
 disciplines: "Sculpture & Spatial Practice"
-processes: "Digital Video, Performance, photography, installation"
+processes:
+- Digital Video
+- Performance
+- photography
+- installation
 ---
 
 Default content

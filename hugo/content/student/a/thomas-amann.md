@@ -23,7 +23,10 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://www.tomamann.com/lifeinsilicon"
 disciplines: "Video and Animation"
-processes: "Baked simulation, Real-time motion tracking, Blueprint visual scripting"
+processes:
+- Baked simulation
+- Real-time motion tracking
+- Blueprint visual scripting
 ---
 
 Default content

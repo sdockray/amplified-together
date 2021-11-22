@@ -27,7 +27,10 @@ duration_for_digital_work: ""
 photographer_name: "Dominc Gowans"
 portfolio_url: "https://dominicgowans71.wixsite.com/mysite"
 disciplines: "Furniture"
-processes: "Timber, joinery, recycled"
+processes:
+- Timber
+- joinery
+- recycled
 ---
 
 Default content

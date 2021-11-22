@@ -26,7 +26,12 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://tahliaakring.wixsite.com/arts"
 disciplines: "Ceramics"
-processes: "Slab Formed Earthenware, Underglaze, Oxide Wash, Glazed, Ceramics"
+processes:
+- Slab Formed Earthenware
+- Underglaze
+- Oxide Wash
+- Glazed
+- Ceramics
 ---
 
 Default content

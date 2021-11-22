@@ -23,7 +23,8 @@ duration_for_digital_work: "00:03:15"
 photographer_name: ""
 portfolio_url: "https://www.syafiqibrahim.com/home-is-where-the-hurt-is"
 disciplines: "Video and Animation"
-processes: "Digital video"
+processes:
+- Digital video
 ---
 
 Default content

@@ -23,7 +23,8 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://samanthajane-thomas.squarespace.com/graduating-work"
 disciplines: "Design"
-processes: "Digital illustration"
+processes:
+- Digital illustration
 ---
 
 Default content

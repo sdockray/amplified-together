@@ -25,7 +25,12 @@ duration_for_digital_work: ""
 photographer_name: "Frances FitzGibbon"
 portfolio_url: "https://www.instagram.com/vibrisdesignart"
 disciplines: "Hybrid Arts"
-processes: "Kiln formed glass, photography, kiln fired ceramics, glazed ceramics, wood stereoscope"
+processes:
+- Kiln formed glass
+- photography
+- kiln fired ceramics
+- glazed ceramics
+- wood stereoscope
 ---
 
 Default content

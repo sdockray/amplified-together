@@ -23,7 +23,10 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://www.instagram.com/solomonartv3030/"
 disciplines: "Jewellery & Object"
-processes: "Casting, soldering, construction"
+processes:
+- Casting
+- soldering
+- construction
 ---
 
 Default content
