@@ -5,6 +5,159 @@
   src: url(/fonts/Larsseit-Medium.ttf);
 }
 
+/* HOLDING/HOME
+   ========================================================================== */
+body.home {
+    margin-top: 5%;
+    background-color: #aa1d4a;
+    max-height: 90%;
+}
+
+.highlight h1, .highlight h2 {
+    background-color: #efb5a9;
+    display: inline-flex;
+}
+
+.highlighth2 {
+    background-color: #efb5a9;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw; 
+}
+    
+.home-content h1 {
+    color: #aa1d4a;
+    text-transform: uppercase;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 6vw;
+    font-style: bold;
+    font-weight: 700;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    display: inline;
+    line-height: 1.4;
+}
+    
+.home-content .subtitle {    
+    background-color: #efb5a9;
+}
+    
+.home-content h2 {
+    color: #aa1d4a;
+    text-transform: uppercase;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 2vw;
+    font-style: medium;
+    font-weight: 400;
+    display: flex;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    line-height: 20%;
+}
+    
+.home-content p {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.rotated-grid {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    transform: rotate(165deg); 
+    background-image: linear-gradient( #efb5a9 .1px, transparent 1px), linear-gradient(to right, #efb5a9 1px, transparent 1px);
+    background-size: 30px 30px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.home-content .left {
+    z-index: 3;
+}
+.home-content .right {
+    z-index: 2;
+}
+
+.home-content a {
+    text-decoration: none;
+    color: #aa1d4a;
+}
+
+.home-content a:hover {
+    text-decoration: underline;
+  }
+
+/* DESKTOP SYLES */
+
+@media only screen and (min-width: 901px) {
+
+.home-content {
+        display: flex;
+    }
+
+.home-content .left {
+        max-width: 34%;
+        margin-left: 10%;
+        margin-right: 15%;
+    }
+
+.home-content .right {
+        max-width: 40%;
+    }
+
+.home-content .space {
+        width: 30%;
+        height: 150px;
+}
+
+}
+
+/* RESPONSIVE STYLES */
+
+@media only screen and (max-width: 900px) {
+
+    .home-content {
+        margin-left: 5vw;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .home-content h1 {
+        font-size: 10vw;
+    }
+
+    .home-content h2 {
+        font-size: 5vw;
+        }
+
+    .home-content .space {
+        display: none;
+    }
+
+}
+
+/* MOBILE STYLES */
+
+@media only screen and (max-width: 600px) {
+
+
+    .home-content h1 {
+        font-size: 14vw;
+    }
+
+    .home-content h2 {
+        font-size: 5.5vw;
+        }
+        
+    .home-content .space {
+        display: none;
+    }
+
+}
+
+
 /* Document
    ========================================================================== */
 
