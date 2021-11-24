@@ -29,6 +29,12 @@
         {{- with $.Param "duration_for_digital_work" -}}, {{ . }}{{ end }}
         </p>
 
+        <ul>
+            {{ range (.GetTerms "processes") }}
+                <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+            {{ end }}
+        </ul>
+
     </div>
 
     <div class="text">
