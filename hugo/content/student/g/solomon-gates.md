@@ -27,6 +27,7 @@ processes:
 - Casting
 - soldering
 - construction
+- Jewellery & Object
 ---
 
 Default content

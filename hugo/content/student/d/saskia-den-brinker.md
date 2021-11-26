@@ -31,6 +31,7 @@ processes:
 - doming block
 - mill
 - slitting saw
+- Jewellery & Object
 ---
 
 Default content

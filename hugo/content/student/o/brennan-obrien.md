@@ -28,6 +28,7 @@ processes:
 - glazing
 - alla prima
 - scumbling
+- Painting
 ---
 
 Default content

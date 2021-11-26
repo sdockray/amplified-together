@@ -28,6 +28,7 @@ disciplines: "Video and Animation"
 processes:
 - Digital video design
 - Illustration
+- Video & Animation
 ---
 
 Default content

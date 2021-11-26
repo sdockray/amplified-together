@@ -25,6 +25,7 @@ portfolio_url: "miriampenrose.com"
 disciplines: "Printmedia & Drawing"
 processes:
 - Papermaking
+- Printmedia
 ---
 
 Default content

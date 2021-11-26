@@ -23,6 +23,10 @@ duration_for_digital_work: ""
 photographer_name: "Lillian Pedvin"
 portfolio_url: "n/a"
 disciplines: "Centre for Art History & Theory"
+processes:
+- Written Work
+- Text
+- Art History & Theory
 ---
 
 Default content

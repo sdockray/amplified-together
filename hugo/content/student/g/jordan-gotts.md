@@ -27,6 +27,9 @@ duration_for_digital_work: ""
 photographer_name: "Jordan Gotts"
 portfolio_url: "https://jordangottsart.wordpress.com"
 disciplines: "Sculpture & Spatial Practice"
+processes:
+- audio visual
+- Sculpture & Spatial Practice
 ---
 
 Default content

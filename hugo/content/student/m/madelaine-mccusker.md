@@ -26,6 +26,7 @@ disciplines: "Sculpture & Spatial Practice"
 processes:
 - Augmented Reality
 - painting
+- Sculpture & Spatial Practice
 ---
 
 Default content

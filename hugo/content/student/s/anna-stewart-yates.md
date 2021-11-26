@@ -24,7 +24,9 @@ photographer_name: ""
 portfolio_url: "https://www.linkedin.com/in/anna-stewart-yates-856148171/"
 disciplines: "Centre for Art History & Theory"
 processes:
-- Art history
+- Written Work
+- Text
+- Art history & theory
 ---
 
 Default content

@@ -30,6 +30,7 @@ disciplines: "Textiles"
 processes:
 - Soft sculpting
 - quilting
+- Textiles
 ---
 
 Default content

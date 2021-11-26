@@ -23,11 +23,13 @@ width_in_centimetres_only: "42"
 depth_in_centimetres_only: ""
 duration_for_digital_work: ""
 photographer_name: "Kris Kerehona"
-portfolio_url: "https://sprays.faith"
+portfolio_url: "https://sprays.faith/commission/when-blood-ties-and-unties-you/"
 disciplines: "Painting"
 processes:
 - Painting
 - postering
+- installation
+- street art
 ---
 
 Default content

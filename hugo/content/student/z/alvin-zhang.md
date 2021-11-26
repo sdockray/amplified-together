@@ -27,6 +27,7 @@ portfolio_url: "https://www.alvinzhang.art/"
 disciplines: "Photography & Media Arts"
 processes:
 - Computer graphics
+- Photomedia
 ---
 
 Default content

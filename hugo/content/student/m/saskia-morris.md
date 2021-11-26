@@ -32,6 +32,7 @@ processes:
 - Video
 - Installation
 - spatial
+- Sculpture & Spatial Practice
 ---
 
 Default content

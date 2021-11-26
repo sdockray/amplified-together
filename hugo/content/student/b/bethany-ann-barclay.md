@@ -26,6 +26,7 @@ disciplines: "Painting"
 processes:
 - Oil painting
 - Acrylic painting
+- painting
 ---
 
 Default content

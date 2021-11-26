@@ -27,6 +27,7 @@ processes:
 - Painting
 - Animation
 - Digital video
+- Printmedia
 ---
 
 Default content

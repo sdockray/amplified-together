@@ -30,6 +30,8 @@ processes:
 - drawing
 - oil painting
 - digital video
+- glass
+- painting
 ---
 
 Default content

@@ -28,6 +28,7 @@ processes:
 - 2D animation
 - digital animation
 - paper animation
+- Video & Animation
 ---
 
 Default content

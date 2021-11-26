@@ -27,8 +27,10 @@ portfolio_url: "https://rosiearmstrongart.com"
 disciplines: "Textiles"
 processes:
 - Weaving
-- ceramic burnouts
+- ceramics burnout
 - community participation
+- ceramics
+- textiles
 ---
 
 Default content

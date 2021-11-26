@@ -23,6 +23,10 @@ duration_for_digital_work: ""
 photographer_name: ""
 portfolio_url: "https://drive.google.com/drive/folders/1P1CFiICgzO75x6WeXPPZgvT2BPih5yCI"
 disciplines: "Centre for Art History & Theory"
+processes:
+- Written Work
+- Text
+- Art History & Theory
 ---
 
 Default content

@@ -25,7 +25,9 @@ photographer_name: "Charlotte Craib"
 portfolio_url: "https://charlottecraib.wixsite.com/2021"
 disciplines: "Hybrid Arts"
 processes:
-- Cast ceramic
+- Cast ceramics
+- ceramics
+- Hybrid Arts
 ---
 
 Default content

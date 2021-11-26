@@ -31,6 +31,7 @@ processes:
 - Collage
 - Digital Fabrication
 - Illustration
+- Design
 ---
 
 Default content

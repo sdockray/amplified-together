@@ -25,8 +25,9 @@ portfolio_url: "https://instagram.com/edavidson_art?utm_medium=copy_link"
 disciplines: "Painting"
 processes:
 - Oil painting
-- digital
+- digital art
 - oil glazing
+- painting
 ---
 
 Default content

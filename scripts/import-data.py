@@ -203,12 +203,12 @@ def import_students(dest, images_dest, filetype="md"):
             filter_fields=STUDENT_FIELD_FILTER, 
             taxonomy_fields=STUDENT_FIELD_TAXONOMIES)
         filename, slug = data_to_filename(fields, filetype, base_dir=dest)
-        if filename:
+        if filename and not slug=='-.md':
             print("Writing:", filename)
             with open(os.path.join(dest, filename), 'w') as f:
                 f.write(content)
-        # write image
-        download_image(fields['image_location'], drive, slug, images_dest)
+            # write image
+            download_image(fields['image_location'], drive, slug, images_dest)
 
 
 def download_image(url, drive, slug, dest):
@@ -216,7 +216,7 @@ def download_image(url, drive, slug, dest):
     #urllib.request.urlretrieve(url,filename) 
     file_dest = os.path.join(dest, f"{slug}.jpg")
     resized_dir = '_400images'
-    if not os.path.exists(file_dest):
+    if True: #not os.path.exists(file_dest):
         parts = url.split('=')
         if len(parts)>=2:
             file_id = parts[-1]
@@ -238,7 +238,7 @@ def download_image(url, drive, slug, dest):
     # now resize the image
     basewidth = 400
     resized_loc = os.path.join(dest, resized_dir, f"{slug}.jpg")
-    if os.path.exists(file_dest) and not os.path.exists(resized_loc):
+    if os.path.exists(file_dest): #os.path.exists(file_dest) and not os.path.exists(resized_loc):
         img = Image.open(file_dest)
         wpercent = (basewidth / float(img.size[0]))
         hsize = int((float(img.size[1]) * float(wpercent)))

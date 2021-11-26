@@ -31,6 +31,7 @@ disciplines: "Ceramics"
 processes:
 - Wheel throwing
 - glazing
+- ceramics
 ---
 
 Default content

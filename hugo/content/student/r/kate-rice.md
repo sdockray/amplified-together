@@ -27,6 +27,7 @@ portfolio_url: "https://www.katerice.net/"
 disciplines: "Textiles"
 processes:
 - Wire weaving
+- Textiles
 ---
 
 Default content

@@ -31,6 +31,7 @@ processes:
 - Timber
 - joinery
 - recycled
+- Furniture
 ---
 
 Default content

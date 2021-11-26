@@ -25,6 +25,7 @@ portfolio_url: "https://samanthajane-thomas.squarespace.com/graduating-work"
 disciplines: "Design"
 processes:
 - Digital illustration
+- Design
 ---
 
 Default content

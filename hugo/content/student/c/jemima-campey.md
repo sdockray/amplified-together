@@ -25,6 +25,9 @@ portfolio_url: "https://jcampey.myportfolio.com/anu-graduating-exhibition-2021"
 disciplines: "Photography & Media Arts"
 processes:
 - Digital video
+- video
+- digital
+- Photomedia
 ---
 
 Default content

@@ -31,6 +31,7 @@ disciplines: "Centre for Art History & Theory"
 processes:
 - Written work
 - text
+- Art History & Theory
 ---
 
 Default content

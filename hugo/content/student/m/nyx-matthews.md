@@ -10,8 +10,8 @@ biography: "Nyx Mathews (born on Wurrundjeri Land, Melbourne; lives and works on
  
  Mathews has exhibited work in Melbourne, Canberra and Sydney, including two solo exhibitions and multiple two- and three-person exhibitions. Mathews’ work has been curated into various group exhibitions locally and interstate. They have received various awards and scholarships, including the Peter & Lena Karmel Honours Scholarship in the School of Art (2020), Corning Museum of Glass Scholarship, NY (2018) and multiple EASS awards for their third year body of work. Mathews has twice received an ANU Chancellor’s Commendation of Outstanding Academic Performance.
  Their work is held in private collections in Australia and overseas."
-image_location: "https://drive.google.com/file/d/1OeLoVQ_7M7V-4C8OeV4Tc3ABB2gZJLZE/view?usp=sharing"
-instagram_image: ""
+image_location: "https://drive.google.com/file/d/18_yYkQ6cStfDTE8StOYgzY8r6YYr3V4Q/view?usp=sharing"
+instagram_image: "https://drive.google.com/file/d/18_yYkQ6cStfDTE8StOYgzY8r6YYr3V4Q/view?usp=sharing"
 instagram: "@nyx_mathews"
 image_caption: "Nyx Mathews/KUNST CONSORTIUM"
 name_of_photographer: ""
@@ -39,6 +39,7 @@ processes:
 - writing
 - miniaturisation
 - parafiction
+- Hybrid arts
 ---
 
 Default content

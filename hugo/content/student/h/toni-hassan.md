@@ -28,6 +28,7 @@ processes:
 - photography
 - performance
 - Painting
+- Sculpture & Spatial Practice
 ---
 
 Default content

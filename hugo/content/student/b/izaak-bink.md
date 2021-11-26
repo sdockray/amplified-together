@@ -25,6 +25,8 @@ portfolio_url: "www.izaakbink.com"
 disciplines: "Printmedia & Drawing"
 processes:
 - Digitally scanned print
+- paper
+- printmedia
 ---
 
 Default content

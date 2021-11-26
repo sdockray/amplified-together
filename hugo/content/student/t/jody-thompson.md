@@ -31,6 +31,7 @@ portfolio_url: "https://www.jody-thompson.com/portfolio/in-stillness-and-movemen
 disciplines: "Glass"
 processes:
 - Kiln formed glass
+- Glass
 ---
 
 Default content

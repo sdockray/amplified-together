@@ -21,11 +21,12 @@ width_in_centimetres_only: "50"
 depth_in_centimetres_only: ""
 duration_for_digital_work: ""
 photographer_name: "Greg Stoodley"
-portfolio_url: "https://www.instagram.com/greg_stoodley/"
+portfolio_url: "https://gregstoodley.com/#/time/"
 disciplines: "Photography & Media Arts"
 processes:
 - Film
 - Photography
+- Photomedia
 ---
 
 Default content

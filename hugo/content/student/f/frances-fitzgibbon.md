@@ -31,6 +31,8 @@ processes:
 - kiln fired ceramics
 - glazed ceramics
 - wood stereoscope
+- ceramics
+- Hybrid Arts
 ---
 
 Default content

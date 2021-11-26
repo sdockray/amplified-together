@@ -35,6 +35,7 @@ processes:
 - Film
 - photography
 - model making
+- Design
 ---
 
 Default content

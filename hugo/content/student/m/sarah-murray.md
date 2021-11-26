@@ -27,6 +27,7 @@ processes:
 - Acrylic painting
 - Oil painting
 - Drawing
+- Painting
 ---
 
 Default content

@@ -26,6 +26,7 @@ disciplines: "Glass"
 processes:
 - Blown glass
 - Sculpted glass
+- glass
 ---
 
 Default content

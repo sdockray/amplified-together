@@ -35,6 +35,7 @@ processes:
 - psychogeographical experience
 - campus tour
 - audio tour
+- Sculpture & Spatial Practice
 ---
 
 Default content

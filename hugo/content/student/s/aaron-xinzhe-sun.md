@@ -30,6 +30,7 @@ processes:
 - installation
 - 3D modeling
 - digital
+- Photomedia
 ---
 
 Default content

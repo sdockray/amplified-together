@@ -25,6 +25,7 @@ portfolio_url: "https://www.syafiqibrahim.com/home-is-where-the-hurt-is"
 disciplines: "Video and Animation"
 processes:
 - Digital video
+- Video & Animation
 ---
 
 Default content

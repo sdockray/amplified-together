@@ -28,6 +28,7 @@ processes:
 - Slumped glass
 - Coldworked glass
 - Hand manipulated aluminium
+- Glass
 ---
 
 Default content

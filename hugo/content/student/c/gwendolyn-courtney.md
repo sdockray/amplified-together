@@ -31,6 +31,7 @@ portfolio_url: "https://www.instagram.com/_gwencourtney/"
 disciplines: "Design"
 processes:
 - 3D printing
+- Design
 ---
 
 Default content

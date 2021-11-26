@@ -29,6 +29,7 @@ portfolio_url: "https://www.instagram.com/florieart1/?hl=en"
 disciplines: "Painting"
 processes:
 - Acrylic painting
+- painting
 ---
 
 Default content

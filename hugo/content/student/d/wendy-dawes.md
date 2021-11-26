@@ -33,7 +33,8 @@ portfolio_url: "https://suspension.digital/"
 disciplines: "Printmedia & Drawing"
 processes:
 - Drawing
-- drawn rotoscopes
+- drawn rotoscope
+- Printmedia
 ---
 
 Default content

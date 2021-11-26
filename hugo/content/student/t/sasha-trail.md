@@ -29,6 +29,7 @@ portfolio_url: "https://sashatrail.wixsite.com/portfolio"
 disciplines: "Hybrid Arts"
 processes:
 - Digital painting
+- Hybrid Arts
 ---
 
 Default content

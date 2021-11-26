@@ -28,6 +28,7 @@ disciplines: "Sculpture & Spatial Practice"
 processes:
 - Mixed media
 - Modelling
+- Sculpture & Spatial Practice
 ---
 
 Default content

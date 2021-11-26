@@ -23,6 +23,9 @@ duration_for_digital_work: ""
 photographer_name: "Madison Graeber-Browne"
 portfolio_url: "https://docs.google.com/presentation/d/1_669HGp982w9czT6ESrersMPUlPTH-XCKgKTOVGJ2gU/edit#slide=id.p"
 disciplines: "Painting"
+processes:
+- Painting
+- Acrylic painting
 ---
 
 Default content

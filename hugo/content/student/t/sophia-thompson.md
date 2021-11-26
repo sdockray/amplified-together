@@ -29,8 +29,10 @@ portfolio_url: "https://sophia-thompson.wixsite.com/gradshow"
 disciplines: "Ceramics"
 processes:
 - Wheel throwing
-- Ceramic forming
+- Ceramics
+- forming
 - Glazing
+- 
 ---
 
 Default content

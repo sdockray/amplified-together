@@ -12,7 +12,7 @@ biography: "An Angel to Few brings to the consciousness of the viewer the rapid 
  Using the fragility of glass to represent its declining numbers, the orchid in this piece is preserved, as if frozen, within the glass walls of the greenhouse. The greenhouse is used as a metaphor for protection and retreat during turbulent times. It signifies the research that is necessary in order for this orchid to thrive for future generations to enjoy. 
  
  Public awareness is a critical component of conservation efforts and getting people involved in preservation. An Angel to Few speaks to a personal passion for Canberraâ€™s urban interface with bushland, the fragility of its uniqueness, and the importance of effective conservation management."
-image_location: "https://drive.google.com/u/2/open?usp=forms_web&id=1MlLSD0C_go2zsHUjPBT9N_Y7WCNS5Nxb"
+image_location: "https://drive.google.com/file/d/1liLT2emfM1PULI5H6KEhdL4arV-fuMg6"
 instagram_image: "https://drive.google.com/u/2/open?usp=forms_web&id=1dk03ieHkrTMbpuMhXrCoPqaRmb5iI1GW"
 instagram: "adina.l_fitzsimons"
 image_caption: ""
@@ -31,6 +31,7 @@ portfolio_url: "https://adinart2005.wixsite.com/anangeltofew"
 disciplines: "Glass"
 processes:
 - Cast glass
+- glass
 ---
 
 Default content

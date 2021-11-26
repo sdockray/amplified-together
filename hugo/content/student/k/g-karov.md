@@ -27,6 +27,7 @@ portfolio_url: "GKarov.com"
 disciplines: "Printmedia & Drawing"
 processes:
 - Drawing
+- Printmedia
 ---
 
 Default content

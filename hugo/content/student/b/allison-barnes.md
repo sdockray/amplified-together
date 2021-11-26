@@ -27,7 +27,9 @@ disciplines: "Printmedia & Drawing"
 processes:
 - Screen print
 - Relief print
-- Acrylic panting
+- Acrylic painting
+- printmedia
+- painting
 ---
 
 Default content

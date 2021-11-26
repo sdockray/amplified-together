@@ -26,6 +26,7 @@ disciplines: "Painting"
 processes:
 - Virtual reality
 - digital Video
+- Painting
 ---
 
 Default content

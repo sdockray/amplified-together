@@ -33,6 +33,7 @@ processes:
 - Installation
 - impasto
 - expanded painting
+- painting
 ---
 
 Default content

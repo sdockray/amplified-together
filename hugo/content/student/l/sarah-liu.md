@@ -39,6 +39,7 @@ portfolio_url: "https://www.instagram.com/sarahlllliu/"
 disciplines: "Ceramics"
 processes:
 - Modelling
+- Ceramics
 ---
 
 Default content

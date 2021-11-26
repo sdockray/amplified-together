@@ -33,6 +33,7 @@ processes:
 - Gas Kiln
 - Throwing
 - Hand building
+- Ceramics
 ---
 
 Default content

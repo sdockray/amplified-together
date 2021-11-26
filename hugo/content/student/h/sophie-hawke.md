@@ -27,6 +27,7 @@ processes:
 - Drawing
 - painting
 - digital video
+- textiles
 ---
 
 Default content

@@ -31,6 +31,7 @@ processes:
 - Parquetry furniture
 - timber
 - wood
+- Furniture
 ---
 
 Default content

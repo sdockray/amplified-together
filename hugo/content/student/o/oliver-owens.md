@@ -30,7 +30,8 @@ disciplines: "Ceramics"
 processes:
 - Wheel-throwing
 - Glazing
-- Kiln firing.
+- Kiln firing
+- Ceramics
 ---
 
 Default content

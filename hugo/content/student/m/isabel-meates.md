@@ -26,8 +26,10 @@ disciplines: "Printmedia & Drawing"
 processes:
 - Drawing
 - Print
-- Aquatint Etching
+- Aquatint
+- Etching
 - Drypoint
+- Printmedia
 ---
 
 Default content

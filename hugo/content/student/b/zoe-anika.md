@@ -26,6 +26,9 @@ disciplines: "Design"
 processes:
 - Digital website
 - Drawing
+- pencil
+- paper
+- Design
 ---
 
 Default content

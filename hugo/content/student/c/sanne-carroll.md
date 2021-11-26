@@ -27,6 +27,9 @@ portfolio_url: "sannecarroll.com"
 disciplines: "Printmedia & Drawing"
 processes:
 - Drawing
+- pencil
+- paper
+- Printmedia
 ---
 
 Default content

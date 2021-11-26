@@ -26,6 +26,7 @@ disciplines: "Printmedia & Drawing"
 processes:
 - Digital video
 - animation
+- Printmedia
 ---
 
 Default content

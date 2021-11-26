@@ -31,6 +31,7 @@ processes:
 - Knitting
 - Sewing
 - Assemblage
+- Textiles
 ---
 
 Default content

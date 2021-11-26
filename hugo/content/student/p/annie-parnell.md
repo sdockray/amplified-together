@@ -43,9 +43,10 @@ processes:
 - Porcelain
 - Installation
 - Sound
-- Zines
-- seed bombs
-- plant noticing worksheets
+- Zine
+- seed bomb
+- plant noticing worksheet
+- Sculpture & Spatial Practice
 ---
 
 Default content
