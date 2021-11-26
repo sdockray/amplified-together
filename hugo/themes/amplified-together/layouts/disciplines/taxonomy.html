@@ -7,7 +7,7 @@
         </header>
         <h3>{{.Content}}</h3>
         {{range .Pages.ByParam "last_name" }}
-            <h3>{{ partial "studentpreview.html" . }}</h3>
+            {{ partial "studentpreview.html" . }}
         {{ end }}
     </article>
     
