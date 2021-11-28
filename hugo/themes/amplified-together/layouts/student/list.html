@@ -23,7 +23,8 @@
       </h2>
     {{ end }}
   </div>
-
+  
+<div class="list-content">
   <!-- list of students -->
   {{ $currLet := "0" }}
   {{range (where .Site.RegularPages.ByTitle "Section" "student" ).ByParam "last_name" }}
@@ -37,6 +38,6 @@
   {{ end }}
 
   {{ end }}
-
+  </div>
 </main>
 {{ end }}
