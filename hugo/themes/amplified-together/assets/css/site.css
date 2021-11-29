@@ -122,7 +122,7 @@ main {
 }
 
 .list-content {
-  padding-top: 8vw;
+  padding-top: 4vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -164,6 +164,22 @@ main {
 
     .home-content .space {
         display: none;
+    }
+   
+    .student.preview {
+      max-width: 100%;
+      margin-left: 1vw;
+      margin-right: 1vw;
+      padding-right: 4vw;
+      padding-left: 4vw;
+    }
+  
+    .list-content {
+      padding-top: 8vw;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      justify-content: space-evenly;
     }
 }
 
