@@ -108,7 +108,34 @@
         width: 30%;
         height: 150px;
 }
+.student.preview {
+  max-width: 30%;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  padding-right: 4vw;
+  padding-left: 4vw;
+}
 
+.list-content {
+  padding-top: 8vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: white;
+  justify-content: space-evenly;
+}
+
+.student.preview .image {
+    max-width: 400px;
+    padding-bottom: 4vw;
+    padding-top: 2vw;
+  }
+
+.student.preview .image img {
+  max-width:100%;
+  max-height: 500px;
+}
 }
 
 /* RESPONSIVE STYLES */
@@ -235,10 +262,18 @@ p {
     font-size: 1em;
   }
 
+header {
+    margin-bottom: 1vw;
+    display: inline-block;
+  }
+
 a {
-    text-decoration: underline;
+    text-decoration: none;
     color: #aa1d4a;
   }
+a:hover {
+    text-decoration: underline;
+}
 
 /*
  * Navigation
