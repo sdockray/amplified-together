@@ -627,16 +627,6 @@ main.wrap .right {
   width: 250px;
 }
 
-main.wrap .right h2,
-main.page .text h2 {
-  display: block;
-  font-weight: 400;
-  padding-left: 1.0em;
-  text-indent:-1.0em;
-  margin: 0px;
-  float: right;
-}
-
 /* Student preview */
 .student.preview h3 {
         display: inline-block;
