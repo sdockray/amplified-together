@@ -1,11 +1,7 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
-@import url(https://fonts.googleapis.com/css2?family=Public+Sans:wght@800&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;800&display=swap);  
-
 /* HOLDING/HOME
    ========================================================================== */
-body, .home-content {
+
+   body, .home-content {
     margin-top: 5%;
     background-color: #aa1d4a;
     max-height: 90%;
@@ -49,7 +45,18 @@ body, .home-content {
     display: flex;
     padding-left: 1vw;
     padding-right: 1vw;
-    line-height: 20%;
+}
+    
+.rotated-grid {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    transform: rotate(165deg); 
+    background-image: linear-gradient( #efb5a9 .1px, transparent 1px), linear-gradient(to right, #efb5a9 1px, transparent 1px);
+    background-size: 30px 30px;
+    position: absolute;
+    z-index: 1;
+
 }
 
 .home-content .left {
@@ -63,7 +70,6 @@ body, .home-content {
     text-decoration: underline;
     color: #aa1d4a;
 }
-
 
 /* DESKTOP SYLES 4 HOLDING*/
 
@@ -87,7 +93,6 @@ body, .home-content {
         width: 30%;
         height: 150px;
 }
-
 }
 
 /* RESPONSIVE STYLES 4 HOLDING */
@@ -112,7 +117,6 @@ body, .home-content {
     .space {
         display: none;
     }
-
 }
 
 /* MOBILE STYLES 4 HOLDING */
@@ -133,11 +137,77 @@ body, .home-content {
     }
 }
 
+/* UNIVERSAL STYLES */
 
-/* GENERAL STYLES
-   ========================================================================== */
+body {
+    background-color: #aa1d4a;
+}
 
-.rotated-grid {
+
+h1 {
+    color: #aa1d4a;
+    background-color: #efb5a9;
+    text-transform: uppercase;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 4em;
+    font-style: bold;
+    font-weight: 700;
+    padding-left: 0.2vw;
+    padding-right: 0.2vw;
+    line-height: 1.4;
+    display: inline;
+  }
+  
+  .subtitle {    
+    background-color: #efb5a9;
+  }
+    
+  h2 {
+    color: #aa1d4a;
+    background-color: #efb5a9;
+    text-transform: uppercase;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 2em;
+    font-style: medium;
+    font-weight: 400;
+    display: flex;
+    line-height: 1.5em;
+    padding-right: 0.2em;
+    padding-left: 0.2em;
+    margin: 0.1em;
+    display: inline-block;
+  }
+
+  h3 {
+    color: #aa1d4a;
+    background-color: #efb5a9;
+    text-transform: uppercase;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    display: flex;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    line-height: 1.5em;
+    display: inline-block;
+  }
+  p, li {
+    font-family: 'Public Sans', sans-serif;
+    color: #aa1d4a;
+    line-height: 1.4;
+  }
+  ul a {
+    text-decoration: underline;
+  }
+  ul {
+    list-style-type: none;
+  }
+  header {
+    margin-bottom: 1vw;
+    display: inline-block;
+  }
+
+  .rotated-grid {
     width: 100%;
     height: 100%;
     margin: auto;
@@ -146,12 +216,52 @@ body, .home-content {
     background-size: 30px 30px;
     position: absolute;
     z-index: 1;
+  
+  }
+  
+  a {
+    text-decoration: none;
+    color: #aa1d4a;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
 
-}
+  .student {
+    background-color: white;
+  }
 
-main {
-    z-index: 4;
-    position: absolute;
+  main.student h1  {
+    background-color: white;
+    color: #aa1d4a;
+    font-weight: 700;
+    padding-left: 0.2vw;
+    padding-right: 0.2vw;
+    line-height: 1.4;
+  }
+
+ main.student h2 a {
+    color: white;
+    background-color: #aa1d4a;
+    font-weight: 700;
+    font-size: 2.8em;
+    line-height: 1.3;
+    padding-left:;
+  }
+
+  .text h3 {
+    color: white;
+    background-color:#aa1d4a;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+
+  main.student h2 {
+    color: #aa1d4a;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-left: 0em;
   }
 
 /* DESKTOP SYLES */
@@ -159,21 +269,18 @@ main {
 @media only screen and (min-width: 901px) {
 
 .student.preview {
-  max-width: 30%;
-  margin-left: 2vw;
-  margin-right: 2vw;
-  padding-right: 4vw;
-  padding-left: 4vw;
+  max-width: 45%;
+  margin-left: 4vw;
+  margin-right: 4vw;
 }
 
 .list-content {
-  padding-top: 4vw;
+  padding-top: 2vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
   background-color: white;
-  justify-content: space-evenly;
 }
 
 .student.preview .image {
@@ -186,39 +293,47 @@ main {
   max-width:100%;
   max-height: 500px;
 }
+
 }
 
 /* RESPONSIVE STYLES */
 
 @media only screen and (max-width: 900px) {
-   
+
     .student.preview {
-      max-width: 100%;
-      margin-left: 1vw;
-      margin-right: 1vw;
-      padding-right: 4vw;
-      padding-left: 4vw;
+      max-width: 40%;
     }
-  
+    
     .list-content {
       padding-top: 8vw;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: wrap;
       background-color: white;
       justify-content: space-evenly;
     }
+    
+    .student.preview .image {
+        max-width: 400px;
+        padding-bottom: 4vw;
+        padding-top: 2vw;
+      }
+    
+    .student.preview .image img {
+      max-width:100%;
+      max-height: 500px;
+    }
+
 }
 
 /* MOBILE STYLES */
 
 @media only screen and (max-width: 600px) {
-   
+
     .student.preview {
       max-width: 100%;
-      margin-left: 1vw;
-      margin-right: 1vw;
-      padding-right: 4vw;
-      padding-left: 4vw;
+      margin-left: 2vw;
+      margin-right: 2vw;
     }
   
     .list-content {
@@ -228,541 +343,472 @@ main {
       background-color: white;
       justify-content: space-evenly;
     }
+  
+    .student.preview .image {
+        padding-bottom: 4vw;
+      }
+    
+    .student.preview .image img {
+      max-width: 400px;
+      max-height: 500px;
+    }
 
+    .student-content {
+      max-width: 95%;
+      margin-left: 4vw;
+      margin-right: 2vw;
+    }
+
+    .text {
+      max-width: 90%;
+      margin-left: 2vw;
+      margin-right: 2vw;
+    }
 }
 
 
-/* Document
-   ========================================================================== */
+/* FONTS */
 
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-
-html {
-  line-height: 1.4; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-}
-
-/* Sections
-   ========================================================================== */
-
-/**
- * Remove the margin in all browsers.
- */
-
-body {
-    background-color: #aa1d4a;
-}
-
-/**
- * Render the `main` element consistently in IE.
- */
-
-main {
-  display: block;
-}
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-
-h1, h2, h3, h4 {
-  text-transform: uppercase;
-  color: #aa1d4a;
-  background-color: #efb5a9;
-  font-family: 'Public Sans', sans-serif;
-}
-
-h1 {
-    font-size: 4em;
-    font-style: bold;
-    font-weight: 700;
-    padding-left: 0.2vw;
-    padding-right: 0.2vw;
-    display: inline;
-    line-height: 1.4;
-}
-
-h2 {
-    font-size: 2em;
-    font-style: medium;
-    font-weight: 400;
-    display: flex;
-    line-height: 1.5em;
-    padding-right: 0.2em;
-    padding-left: 0.2em;
-    margin: 0.1em;
-}
-
-h3 {
-    font-size: 1.5em;
-    font-weight: 400;
-    display: flex;
-    padding-left: 0.2em;
-    padding-right: 0.2em;
-    line-height: 1.5em;
-}
-
-p {
-    font-family: 'Public Sans', sans-serif;
-    color: #aa1d4a;
-    font-size: 1em;
+@import url(https://fonts.googleapis.com/css2?family=Public+Sans:wght@800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;800&display=swap);  
+    
+  main {
+    z-index: 4;
+    position: absolute;
   }
 
-header {
-    margin-bottom: 1vw;
-    display: inline-block;
+  /* Document
+     ========================================================================== */
+  
+  /**
+   * 1. Correct the line height in all browsers.
+   * 2. Prevent adjustments of font size after orientation changes in iOS.
+   */
+  
+  html {
+    -webkit-text-size-adjust: 100%; /* 2 */
   }
-
-a {
-    text-decoration: none;
-    color: #aa1d4a;
-  }
-a:hover {
-    text-decoration: underline;
-}
-
-/*
- * Navigation
- */
-
-.navigation {
-background-color: #aa1d4a;
-
-}
-
-.brand {
-display: none;
-}
-
-.homepage-logo {
-display: none;
-}
-
-.brand a img,
-.homepage-logo img,
-.box img {
-display: none;
-}
-
-.nav-container {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  float: right;
-}
-
-nav ul li a,
-nav ul li a:visited {
-  display: block;
-  padding: 10px 20px 10px 5px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 0.9em;
-}
-
-nav ul li a:hover,
-nav ul li a:visited:hover {
-
-}
-
-/* Mobile navigation */
-.nav-mobile {
-  position: absolute;
-  top: 1;
-  right: 1;
-  height: 70px;
-  width: 70px;
-}
-
-/* MOBILE */
-
-@media only screen and (max-width: 767px) {
-  .nav-mobile {
+  
+  /* Sections
+     ========================================================================== */
+  
+  
+  main {
     display: block;
   }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
 
-  nav {
+
+  /*
+   * Navigation
+   */
+  
+  .navigation {
+    background-color: #aa1d4a;
+  }
+  
+  .brand {
+    display:none;
+}
+  
+  .homepage-logo {
     width: 100%;
-    padding: 70px 0 15px;
+    height: 190px;
+    position: relative;
   }
-
-  nav ul {
-    display: none;
+  
+  .brand a img,
+  .homepage-logo img,
+  .box img {
+    display:none;
   }
-  nav ul li {
-    float: none;
-  }
-  nav ul li a {
-    padding: 15px;
-    line-height: 20px;
-  }
-  nav ul li ul li a {
-    padding-left: 30px;
-  }
+  
   .nav-container {
-    border: none;
+    max-width: 1000px;
+    margin: 0 auto;
+
   }
-
-  .nav-dropdown {
-    position: static;
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
-
-  /* New Styles for student pages */
-
-    h1 {
-        text-align: center;
+  
+  nav ul li {
+    float: right;
+  }
+  
+  nav ul li a,
+  nav ul li a:visited {
+    display: block;
+    padding: 10px 20px 10px 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a:visited:hover {
+  
+  }
+  
+  /* Mobile navigation */
+  .nav-mobile {
+    top: 1;
+    right: 1;
+    height: 70px;
+    width: 70px;
+  }
+  
+  /* MOBILE */
+  
+  @media only screen and (max-width: 767px) {
+    .nav-mobile {
+      display: block;
     }
-    .content {
-        width: 100%;
+  
+    nav {
+      width: 100%;
+      padding: 70px 0 15px;
     }
-
-    main.student  {
-        margin-left:5px;
-        margin-right:5px;
-        width: 100%;
+  
+    nav ul {
+      display: none;
     }
-
-    main.student h1 {
-        text-align: left;
+    nav ul li {
+      float: none;
     }
-
-    main.student .text {
-        margin-left: 0;
-        float: left;
+    nav ul li a {
+      padding: 15px;
+      line-height: 20px;
     }
-
-    .photo {
-        width: 95%;
+    nav ul li ul li a {
+      padding-left: 30px;
     }
-
-    .student .text {
-        text-align: left;
+    .nav-container {
+      border: none;
     }
-
-    .student .text h2 a {
-        font-size: 2.5em;
+  
+    .nav-dropdown {
+      position: static;
     }
+  
+    /* New Styles for student pages */
+  
+      h1 {
+          text-align: center;
+      }
+      .content {
+          width: 100%;
+      }
+  
+      main.student  {
+          margin-left:2vw;
+          margin-right:2vw;
+      }
+  
+      main.student h1 {
+          text-align: left;
+      }
+  
+      main.student .text {
+          margin-left: 0;
+          float: left;
+      }
+  
+      .photo {
+          width: 95%;
+      }
+  
+      .student .text {
+          text-align: left;
+      }
 
-    .letters {
+      .letters {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin-top: 15vw;
         margin-bottom: 5vw;
       }
-
-      .letters h2 {
-        margin: px;
-      }
-}
-
-/* DESKTOP */
-
-@media screen and (min-width: 768px) {
+  }
+  
+  /* DESKTOP */
+  
+  @media screen and (min-width: 768px) {
     .nav-list {
-      display: block !important;
-      direction: rtl;
+        display: block !important;
+        direction: rtl;
+    }
+  
+    .disciplines, .letters {
+      float: right;
+      display: block;
+      margin-left: 15vw;
+    }
+  
+    .text, .themes {
+      max-width: 60%;
+      margin-left: 10px;
+  }
+  
+    .events {
+      max-width: 30%;
+      float: right;
+  }
+  
+    .themes .theme.box {
+      width:150px;
+      height:150px;
+      font-size:0.9em;
+      margin:6px 0 0 6px
   }
 
-  .disciplines, .letters {
-    margin: auto;
-    float: right;
-    display: block;
-}
+  main.student {
+    background-color: white;
+    max-width: 1080px;
+    padding-top: 2em;
+    padding-left: 2em;
+  }
 
-  .text, .themes {
-    max-width: 60%;
-    margin-left: 10px;
-}
-
-  .events {
-    max-width: 30%;
-    float: right;
-}
-
-  .themes .theme.box {
-    width:150px;
-    height:150px;
-    font-size:0.9em;
-    margin:6px 0 0 6px
-}
+  .student-content {
+    max-width: 40%;
+    float: left;
+  }
 
   .text {
-    display: inline-block;
-    float: left;
-    margin-left: 10px;
-}
- 
-
-main.student .text {
+    max-width: 40%;
     float: right;
-    max-width: 40%;
-}
-
-main.student h1,
-main.student h2 {
-    max-width: 45%;
-}
-
-main.student .photo {
-      max-width: 40%;
-      float: left;
-}
-
-.student .text h2 a {
-    font-size: 2.4em;
-  }
-
-  .student .text {
-      padding-left: 45px;
-  }
-
-  .letters {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 40%;
-    margin-top: 15vw;
-    margin-bottom: 5vw;
-  }
-}
-
-#nav-toggle {
-  position: absolute;
-  left: 18px;
-  top: 22px;
-  cursor: pointer;
-  padding: 10px 35px 16px 0px;
-}
-
-#nav-toggle span,
-#nav-toggle span:before,
-#nav-toggle span:after {
-  cursor: pointer;
-  border-radius: 1px;
-  height: 5px;
-  width: 35px;
-  background: #2B3990;
-  position: absolute;
-  display: block;
-  content: "";
-  transition: all 300ms ease-in-out;
-}
-#nav-toggle span:before {
-  top: -10px;
-}
-#nav-toggle span:after {
-  bottom: -10px;
-}
-#nav-toggle.active span {
-  background-color: transparent;
-}
-#nav-toggle.active span:before, #nav-toggle.active span:after {
-  top: 0;
-}
-#nav-toggle.active span:before {
-  transform: rotate(45deg);
-}
-#nav-toggle.active span:after {
-  transform: rotate(-45deg);
-}
-
-
-/*
- * Page content
- */
-
-.content {
-  max-width: 1000px;
-  min-height: 50px;
-  margin: 20px auto;
-}
-
-.wrap {
-  width: 100%;
-  max-width: 1080px;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: flex-start;
-}
-
-.box {
-  width: 190px;
-  height: 190px;
-  border: 2px solid #2B3990;
-  padding: 5px 15px 5px 20px;
-  vertical-align: middle;
-  text-align: left;
-  margin: 20px 0 0 20px;
-  position: relative;
-  line-height: 23px;
-  font-size: 20px;
-  text-transform: uppercase;
-  color: #2B3990;
-}
-
-.box.wide {
-  width: 438px;
-}
-
-.box.content {
-  width: 438px;
-  height:100%;
-  text-transform: none;
-  vertical-align: text-top;
-  break-before: always;
-  break-after: always;
-}
-
-.box.contact {
-  font-size: 16px;
-}
-
-@media only screen and (max-width: 767px) {
-  .wrap {
-    margin: auto;
-    width: 94%;
+    padding-right: 2em;
   }  
-  .box {
-    max-width: 85%;
-    min-height: 200px;
-    border: 2px solid #2B3990;
-    margin-left: 0;
-    order: 2;
-/*change made for new update here because homepage will be diff. */
-  /*  display: none; */
+    .letters {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      max-width: 25%;
+      margin-top: 15vw;
+      margin-bottom: 5vw;
+      float: right;
+    }
   }
-/* intentionally broke the boxes */
-  .box.wide {
-    width: 100%;
+  
+  #nav-toggle {
+    position: absolute;
+    left: 18px;
+    top: 22px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
   }
-
-  .box.info {
-    order: 1;
+  
+  #nav-toggle span,
+  #nav-toggle span:before,
+  #nav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background: #2B3990;
+    position: absolute;
     display: block;
+    content: "";
+    transition: all 300ms ease-in-out;
   }
-  .text, .themes {
-    max-width: 100%;
-    text-align: center;
-}
-
-.events {
+  #nav-toggle span:before {
+    top: -10px;
+  }
+  #nav-toggle span:after {
+    bottom: -10px;
+  }
+  #nav-toggle.active span {
+    background-color: transparent;
+  }
+  #nav-toggle.active span:before, #nav-toggle.active span:after {
+    top: 0;
+  }
+  #nav-toggle.active span:before {
+    transform: rotate(45deg);
+  }
+  #nav-toggle.active span:after {
+    transform: rotate(-45deg);
+  }
+  
+  
+  /*
+   * Page content
+   */
+  
+  .content {
+    max-width: 1000px;
+    min-height: 50px;
+    margin: 20px auto;
+  }
+  
+  .wrap {
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+  }
+  
+  .box {
+    width: 190px;
+    height: 190px;
+    border: 2px solid #2B3990;
+    padding: 5px 15px 5px 20px;
+    vertical-align: middle;
+    text-align: left;
+    margin: 20px 0 0 20px;
+    position: relative;
+    line-height: 23px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #2B3990;
+  }
+  
+  .box.wide {
+    width: 438px;
+  }
+  
+  .box.content {
+    width: 438px;
+    height:100%;
+    text-transform: none;
+    vertical-align: text-top;
+    break-before: always;
+    break-after: always;
+  }
+  
+  .box.contact {
+    font-size: 16px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .wrap {
+      margin: auto;
+      width: 94%;
+    }  
+    .box {
       max-width: 85%;
-      margin: 0 auto;
-}
-}
-.indent {
-  margin-left: 6px;
-}
-
-main.wrap article {
-  width: 45%;
-  margin-right: 30px;
-}
-
-main.wrap .right {
-  width: 250px;
-}
+      min-height: 200px;
+      border: 2px solid #2B3990;
+      margin-left: 0;
+      order:2;
+  /*change made for new update here because homepage will be diff. */
+    /*  display: none; */
+  }
+  /* intentionally broke the boxes */
+    .box.wide {
+      width: 100%;
+    }
+  
+    .box.info {
+      order: 1;
+      display: block;
+    }
+    .text, .themes {
+      text-align: center;
+  }
+  
+    .events {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+  
+  
+  .indent {
+    margin-left: 6px;
+  }
+  
+  main.wrap article {
+    width: 45%;
+    margin-right: 30px;
+  }
+  
+  main.wrap .right {
+  }
 
 /* Student preview */
-.student.preview h3 {
-        display: inline-block;
-}
-
-
+  
+  
 /* Events */
+
 .events {
-/*  width: 190px; */
-  border: 2px solid #2B3990;
-  padding: 5px 15px 5px 20px;
-  text-align: left;
-  position: relative;
-  font-size: 1em;
-  text-transform: uppercase;
-  color: #2B3990;
-}
-
-.events .event {
-  margin-top: 20px;
-}
-
-/* Curated Spaces */
-
-.themes .theme a {
-  text-decoration: none;
-}
-
-.themes .theme a {
-  text-decoration:none;
-}
-
-.theme.box.communication a, .theme.box.identity a {
-  position: absolute;
-  top: 30%;
-}
-  
-.theme.box.community a, .theme.box.space-and-place a {
-  position: absolute;
-  top: 60%;
-  justify-content: center;
-}
-
-.description.indent {
-  padding-bottom: 20px;
-
-}
-
-/* Student Profile */
-
-.student h1{
-    margin-bottom: 0;
+  /*  width: 190px; */
+    border: 2px solid #2B3990;
+    padding: 5px 15px 5px 20px;
     text-align: left;
-    min-height: 110px;
-}
-
-main.student img {
-    max-width: 300px;
-    padding-right: 20px;
-}
-
-main.student h3.indent {
-    padding-left: 50px;
-}
-
-/*student bio */
-.text div {
+    position: relative;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #2B3990;
+  }
+  
+  .events .event {
+    margin-top: 20px;
+  }
+  
+  /* Curated Spaces */
+  
+  .themes .theme a {
+    text-decoration: none;
+  }
+  
+  .themes .theme a {
+    text-decoration:none;
+  }
+  
+  .theme.box.communication a, .theme.box.identity a {
+    position: absolute;
+    top: 30%;
+  }
+    
+  .theme.box.community a, .theme.box.space-and-place a {
+    position: absolute;
+    top: 60%;
+    justify-content: center;
+  }
+  
+  .description.indent {
     padding-bottom: 20px;
-}
+  }
+  
+  /* Student Profile */
 
-  .photo h2 {
-      padding-top: 40px;
-}
+  .student h1{
+      margin-bottom: 0;
+      text-align: left;
+  }
+  
+  main.student img {
+      max-width: 300px;
+      padding-right: 20px;
+  }  
 
-  .right.disciplines h2 {
-    padding-top: 0.8em;
-    padding-left: 0.8em;
-    padding-right: 0.8em;
-    float: right;
-  }
+  /*student bio */
+    .text {
+      padding-left: 2vw;
+    }
+
+    .photo h2 {
+        padding-top: 40px;
+    }
   
-  
-  .right {
-    float: right;
-  }
-  
-  .right.letters h2 {
-    display: inline-block;
-  }
+    .right.disciplines h2 {
+      padding-top: 0.8em;
+      padding-left: 0.8em;
+      padding-right: 0.8em;
+      float: right;
+    }
+    
+    .right {
+      float: right;
+    }
+     
+    .right.letters h2 {
+      display: inline-block;
+    }
