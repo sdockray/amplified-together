@@ -5,7 +5,7 @@
 
 /* HOLDING/HOME
    ========================================================================== */
-   body.home {
+body, .home-content {
     margin-top: 5%;
     background-color: #aa1d4a;
     max-height: 90%;
@@ -23,29 +23,27 @@
     margin-top: 0.5vw;
     margin-bottom: 0.5vw; 
 }
-    
+
 .home-content h1 {
     color: #aa1d4a;
     text-transform: uppercase;
     font-family: 'Public Sans', sans-serif;
-    font-size: 6vw;
+    font-size: 4.5em;
     font-style: bold;
     font-weight: 700;
     padding-left: 1vw;
     padding-right: 1vw;
     display: inline;
-    line-height: 1.4;
-}
-    
-.home-content .subtitle {    
-    background-color: #efb5a9;
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
+    line-height: 1.4em;
 }
     
 .home-content h2 {
     color: #aa1d4a;
     text-transform: uppercase;
     font-family: 'Public Sans', sans-serif;
-    font-size: 2vw;
+    font-size: 1.2em;
     font-style: medium;
     font-weight: 400;
     display: flex;
@@ -53,10 +51,91 @@
     padding-right: 1vw;
     line-height: 20%;
 }
-    
-.home-content p {
-    font-family: 'Public Sans', sans-serif;
+
+.home-content .left {
+    z-index: 3;
 }
+.home-content .right {
+    z-index: 2;
+}
+
+.home-content a {
+    text-decoration: underline;
+    color: #aa1d4a;
+}
+
+
+/* DESKTOP SYLES 4 HOLDING*/
+
+@media only screen and (min-width: 901px) {
+
+    .home-content {
+        display: flex;
+    }
+
+    .home-content .left {
+        max-width: 34%;
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+
+    .home-content .right {
+        max-width: 34%;
+    }
+
+    .space {
+        width: 30%;
+        height: 150px;
+}
+
+}
+
+/* RESPONSIVE STYLES 4 HOLDING */
+
+@media only screen and (max-width: 900px) {
+
+    .home-content {
+        margin-left: 5vw;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .home-content h1 {
+        font-size: 5em;
+    }
+
+    .home-content h2 {
+        font-size: 1.5em;
+        }
+
+    .space {
+        display: none;
+    }
+
+}
+
+/* MOBILE STYLES 4 HOLDING */
+
+@media only screen and (max-width: 600px) {
+
+
+    .home-content h1 {
+        font-size: 3em;
+    }
+
+    .home-content h2 {
+        font-size: 1em;
+        }
+
+    .space {
+        display: none;
+    }
+}
+
+
+/* GENERAL STYLES
+   ========================================================================== */
 
 .rotated-grid {
     width: 100%;
@@ -70,25 +149,9 @@
 
 }
 
-.home-content .left {
-    z-index: 3;
-}
-.home-content .right {
-    z-index: 2;
-}
-
 main {
     z-index: 4;
     position: absolute;
-  }
-
-.home-content a {
-    text-decoration: none;
-    color: #aa1d4a;
-}
-
-.home-content a:hover {
-    text-decoration: underline;
   }
 
 /* DESKTOP SYLES */
@@ -128,25 +191,6 @@ main {
 /* RESPONSIVE STYLES */
 
 @media only screen and (max-width: 900px) {
-
-    .home-content {
-        margin-left: 5vw;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
-    
-    .home-content h1 {
-        font-size: 10vw;
-    }
-
-    .home-content h2 {
-        font-size: 5vw;
-        }
-
-    .home-content .space {
-        display: none;
-    }
    
     .student.preview {
       max-width: 100%;
@@ -168,19 +212,6 @@ main {
 /* MOBILE STYLES */
 
 @media only screen and (max-width: 600px) {
-
-
-    .home-content h1 {
-        font-size: 14vw;
-    }
-
-    .home-content h2 {
-        font-size: 5.5vw;
-        }
-        
-    .home-content .space {
-        display: none;
-    }
    
     .student.preview {
       max-width: 100%;
