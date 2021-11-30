@@ -95,24 +95,6 @@ main {
 
 @media only screen and (min-width: 901px) {
 
-.home-content {
-        display: flex;
-    }
-
-.home-content .left {
-        max-width: 34%;
-        margin-left: 10%;
-        margin-right: 15%;
-    }
-
-.home-content .right {
-        max-width: 40%;
-    }
-
-.home-content .space {
-        width: 30%;
-        height: 150px;
-}
 .student.preview {
   max-width: 30%;
   margin-left: 2vw;
