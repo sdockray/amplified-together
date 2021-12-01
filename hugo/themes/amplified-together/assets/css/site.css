@@ -828,5 +828,13 @@ h1 {
     .right.letters h2 {
       display: inline-block;
     }
-     
+  }
  
+#footer {
+  float: right;
+}
+
+#footer img {
+  border: 0;
+  width: 150px;
+}
