@@ -564,7 +564,6 @@ h1 {
   
       .student .text {
           text-align: left;
-          display: inline-block;
       }
 
       .letters {
@@ -622,6 +621,7 @@ h1 {
     .text {
       max-width: 40%;
       float: right;
+      display: inline-block;
       padding-right: 2em;
     }  
     
