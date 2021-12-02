@@ -279,6 +279,11 @@ h1 {
   .processes li {
     font-size: 1.2em;
     background-color: #efb5a9;
+    display: inline-block;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-right: 1.2vw;
+    margin-bottom: 1.2vw;
   }
 
 /* DESKTOP SYLES */
