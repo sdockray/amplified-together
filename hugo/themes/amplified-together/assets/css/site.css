@@ -564,6 +564,7 @@ h1 {
   
       .student .text {
           text-align: left;
+          display: inline-block;
       }
 
       .letters {
