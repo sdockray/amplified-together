@@ -1,5 +1,5 @@
 ---
-title: "More info"
+title: "About"
 ---
 
 **_MESSAGE FROM THE HEAD OF SCHOOL – COMING 26 NOV._** 
