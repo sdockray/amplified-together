@@ -1,14 +1,22 @@
 ---
 title: "More info"
 ---
-Things are a bit different this year.
 
-**_Amplified / Together_** is an online platform showcasing graduating students from the Australian National University School of Art & Design, across Visual Arts, Design and the Centre for Art History & Art Theory.
+**_MESSAGE FROM THE HEAD OF SCHOOL – COMING 26 NOV._** 
 
-An online exhibition has allowed increased accessibility and visibility, whilst securing the continuation of the Graduating Exhibition during an unpredictable year.  This platform presented students with a new opportunity to create an online presence, and represent themselves to a global audience as practicing artists, designers and curators.
 
-Thank you to Gallery staff, Saskia Scott, Irina Agaronyan and Megan Hinton for coordinating students and submissions and for implementing the online platform. To Sean Dockray, Pia van Gelder and Mitchell Whitelaw, for developing the online platform.  The Student Committee for their dedication and creativity in realising the exhibition. In particular, Chin-Jie Melodie Liu, Samantha Corbett, Andrew Jaffray, Alexa Malizon, Harriet McKay and Domonkos Szabó.  And finally, thank you to the lecturers and tutors for their considered guidance, teaching and adaptability through this challenging year.
+**_ABOUT THE EXHIBITION_** 
 
-Artworks may be available for purchase at the discretion of the Student. Please direct enquiries directly to each Graduate via their online platform. If you have any difficulties please contact the Gallery Team at [sofagallery@anu.edu.au](mailto:sofagallery@anu.edu.au)
+Welcome to the Australian National University School of Art and Design 2021 Graduating Exhibition.   
 
-Student views are their own, and do not necessarily reflect those of the Australian National University School of Art & Design.  
+The exhibition showcases the work of students completing undergraduate and postgraduate coursework programs at the School.  The show is a culmination of years of study in art, design, art history and art theory. It represents the successful resolution of thought processes, skills and making, working across disciplines, showcasing creativity, strength of ideas and reflecting the exceptional teaching and learning at the School.  
+
+In 2021, the Graduating Exhibition will take place online. This platform offers the opportunity for graduating students to showcase their work to wider audiences, whilst providing insight into their individual practice and learning. The website exemplifies the vibrant and fulfilling work of this year’s graduating cohort; welcoming new visitors, inviting conversation and creating connections between the students, our community and global audiences.   
+
+ 
+
+You can support our graduates by purchasing their artwork. Students may elect to have art available for purchase, please be aware that this is at their discretion.  
+
+Please direct sales and general artwork enquiries directly to each student via their online platform.  We encourage you to contact the Gallery Team at [soad.gallery@anu.edu.au](mailto:soad.gallery@anu.edu.au)
+
+Student views are their own, and do not necessarily reflect those of the Australian National University School of Art & Design.
