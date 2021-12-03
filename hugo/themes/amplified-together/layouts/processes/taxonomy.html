@@ -1,10 +1,10 @@
 {{ define "main" }}
-<main class="wrap">
-   <div class="list-content">
-        
+<main class="wrap">        
            <header>
                 <h1>{{.Title}}</h1>
             </header>
+
+   <div class="list-content">
                 <h3>{{.Content}}</h3>
                     {{range .Pages.ByParam "last_name" }}
                     {{ partial "studentpreview.html" . }}
