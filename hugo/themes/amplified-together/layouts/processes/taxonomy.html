@@ -1,15 +1,14 @@
 {{ define "main" }}
 <main class="wrap">
    <div class="list-content">
-        <article>
-            <header>
+        
+           <header>
                 <h1>{{.Title}}</h1>
             </header>
                 <h3>{{.Content}}</h3>
                     {{range .Pages.ByParam "last_name" }}
                     {{ partial "studentpreview.html" . }}
                     {{ end }}
-            </article>
     </div>
 </main>
        {{ end }}
