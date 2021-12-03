@@ -301,6 +301,7 @@ h1 {
 
   .list-content h3 {
      background-color: white;
+     margin-bottom: 0px;
 }
 
 .preview h3 a {
