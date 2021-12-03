@@ -879,4 +879,6 @@ h1 {
 
 .page .text {
    background-color: white;
+   display: block;
+   float: none;
 }
