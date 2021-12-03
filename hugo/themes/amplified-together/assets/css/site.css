@@ -847,3 +847,7 @@ h1 {
   border: 0;
   width: 150px;
 }
+
+.page {
+   background-color: white;
+}
