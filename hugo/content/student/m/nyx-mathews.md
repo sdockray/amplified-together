@@ -3,7 +3,7 @@ timestamp: ""
 title: "Prefer not to say"
 first_name: "C. Nyx"
 last_name: "Matthews Stone"
-preferred_name: "Nyx Matthews"
+preferred_name: "Nyx Mathews"
 your_degree: "Bachelor of Arts (Visual)(Honours)/Bachelor of Science"
 biography: "Nyx Mathews (born on Wurrundjeri Land, Melbourne; lives and works on Ngunnawal Country, Canberra).
  Mathews is an early-career artist working across sculpture, photography and new media. Their delicate, materially ambiguous, speculative sculptures explore the materiality and forms of the 21st century built environment and its impact on human beings. Their current body of work investigates the monumental art museum, a space whose systems and structures are simultaneously beautiful and deeply flawed. 
