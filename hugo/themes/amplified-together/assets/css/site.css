@@ -848,6 +848,10 @@ h1 {
   width: 150px;
 }
 
+.list-content header {
+   margin-left: 2vw;
+}
+
 .page {
    background-color: white;
 }
