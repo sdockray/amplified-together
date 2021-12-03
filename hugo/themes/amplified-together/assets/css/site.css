@@ -299,6 +299,14 @@ h1 {
     text-transform: uppercase;
   }
 
+  .list-content h3 {
+     background-color: white;
+}
+
+.preview h3 a {
+   background-color: #efb5a9;
+}
+
 /* DESKTOP SYLES */
 
 @media only screen and (min-width: 901px) {
