@@ -340,6 +340,11 @@ h1 {
   .processes li {
       display: inline-block;
 }
+   .page .text {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 2vw;
+   }
 }
 
 /* RESPONSIVE STYLES */
@@ -369,6 +374,12 @@ h1 {
       max-width:100%;
       max-height: 500px;
     }
+   
+   .page .text {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 2vw;
+   }
 
 }
 
@@ -420,6 +431,12 @@ h1 {
       font-size: 2em;
       margin-right: 1vw;
       margin-bottom: 4vw;
+   }
+   
+    .page .text {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2vw;
    }
    
 }
