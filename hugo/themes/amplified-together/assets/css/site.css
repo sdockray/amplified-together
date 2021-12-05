@@ -897,10 +897,14 @@ nav ul li a:visited {
     }
     
     .right {
-      float: right;
+       float: right;
     }
-     
-    .right.letters h2 {
+   
+   .right.letters {
+   float: none;
+   }
+   
+   .right.letters h2 {
       display: inline-block;
     }
   }
