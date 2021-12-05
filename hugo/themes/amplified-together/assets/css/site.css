@@ -357,7 +357,13 @@ h1 {
     float: right;
     display: inline-block;
     padding-right: 2em;
-  }  
+  }
+   
+   main.page {
+     max-width: 1000px;
+     padding: 2vw;
+     background-color: white; 
+   }
 }
 
 /* RESPONSIVE STYLES */
@@ -679,6 +685,8 @@ nav ul li a:visited {
      
      main.page {
       background-color: white;
+      max-width: 1000px;
+      padding: 2v;
      }
 
     main.student {
