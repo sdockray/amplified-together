@@ -12,10 +12,14 @@ title: "About"
 
 *_As we celebrate and congratulate our emerging graduates, please show your support by following and sharing their social media accounts, buying artwork or commissioning new work. You can contribute to that next step, to help our emerging graduates launch their professional selves beyond the academe._*
 
-**_Dr Beck Davis
-Head of School__**
+**__Dr Beck Davis+__**
 
-Welcome to the Australian National University School of Art and Design 2021 Graduating Exhibition.   
+**__Head of School__**
+
+
+
+
+**__Welcome to the Australian National University School of Art and Design 2021 Graduating Exhibition.__**
 
 The exhibition showcases the work of students completing undergraduate and postgraduate coursework programs at the School.  The show is a culmination of years of study in art, design, art history and art theory. It represents the successful resolution of thought processes, skills and making, working across disciplines, showcasing creativity, strength of ideas and reflecting the exceptional teaching and learning at the School.  
 
