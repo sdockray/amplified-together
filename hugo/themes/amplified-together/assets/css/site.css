@@ -346,12 +346,13 @@ h1 {
     padding: 2vw;
    }
    
-     .student-content {
+ .student-content {
     max-width: 40%;
     float: left;
     display: inline-block;
   }
-  .text {
+ 
+   .text {
     max-width: 40%;
     float: right;
     display: inline-block;
@@ -463,6 +464,7 @@ h1 {
     z-index: 4;
     position: relative;
     display: inline-block;
+    padding: 2vw;
   }
 
   /* Document
@@ -670,6 +672,14 @@ nav ul li a:visited {
       font-size:0.9em;
       margin:6px 0 0 6px
     }
+     
+    main {
+     max-width: 1000px;
+     }
+     
+     main.page {
+      background-color: white;
+     }
 
     main.student {
       background-color: white;
