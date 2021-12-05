@@ -367,14 +367,15 @@ h1 {
 @media only screen and (max-width: 900px) {
 
     .student.preview {
-      max-width: 40%;
+      max-width: 100%;
+      margin-left: 2vw;
     }
     
     .list-content {
       padding-top: 8vw;
-      display: flex;
+/*      display: flex;
       flex-direction: row;
-      flex-wrap: wrap;
+      flex-wrap: wrap; */
       background-color: white;
       justify-content: space-evenly;
     }
