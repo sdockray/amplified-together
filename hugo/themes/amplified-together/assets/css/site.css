@@ -91,7 +91,6 @@
 
     .home-content .left {
         max-width: 34%;
-        margin-left: 15vw;
         margin-right: 15vw;
     }
 
@@ -110,7 +109,6 @@
 @media only screen and (max-width: 900px) {
 
     .home-content {
-        margin-left: 5vw;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
