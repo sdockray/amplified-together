@@ -19,6 +19,10 @@
     margin-bottom: 5vh;
 }
 
+.highlighth2 h2 {
+line-height: 2;
+}
+
 .highlighth2-bold h2 {
   background-color: #efb5a9;
   margin-top: 1vw;
