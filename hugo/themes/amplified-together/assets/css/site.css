@@ -341,7 +341,6 @@ h1 {
       display: inline-block;
 }
    .page .text {
-    max-width: 40%;
     margin: 0 auto;
     padding: 2vw;
    }
@@ -924,4 +923,8 @@ nav ul li a:visited {
    background-color: white;
    display: block;
    float: none;
+}
+
+main.page {
+   background-color: white;
 }
