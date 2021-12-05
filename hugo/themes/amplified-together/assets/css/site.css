@@ -16,7 +16,20 @@
     padding-top: 1px;
     padding-bottom: 1px;
     margin-top: 0.5vw;
-    margin-bottom: 0.5vw; 
+    margin-bottom: 0.5vw;
+    display: flex;
+    margin-bottom: 5vh;
+}
+
+.highlighth2-bold h2 {
+  background-color: #efb5a9;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 1vw;
+  margin-bottom: 1vw; 
+  font-weight: 900;
+  display: inline;
+  line-height: 2;
 }
 
 .home-content h1 {
@@ -25,7 +38,7 @@
     font-family: 'Public Sans', sans-serif;
     font-size: 4.5em;
     font-style: bold;
-    font-weight: 700;
+    font-weight: 800;
     padding-left: 1vw;
     padding-right: 1vw;
     display: inline;
@@ -39,9 +52,6 @@
     text-transform: uppercase;
     font-family: 'Public Sans', sans-serif;
     font-size: 1.2em;
-    font-style: medium;
-    font-weight: 400;
-    display: flex;
     padding-left: 1vw;
     padding-right: 1vw;
 }
@@ -81,7 +91,7 @@
 
     .home-content .left {
         max-width: 34%;
-        margin-left:;
+        margin-left: 15vw;
         margin-right: 15vw;
     }
 
@@ -91,7 +101,7 @@
 
     .space {
         width: 30%;
-        height: 150px;
+        height: 22vh;
     }
 }
 
@@ -135,6 +145,7 @@
         display: none;
     }
 }
+
 
 /* UNIVERSAL STYLES 
 ================================================================ */
