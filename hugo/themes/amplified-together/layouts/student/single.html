@@ -28,7 +28,8 @@
         {{ end }}
         {{- with $.Param "duration_for_digital_work" -}}, {{ . }}{{ end }}
         </p>
-
+        </div>
+        
         <ul>
             {{ range (.GetTerms "processes") }}
                 <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
@@ -52,6 +53,7 @@
         <div><p>{{ $.Param "biography" | safeHTML }}</p></div>
     </div>    
     </div>
-
 </main>
+</div>
+
 {{ end }}
