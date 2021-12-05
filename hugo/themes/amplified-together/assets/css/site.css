@@ -13,8 +13,6 @@
 
 .highlighth2 {
     background-color: #efb5a9;
-    padding-top: 1px;
-    padding-bottom: 1px;
     margin-top: 0.5vw;
     margin-bottom: 0.5vw;
     display: flex;
@@ -23,8 +21,6 @@
 
 .highlighth2-bold h2 {
   background-color: #efb5a9;
-  padding-top: 4px;
-  padding-bottom: 4px;
   margin-top: 1vw;
   margin-bottom: 1vw; 
   font-weight: 900;
@@ -44,7 +40,7 @@
     display: inline;
     margin-top: 0.5vw;
     margin-bottom: 1vw;
-    line-height: 1.4em;
+    line-height: 1.7em;
 }
     
 .home-content h2 {
@@ -52,8 +48,9 @@
     text-transform: uppercase;
     font-family: 'Public Sans', sans-serif;
     font-size: 1.2em;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding: 0.4em;
+    line-height: 3;
+   
 }
     
 .rotated-grid {
@@ -162,7 +159,7 @@ h1 {
     font-style: bold;
     font-weight: 700;
     padding: 0.2em;
-    line-height: 1.4;
+    line-height: 1.7;
     display: inline;
   }
   
