@@ -4,16 +4,16 @@ title: "About"
 
 **__ABOUT THE EXHIBITION__** 
 
-On behalf of the ANU School of Art & Design, I am delighted to share with you the work of our 2021 graduating cohort, spanning visual arts, design, art history and curatorship.  
+*_On behalf of the ANU School of Art & Design, I am delighted to share with you the work of our 2021 graduating cohort, spanning visual arts, design, art history and curatorship._*
 
-During the past two years, both Higher Education and the Arts have been heavily impacted by the pandemic. However, throughout these turbulent times, our students have sustained an unyielding commitment to their studies. Despite pauses, flips, petitions and pivots, they have worked to create, make and design no matter the circumstance. This exhibition is a celebration of their practice, achievements, creativity, fortitude and flexibility. 
+*_During the past two years, both Higher Education and the Arts have been heavily impacted by the pandemic. However, throughout these turbulent times, our students have sustained an unyielding commitment to their studies. Despite pauses, flips, petitions and pivots, they have worked to create, make and design no matter the circumstance. This exhibition is a celebration of their practice, achievements, creativity, fortitude and flexibility._*
 
-Please take your time as you navigate the showcase. Our student body is diverse and talented, and the work shared illustrates their creative and academic range. You can explore the site by graduate name (select Graduates and search A-Z) or by searching a particular technique or discipline (e.g. Glass, Wire Weaving, Oil Painting, Print, Sculpture, Digital Video, etc).  
+*_Please take your time as you navigate the showcase. Our student body is diverse and talented, and the work shared illustrates their creative and academic range. You can explore the site by graduate name (select Graduates and search A-Z) or by searching a particular technique or discipline (e.g. Glass, Wire Weaving, Oil Painting, Print, Sculpture, Digital Video, etc)._*
 
-As we celebrate and congratulate our emerging graduates, please show your support by following and sharing their social media accounts, buying artwork or commissioning new work. You can contribute to that next step, to help our emerging graduates launch their professional selves beyond the academe.  
+*_As we celebrate and congratulate our emerging graduates, please show your support by following and sharing their social media accounts, buying artwork or commissioning new work. You can contribute to that next step, to help our emerging graduates launch their professional selves beyond the academe._*
 
-*_Dr Beck Davis
-Head of School_*
+**_Dr Beck Davis
+Head of School__**
 
 Welcome to the Australian National University School of Art and Design 2021 Graduating Exhibition.   
 
