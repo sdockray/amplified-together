@@ -377,7 +377,7 @@ h1 {
     }
     
     .list-content {
-      padding-top: 8vw;
+      padding-top: 2vw;
 /*      display: flex;
       flex-direction: row;
       flex-wrap: wrap; */
@@ -415,7 +415,7 @@ h1 {
     }
   
     .list-content {
-      padding-top: 8vw;
+      padding-top: 2vw;
       display: flex;
       flex-direction: column;
       background-color: white;
