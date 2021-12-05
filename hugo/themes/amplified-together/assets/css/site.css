@@ -371,7 +371,7 @@ h1 {
    }
    
    .letters {
-    max-width: 250px;
+    max-width: 300px;
     margin-left: 600px;
    }
 }
@@ -724,7 +724,7 @@ nav ul li a:visited {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      max-width: 250px;
+      max-width: 300px;
       margin-left: 750px;
       margin-bottom: 2vw;
     }
