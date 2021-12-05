@@ -266,7 +266,7 @@ h1 {
 
   main.student h2 {
     color: #aa1d4a;
-    background-colour: white;
+    background-color: white;
     font-size: 1.5em;
     font-weight: 700;
     padding-left: 0em;
@@ -346,6 +346,18 @@ h1 {
     margin: 0 auto;
     padding: 2vw;
    }
+   
+     .student-content {
+    max-width: 40%;
+    float: left;
+    display: inline-block;
+  }
+  .text {
+    max-width: 40%;
+    float: right;
+    display: inline-block;
+    padding-right: 2em;
+  }  
 }
 
 /* RESPONSIVE STYLES */
