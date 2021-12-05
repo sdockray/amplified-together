@@ -461,7 +461,8 @@ h1 {
     
   main {
     z-index: 4;
-    position: absolute;
+    position: relative;
+    display: inline-block;
   }
 
   /* Document
