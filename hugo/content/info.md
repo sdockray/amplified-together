@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-**__ABOUT THE EXHIBITION__** 
+**__MESSAGE FROM THE HEAD OF SCHOOL__** 
 
 *_On behalf of the ANU School of Art & Design, I am delighted to share with you the work of our 2021 graduating cohort, spanning visual arts, design, art history and curatorship._*
 
@@ -16,7 +16,11 @@ title: "About"
 \
 \
 \
-**__Welcome to the Australian National University School of Art and Design 2021 Graduating Exhibition.__**
+\
+\
+**__ABOUT THE EXHIBITION__**
+
+Welcome to the Australian National University School of Art and Design 2021 Graduating Exhibition.
 
 The exhibition showcases the work of students completing undergraduate and postgraduate coursework programs at the School.  The show is a culmination of years of study in art, design, art history and art theory. It represents the successful resolution of thought processes, skills and making, working across disciplines, showcasing creativity, strength of ideas and reflecting the exceptional teaching and learning at the School.  
 
