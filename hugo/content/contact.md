@@ -9,6 +9,7 @@ Please direct sales and general artwork enquiries directly to each student via t
 \
 \
 **__GALLERY__**
+
 **__For exhibition or Gallery enquiries please contact the Gallery team:__**
 School of Art & Design Gallery 
 Gallery Street Address: Cnr Liversidge St & Ellery Cres 
@@ -19,12 +20,14 @@ E-mail: soad.gallery@anu.edu.au
 \
 \
 **__EMERGING ARTIST SUPPORT SCHEME__**
+
 **__For Emerging Artist Support Scheme enquiries please contact Waratah Lahy:__**
 E-mail: [admin.somad@anu.edu.au](mailto:admin.somad@anu.edu.au)
 \
 \
 \
 **__ADMINISTRATION__**
+
 **__For prospective students enquiries please contact the School of Art & Design Administration team:__**
 Telephone: +61 2 6125 5810 
 E-mail: [admin.somad@anu.edu.au](mailto:admin.somad@anu.edu.au)
