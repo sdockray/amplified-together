@@ -2,7 +2,7 @@
 title: "Acknowledgements"
 ---
 
-**_ACKNOWLEDGEMENTS_** 
+**__ACKNOWLEDGEMENTS__** 
 
 The Graduating Exhibition at the ANU School of Art and Design acknowledges the strength and commitment of the 2021 cohort of students, who have accomplished a challenging conclusion to the year.  
 
