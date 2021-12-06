@@ -933,7 +933,22 @@ nav ul li a:visited {
   }
 
 #footer {
-  float: right;
+}
+
+#footer-left {
+float: left;
+}
+
+#footer-right {
+float:right;
+}
+
+#footer-left p {
+   color: white;
+}
+
+#footer-left a {
+   color: white;
 }
 
 #footer img {
