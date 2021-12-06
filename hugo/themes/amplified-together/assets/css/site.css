@@ -933,6 +933,7 @@ nav ul li a:visited {
   }
 
 #footer {
+   padding-top: 100px;
 }
 
 .footer-left {
@@ -944,11 +945,11 @@ float:right;
 }
 
 .footer-left p {
-   color: white;
+   color: #efb5a9;
 }
 
 .footer-left a {
-   color: white;
+   color: #efb5a9;
 }
 
 #footer img {
