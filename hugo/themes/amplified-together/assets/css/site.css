@@ -39,12 +39,10 @@ line-height: 2;
     font-size: 4.5em;
     font-style: bold;
     font-weight: 800;
-    padding-left: 1vw;
-    padding-right: 1vw;
     display: inline;
     margin-top: 0.5vw;
     margin-bottom: 1vw;
-    line-height: 1.7em;
+    line-height: 1.5em;
 }
     
 .home-content h2 {
