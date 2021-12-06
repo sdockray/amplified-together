@@ -30,7 +30,7 @@ processes:
 - Performance
 - photography
 - installation
-- Sculpture & Spatial Pracitce
+- Sculpture & Spatial Practice
 ---
 
 Default content
