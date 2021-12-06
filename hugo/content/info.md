@@ -15,7 +15,7 @@ title: "About"
 **__Dr Beck Davis, Head of School__**
 \
 \
-\
+
 
 **__Welcome to the Australian National University School of Art and Design 2021 Graduating Exhibition.__**
 
