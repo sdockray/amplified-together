@@ -3,7 +3,7 @@ title: "Contact Us"
 ---
 
 
-**__ARTWORK OR SALES ENQUIRIES__**  
+**__Artwork or sales enquires:__**  
 
 You can support our graduates by purchasing their artwork. Students may elect to have artworks available for purchase, please be aware that this is at their discretion. 
 
