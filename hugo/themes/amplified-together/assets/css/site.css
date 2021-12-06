@@ -935,19 +935,19 @@ nav ul li a:visited {
 #footer {
 }
 
-#footer-left {
+.footer-left {
 float: left;
 }
 
-#footer-right {
+.footer-right {
 float:right;
 }
 
-#footer-left p {
+.footer-left p {
    color: white;
 }
 
-#footer-left a {
+.footer-left a {
    color: white;
 }
 
