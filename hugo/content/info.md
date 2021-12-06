@@ -12,10 +12,10 @@ title: "About"
 
 *_As we celebrate and congratulate our emerging graduates, please show your support by following and sharing their social media accounts, buying artwork or commissioning new work. You can contribute to that next step, to help our emerging graduates launch their professional selves beyond the academe._*
 
-**__Dr Beck Davis, Head of School__**\
-
-
-
+**__Dr Beck Davis, Head of School__**
+\
+\
+\
 
 **__Welcome to the Australian National University School of Art and Design 2021 Graduating Exhibition.__**
 
