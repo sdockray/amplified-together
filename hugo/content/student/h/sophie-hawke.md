@@ -9,7 +9,7 @@ biography: "Murmurs is a series of artworks that explore the process of oral sto
 image_location: "https://drive.google.com/u/2/open?usp=forms_web&id=147jZWNpui5nRonjclBc0WjBIdcraPIHV"
 instagram_image: "https://drive.google.com/u/2/open?usp=forms_web&id=1RoEf_ClWPWaMIbcQ-a1zJWwUKipnDDUR"
 instagram: "@sparticus2000"
-image_caption: "This was from the process of painting the first panel of Murmurs. Its a work in progress, but will be done soon. This is how I had to set the work up to paint on it"
+image_caption: "Image: This was from the process of painting the first panel of Murmurs. Its a work in progress, but will be done soon. This is how I had to set the work up to paint on it"
 name_of_photographer: "Sophie Hawke"
 artwork_title: "Murmurs (panel 1)"
 the_image_is_of_a: "Video still"

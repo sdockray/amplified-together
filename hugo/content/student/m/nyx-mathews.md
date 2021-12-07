@@ -13,7 +13,7 @@ biography: "Nyx Mathews (born on Wurrundjeri Land, Melbourne; lives and works on
 image_location: "https://drive.google.com/file/d/18_yYkQ6cStfDTE8StOYgzY8r6YYr3V4Q/view?usp=sharing"
 instagram_image: "https://drive.google.com/file/d/18_yYkQ6cStfDTE8StOYgzY8r6YYr3V4Q/view?usp=sharing"
 instagram: "@nyx_mathews"
-image_caption: "Nyx Mathews/KUNST CONSORTIUM"
+image_caption: "Image: Nyx Mathews/KUNST CONSORTIUM"
 name_of_photographer: ""
 artwork_title: "Untitled 04. 
  C-print
@@ -23,7 +23,7 @@ artwork_title: "Untitled 04.
  Courtesy of Steven Holdsworth Contemporary,"
 the_image_is_of_a: ""
 year: "2021"
-medium: "Digital Photograph"
+medium: "digital photograph"
 artwork_dimensions: ""
 height_in_centimetres_only: "152"
 width_in_centimetres_only: "184.6"

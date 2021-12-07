@@ -26,7 +26,7 @@ width_in_centimetres_only: ""
 depth_in_centimetres_only: ""
 duration_for_digital_work: ""
 photographer_name: ""
-portfolio_url: "https://faithstellmaker.format.com/anu-graduating-show-2021"
+portfolio_url: "https://faithstellmaker.format.com/9961897-anu-graduating-show-2021"
 disciplines: "Centre for Art History & Theory"
 processes:
 - Written work

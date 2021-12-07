@@ -1,3 +1,3 @@
 ---
-title: "GRADUATES A-Z"
+title: ""
 ---

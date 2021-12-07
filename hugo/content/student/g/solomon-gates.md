@@ -9,7 +9,7 @@ biography: "Dysregulation is a reflective work on the current state of invasive 
 image_location: "https://drive.google.com/u/2/open?usp=forms_web&id=1PYscysbBgLbpXlUuFRsFsUR4SM_azbAw"
 instagram_image: "https://drive.google.com/u/2/open?usp=forms_web&id=1G55GsYbDKl7_hUh0V9Lxg2S485LyPQzT"
 instagram: "@solomongatesjewellery"
-image_caption: "Dysregulation"
+image_caption: "Image: Dysregulation"
 name_of_photographer: ""
 artwork_title: "Dysregulation"
 the_image_is_of_a: "Detail"
@@ -21,7 +21,7 @@ width_in_centimetres_only: ""
 depth_in_centimetres_only: ""
 duration_for_digital_work: ""
 photographer_name: ""
-portfolio_url: "https://www.instagram.com/solomonartv3030/"
+portfolio_url: "https://www.instagram.com/solomonartv3029/"
 disciplines: "Jewellery & Object"
 processes:
 - Casting

@@ -11,7 +11,7 @@ instagram_image: "https://drive.google.com/u/2/open?usp=forms_web&id=1hkSyZ01B_j
 instagram: "sasdb_art"
 image_caption: ""
 name_of_photographer: ""
-artwork_title: "\"cuff\" HOLDING IMAGE FOR FINAL WORK"
+artwork_title: "Cuff"
 the_image_is_of_a: "Detail"
 year: "2021"
 medium: "fine silver chainmail and flowers woven together"

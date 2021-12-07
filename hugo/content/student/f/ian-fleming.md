@@ -21,7 +21,7 @@ width_in_centimetres_only: ""
 depth_in_centimetres_only: ""
 duration_for_digital_work: "00:10:00"
 photographer_name: "none (digital capture)"
-portfolio_url: "www.TBA.com.au/whydowemakethewebsite"
+portfolio_url: "https://youtu.be/vrA3_GYLKvA"
 disciplines: "Painting"
 processes:
 - Virtual reality

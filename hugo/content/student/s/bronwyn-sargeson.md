@@ -11,17 +11,17 @@ instagram_image: "https://drive.google.com/u/2/open?usp=forms_web&id=1aKM7kbFLE_
 instagram: "@broni.sargeson"
 image_caption: ""
 name_of_photographer: ""
-artwork_title: "59 4/5 × 72 7/10 in"
-the_image_is_of_a: "Detail"
+artwork_title: "polydermis"
+the_image_is_of_a: "(detail)"
 year: "2021"
-medium: "blown and slumped glass"
-artwork_dimensions: "dimensions variable; or"
-height_in_centimetres_only: ""
-width_in_centimetres_only: ""
-depth_in_centimetres_only: ""
+medium: "blown and kiln formed glass"
+artwork_dimensions: ""
+height_in_centimetres_only: "2"
+width_in_centimetres_only: "47"
+depth_in_centimetres_only: "7.5"
 duration_for_digital_work: ""
 photographer_name: ""
-portfolio_url: "https://bronwynsargeson.wixsite.com/home"
+portfolio_url: "www.bronwynsargeson.com"
 disciplines: "Glass"
 processes:
 - Blown glass
@@ -29,6 +29,7 @@ processes:
 - Coldworked glass
 - Hand manipulated aluminium
 - Glass
+- Kiln formed Glass
 ---
 
 Default content

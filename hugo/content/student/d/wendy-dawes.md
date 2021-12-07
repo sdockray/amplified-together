@@ -19,7 +19,7 @@ instagram_image: "https://drive.google.com/u/2/open?usp=forms_web&id=1CbbojJ7f5s
 instagram: "@_wendydawes"
 image_caption: ""
 name_of_photographer: "Wendy Dawes"
-artwork_title: "suspension (trampoline)"
+artwork_title: "Suspension (trampoline)"
 the_image_is_of_a: "Video still"
 year: "2021"
 medium: "charcoal on suspension file"

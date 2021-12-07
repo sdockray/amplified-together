@@ -9,7 +9,7 @@ biography: "I always find emotion something difficult to deal with and contain, 
 image_location: "https://drive.google.com/u/2/open?usp=forms_web&id=1-Tgiso7vWvr1JBee0gJWPa3b0961rxEu"
 instagram_image: "https://drive.google.com/u/2/open?usp=forms_web&id=1Glzk_O4HSQK0y2orDrldD0x99hjqQrZP"
 instagram: "thefuzzyfoxx"
-image_caption: "The artist's real work and home"
+image_caption: "Image: The artist's real work and home"
 name_of_photographer: "Isabella 'Fuz' Buckley"
 artwork_title: "id"
 the_image_is_of_a: "Detail"

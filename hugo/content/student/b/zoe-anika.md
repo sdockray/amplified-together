@@ -9,7 +9,7 @@ biography: "The central aim of my project is to develop a framework for storytel
 image_location: "https://drive.google.com/u/2/open?usp=forms_web&id=1sth9LISdAr2pGm8evxYIsnjpEI-NJvH6"
 instagram_image: "https://drive.google.com/u/2/open?usp=forms_web&id=1YKcddmAbRvUKKWF6I5p5JOIu3fE11gYR"
 instagram: "@ze_draws"
-image_caption: "COVID19 & Data Visualisation creative decision making."
+image_caption: "Image: COVID19 & Data Visualisation creative decision making."
 name_of_photographer: ""
 artwork_title: "COVID19 & Data Visualisation"
 the_image_is_of_a: "Detail"
