@@ -30,7 +30,7 @@ width_in_centimetres_only: "184.6"
 depth_in_centimetres_only: ""
 duration_for_digital_work: ""
 photographer_name: "Nyx Mathews/KUNST CONSORTIUM"
-portfolio_url: "http://mathewsnyx.wixsite.com/portfolio"
+portfolio_url: "mathewsnyx.wixsite.com/my-site"
 disciplines: "Hybrid Arts"
 processes:
 - Sculpture

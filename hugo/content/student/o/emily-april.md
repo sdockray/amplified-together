@@ -21,7 +21,7 @@ width_in_centimetres_only: ""
 depth_in_centimetres_only: ""
 duration_for_digital_work: ""
 photographer_name: ""
-portfolio_url: "www.emilyapril.com"
+portfolio_url: "https://www.emilyaprilart.com"
 disciplines: "Printmedia & Drawing"
 processes:
 - Digital video

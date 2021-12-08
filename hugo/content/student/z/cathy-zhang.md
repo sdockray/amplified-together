@@ -5,7 +5,7 @@ first_name: "Mengyuan"
 last_name: "Zhang"
 preferred_name: "Cathy Zhang"
 your_degree: "Bachelor of Visual Arts (Honours)"
-biography: "Materialising the Impact of Digital Technology through Wearable Sculpture 
+biography: "Materialising the Impact of Digital Technology through Wearable Sculpture.'
  
 Have you ever stopped to wonder what goes on inside our digital devices? Or the likeness of digital landscapes to our own mindscape as we aimlessly scroll through touch screens? These two landscapes, the digital and our minds, are not so dissimilar. 
  
@@ -27,7 +27,7 @@ width_in_centimetres_only: "7"
 depth_in_centimetres_only: "7"
 duration_for_digital_work: ""
 photographer_name: ""
-portfolio_url: "cathyzhang.com.au"
+portfolio_url: "https://www.cathyzhang.com.au/honours-research-project-2021."
 disciplines: "Jewellery & Object"
 processes:
 - Jewellery & Object

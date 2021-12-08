@@ -21,7 +21,7 @@ width_in_centimetres_only: ""
 depth_in_centimetres_only: ""
 duration_for_digital_work: ""
 photographer_name: ""
-portfolio_url: "https://www.instagram.com/solomonartv3029/"
+portfolio_url: "https://www.instagram.com/solomon_artv3029/"
 disciplines: "Jewellery & Object"
 processes:
 - Casting
