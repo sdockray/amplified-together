@@ -252,6 +252,7 @@ def main():
     """
     #import_events("/mnt/d/dev/websites/amplified-together/hugo/data/events")
     import_students("/mnt/d/dev/websites/amplified-together/hugo/content/student", "/mnt/d/dev/websites/amplified-together/hugo/static/images")
+    
     # creds = get_google_creds()
     # drive = build('drive', 'v3', credentials=creds)
     # download_image("https://drive.google.com/open?id=13i0ae2dgs_HHJpJ_0KshCYONqvj7-YKu", drive, '.')
