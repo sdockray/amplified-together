@@ -27,7 +27,7 @@ width_in_centimetres_only: "7"
 depth_in_centimetres_only: "7"
 duration_for_digital_work: ""
 photographer_name: ""
-portfolio_url: "https://www.cathyzhang.com.au/honours-research-project-2021."
+portfolio_url: "https://www.cathyzhang.com.au/honours-research-project-2021"
 disciplines: "Jewellery & Object"
 processes:
 - Jewellery & Object
