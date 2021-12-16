@@ -30,3 +30,12 @@
 {{ $sjsopts := dict "targetPath" "js/main.js" "minify" "true"}}
 {{ $sjs := resources.Get "js/main.js" | js.Build $sjsopts }}
 <script defer src='{{ $sjs.RelPermalink }}' type="application/javascript"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1S7MF6X9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y1S7MF6X9M');
+</script>
