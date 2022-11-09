@@ -1,0 +1,28 @@
+---
+timestamp: "25/10/2022 18:51:02"
+title: "Mr"
+first_name: "Nathan"
+last_name: "Nhan"
+preferred_name: "Nathan nhan"
+preferred_pronouns: "He/ Him"
+your_degree: "Bachelor of Visual Arts (Honours)"
+biography: "This body of work examines how cultural identity can be unpacked and explored by experimental ceramic forms focusing on the trope of the trophy. The culturally rich context of the ceramic material is used as a context in building the story of personal artifact as a trophy. The material form of the trophy and history of being an object of merit is used as a device to recollect narratives. This is aided by the analysation of potential energy and emotional responses evoked by a collection of memory and souvenirs retrieved from the settings of domesticity and everyday rituals. By reflecting upon my relationships to these things I began to understand how aspects and things of everyday life contribute to complex personal dialogue between past and present within art making."
+image_location: "https://drive.google.com/open?id=1CwvRPU_9KEyxwyRootlLRfXhZSN9LPqY"
+portfolio_url: "instagram@nathansnhan"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "groceries"
+the_image_is_of_a: "Complete work"
+year: "2022"
+medium: "earthenware ceramic, cone 6 glaze"
+artwork_dimensions: ""
+height_cm: "24.3"
+width_cm: "17"
+depth_cm: "23"
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1OVu9Q7NKxo1wVwA85HlXWH7lZ83RtXWh"
+do_you_require_any_additional_equipment_for_installing_your_work: "Plinth (please specify approximate size below), hi i would like to request 30ish plinths that are roughly 35x30cm in LxW or potentially a LARGE floor plinth to house atleast 30 works that are 30 (diameter) with ample spacing 🤪"
+---
+
+Default content

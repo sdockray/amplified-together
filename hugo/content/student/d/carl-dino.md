@@ -1,0 +1,30 @@
+---
+timestamp: "27/10/2022 17:04:22"
+title: "Mr"
+first_name: "Carl"
+last_name: "Dino"
+preferred_name: "Carl Dino"
+preferred_pronouns: "He/ Him"
+your_degree: "Bachelor of Visual Arts"
+biography: "A three-part recollection of recent key life events, Conveying Steps a retelling of my story through footprints. Spurred on by losses - tragically sudden and painfully slow - as well as adventure, self re-discovery and discovery of another country's culture in the midst of the Omnicron wave, the piece is a window to the rollercoaster of my last 18 months, exploring how the human rises from loss and is changed as a result. As Edan Corkill wrote in his article about the grieving Japanese artists in the wake of the 2011 Tohoku Earthquake, \"And when the shaking finally stopped, they emerged as though transformed.\"
+
+The piece, through the footprints, the floor plans, the ruminations and the circle, looks at the human response to difficult times as well as the good - highlighting the journey and the little moments of solitude that my footprints can lead me to. The Circle, though changing shape in each scene, is a reminder that ups and downs are constant, no matter what changes."
+image_location: "https://drive.google.com/open?id=1DPDdB48oZKhoZbTT-OmFHfJ3NXu7S_Nm"
+portfolio_url: ""
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "Conveying Steps"
+the_image_is_of_a: "Production still"
+year: "2022"
+medium: ""
+artwork_dimensions: ""
+height_cm: ""
+width_cm: ""
+depth_cm: ""
+duration_for_digital_work: "00:04:00 - give or take"
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1HIUr2P8iHcNYwjahv5Ti9tO4OwGUjhHL"
+do_you_require_any_additional_equipment_for_installing_your_work: "TV screen, Power outlet, Media player, Plinth (please specify approximate size below), 1m"
+---
+
+Default content

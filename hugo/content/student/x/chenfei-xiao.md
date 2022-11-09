@@ -1,0 +1,27 @@
+---
+timestamp: "28/10/2022 14:01:45"
+title: "Mr"
+first_name: "Chenfei"
+last_name: "Xiao"
+preferred_name: "Chenfei Xiao"
+preferred_pronouns: "He/ Him"
+your_degree: "Master of Contemporary Practices in Art and Design"
+biography: "Guan Yin Help You is an augmented reality (AR) headset-based scenography art that explores the topics of queerness and religion in the light of my personal experience as a queer Chinese Buddhist. The current exhibiting work includes three rendering images in portrait view from the original work. I employ mixed scenography through a combination of software for 3D modelling, animation, sound editing and scene design, using both self-made and internet sources. I explore my double identity as a queer Chinese Buddhist through the use of contrasting colours in two shrines: one takes the form of an ordinary shrine, while the other is retextured in rainbow colours as a hermeneutical expression and celebration of my queer identity. The ‘thousand-hand’ avatar of myself adopts the iconography of Thousand-Hand Guan Yin, a goddess worshipped for her altruism in helping mortals solve their problems. Replacing the original artefacts with sex-related items highlights sexual desire as both a natural human experience and a mortal problem that humans need help solving. As an outcome of my practice-based research, my work explores a new concept of mixed scenography enabled by the AR headset medium and emphasises the importance of expanding queerness and religious discourse outside centralised discussions of Christianity."
+image_location: "https://drive.google.com/open?id=1l0oYxMAT5SAMw-mcidkUZgudzpBihsXN"
+portfolio_url: "https://www.chenfeix.com/"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "Guan Yin Help You"
+the_image_is_of_a: "Production still"
+year: "2022"
+medium: "The augmented reality headset/rendered images printed on gator boards"
+artwork_dimensions: ""
+height_cm: "84.1"
+width_cm: "59.4"
+depth_cm: "2.54"
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1gAdEXBGtOd-3Qjvom2YaHSPe4JAe7zmD"
+---
+
+Default content

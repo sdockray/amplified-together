@@ -1,33 +1,28 @@
 ---
-timestamp: "2021/11/11 7:15:57 pm GMT+11"
+timestamp: "25/10/2022 11:42:47"
 title: "Miss"
 first_name: "Kate"
 last_name: "Rice"
 preferred_name: "Kate Rice"
+preferred_pronouns: "She/ Her"
 your_degree: "Bachelor of Design / Bachelor of Visual Arts"
-biography: "Boundary line aims to challenge perceptions and expectations of boundaries within the landscape. It asks: do boundaries connect us to place or heighten our sense of disconnect or exclusion? My experience of growing up on the land in a third generation farming family frames this question. Through this work, I have engaged with themes of place and memory; seeking to materially create connections and form tangible representations of intangible emotions. 
-  
- In weaving my own fence line, I have drawn from the universality of textiles and their closeness to the body. The weaving takes on a body-like quality, bulging and stretching, causing disruption in the landscape. Formed by memories and actions, our boundaries shape us. In making the piece I have retraced the fence line over and over, resulting in a well worn path along the boundary. This dynamic piece asks the viewer to walk along the fence line as well and to consider the shifting of boundaries within their own landscapes."
-image_location: "https://drive.google.com/u/2/open?usp=forms_web&id=1D8iTRRxw47QQXcd0jSU_3_Z__yoeR2bC"
-instagram_image: "https://drive.google.com/u/2/open?usp=forms_web&id=1ElOY8Ya9jN_a40itJFlSUg-QTXVpslWR"
-instagram: "@katerice_art"
+biography: "Ewe Trace is an app designed to improve the wellbeing of both grazier and animal in relation to on farm practices within sheep farming. Working with data collected from electronic identification (EID) tags, Ewe Trace takes this data and displays it back to the user in an easy to interpret format. The ability to quickly and easily interpret their data allows graziers to maximize their productivity, the level of care provided and traceability for both a whole flock and on an individual scale. This increased level of traceability also improves farm biosecurity. Research showed that common uses for EID tags included recording pregnancy status, weight gains and various visual traits. Key limitations facing EID are current data management solutions requiring skills in Microsoft Excel to analyze and manipulate data, with one of the hardest steps in interpreting data involving the transferal of data into a meaningful format on a device."
+image_location: "https://drive.google.com/open?id=1SzqHC0TnkkXrDFGOTTMcmJsjxI9QM685"
+portfolio_url: "https://u6940415.myportfolio.com"
 image_caption: ""
 name_of_photographer: ""
-artwork_title: "Boundary Line"
-the_image_is_of_a: "(detail)"
-year: "2021"
-medium: "steel fence posts and woven wire"
-artwork_dimensions: ""
-height_in_centimetres_only: "130"
-width_in_centimetres_only: "100"
-depth_in_centimetres_only: "650"
+artwork_title: "Ewe Trace"
+the_image_is_of_a: "Detail"
+year: "2022"
+medium: "high fidelity app prototype"
+artwork_dimensions: "dimensions variable; or"
+height_cm: ""
+width_cm: ""
+depth_cm: ""
 duration_for_digital_work: ""
-photographer_name: "Jack Black"
-portfolio_url: "https://www.katerice.net/"
-disciplines: "Textiles"
-processes:
-- Wire weaving
-- Textiles
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1SKIalihV0eyy9V0N71B1EtWnqgMFnqwI"
+do_you_require_any_additional_equipment_for_installing_your_work: "TV screen, Power outlet"
 ---
 
 Default content

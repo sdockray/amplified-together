@@ -1,0 +1,28 @@
+---
+timestamp: "27/10/2022 17:25:58"
+title: "Miss"
+first_name: "Ella"
+last_name: "Myer"
+preferred_name: "Ella Myer"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Visual Arts / Bachelor of Arts"
+biography: "In Imposing Structures, I explored the politics of space through reimagining human interaction in soft sculpture and performance work. Living in a ‘post’ pandemic society we scrutinise our interpersonal interaction, we’re increasingly aware of our personal space and are establishing new social cues and expectations.Performing in relative motion with soft sculptured forms, I intended to curate the performers bodies into positions that reflect and emphasise the emotions associated with passing through a threshold, the situational apprehension, curiosity, vulnerability and familiarity. This small scale realisation of social interaction shows our participation is consequential, each performer interprets the space in their own way, leaving their individual impression. Viewing this performance with the soft sculptures I want to push the viewer to explore ideas such as: how we negotiate sharing space with others? Asking how our participation constructs space?"
+image_location: "https://drive.google.com/open?id=1HMsmQRUI-E4l0EP8H_ZYfe-Z-SmO6RkC"
+portfolio_url: "https://instagram.com/elw.mart?igshid=YmMyMTA2M2Y="
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "Imposing Structures"
+the_image_is_of_a: "Production still"
+year: "2022"
+medium: "Performance interaction with upholstered form"
+artwork_dimensions: "dimensions variable; or"
+height_cm: ""
+width_cm: ""
+depth_cm: ""
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1fhpkkpHZhmt7kVzmg267DjMfkJauD6f1"
+do_you_require_any_additional_equipment_for_installing_your_work: "Power outlet, Plinth (please specify approximate size below), If possible a projector preferably one that is up in the air, and the plinth measurements 100cm L x 100 cm W x 30cm H"
+---
+
+Default content

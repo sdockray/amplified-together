@@ -1,0 +1,27 @@
+---
+timestamp: "26/10/2022 14:54:44"
+title: "Mr"
+first_name: "Jackson"
+last_name: "Taylor"
+preferred_name: "Jackson Taylor"
+preferred_pronouns: "He/ Him"
+your_degree: "Bachelor of Visual Arts"
+biography: "I am fascinated by the context of what “Australian culture” really is, and how it sits within a contemporary world. As a settler artist, with parents born overseas I have inherently observed Australia with an outsider perspective. These works draw on observational tools to depict aspects of an iconic yet controversial environment, an Australian local club. The style of the works are intentionally vague, using a faux naive style that doesn’t hold any judgement or direct viewpoint. The figure are non verbal and removed of expression. In doing so the work asks the audience to become apart of the concept by giving their own personal views and understanding. These views then help to understand each other in such a vast culture. This understanding is dire in identifying where the Australian culture sits in a contemporary world and these works act as a conversation starter."
+image_location: "https://drive.google.com/open?id=1qtxZtupE1r2QWu_h3d0j7e19LhvbTV7q"
+portfolio_url: "https://www.instagram.com/jacksontaylorart/?hl=en"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "The Local"
+the_image_is_of_a: "Detail"
+year: "2022"
+medium: "Acrylic on Canvas"
+artwork_dimensions: ""
+height_cm: "91.4"
+width_cm: "91.4"
+depth_cm: "4"
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1gwBeQt-ceXKEhmOw71EvXvOcRr2obBGE"
+---
+
+Default content

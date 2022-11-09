@@ -1,0 +1,27 @@
+---
+timestamp: "28/10/2022 23:02:44"
+title: "Miss"
+first_name: "Eleanore"
+last_name: "Keys"
+preferred_name: "Eleanore"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Visual Arts"
+biography: "My artworks centers around the exploration of the liminal spaces experienced within the act of dreaming, with a particular focus on hypnagogia; the transitional state between sleep and wakefulness.  The painting itself uses visual motifs of a bed situated into a foreign landscape to simulate a dreamscape, one which seeks to enquire into the intersections between the waking and dreaming and by extension the liminal spaces found within the subconscious mind. Conceptually my work engages with the function of dreaming as a space for reconsidering our perceptions of self, where the disorientation and disembodiment present within these transitional spaces is used to delve into the disassociation between mind, body and reality. In enquiring into these entangled perceptions of the relationships intersecting our consciousness and subconsciousness, my composition considers the extent our sleeping reality informs our understandings of self-identity within our present waking one."
+image_location: "https://drive.google.com/open?id=1fNVigEjKxR-JklAEgi1GIT2MMosJVacH"
+portfolio_url: "https://www.instagram.com/eleanorekeysart/"
+image_caption: ""
+name_of_photographer: "Brenton McGeachie"
+artwork_title: "Disembodied"
+the_image_is_of_a: "Complete work"
+year: "2022"
+medium: "Oil on canvas"
+artwork_dimensions: "dimensions variable; or"
+height_cm: "81"
+width_cm: "61.5"
+depth_cm: "3.5"
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1eZGKxb3bOTUCrae6NMdkVYiLop0czkh3"
+---
+
+Default content

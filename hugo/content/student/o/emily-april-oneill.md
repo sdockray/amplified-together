@@ -1,0 +1,28 @@
+---
+timestamp: "27/10/2022 17:26:02"
+title: "Miss"
+first_name: "Emily"
+last_name: "O'Neill"
+preferred_name: "Emily April O'Neill"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Visual Arts (Honours)"
+biography: "This work is an algorithmic interactive installation that explores how we are enmeshed between physical and virtual ecologies. It looks at exploring virtual ecologies through installations of the desk and desktop, considering ritual, intimacy, and identity in these spaces. The work combines digital ephemera, screen-printed textiles, and audio to create an installation that lets us consider how the boundaries of our private spaces are dissolving with the increasing integration of emerging technologies and start to question the power structures we are a part of through rituals in our virtual ecologies. The installation runs off a custom JavaScript program that generates a unique digital collage. As the viewer moves through the work, a collage projected across the newsprint is regenerated across the space."
+image_location: "https://drive.google.com/open?id=1yicgEuOuHDJDD9GJgj8HDv0z2v1cT_E0"
+portfolio_url: "https://linktr.ee/emilyaprilart"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "Between Bodies and Screens"
+the_image_is_of_a: "Detail"
+year: "2022"
+medium: "Interactive installation; projection, custom JavaScript program, newsprint, sensor mat, audio, screen-printed fabric."
+artwork_dimensions: "dimensions variable; or"
+height_cm: ""
+width_cm: ""
+depth_cm: ""
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1VE_WmOrC7zefDrNp91Qor5zJ0J0pxVm3"
+do_you_require_any_additional_equipment_for_installing_your_work: "Power outlet, 2 projectors (if possible)"
+---
+
+Default content

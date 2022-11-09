@@ -1,0 +1,28 @@
+---
+timestamp: "27/10/2022 12:25:41"
+title: "Miss"
+first_name: "Sarah"
+last_name: "Peterswald"
+preferred_name: "Sarah Peterswald"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Design / Bachelor of Commerce"
+biography: "Working within the digital healthcare space, I wanted to explore and design a wearable device that allowed the user to securely store and share healthcare information. Design in this space is important for improving the communication within the healthcare system so that patients can receive and advocate for better treatment, especially with the ongoing health crisis. The outcome I developed is called 'Scan 4 MEdi' and encompasses a collection of innovative, scan-able jewellery items that have the ability to store personal medical information and provide effective action plans to first responders. These pieces are customisable, allowing the user to choose items that fit with their personal style, and can easily be interchanged with the magnetic jewels and charms. Ultimately, the project seeks to explore the importance of aesthetic value in functional devices and giving the user autonomy in their healthcare journey."
+image_location: "https://drive.google.com/open?id=1HW1AiIydT878U0kvCuJg1-DxJtA1YK6V"
+portfolio_url: "https://u7122551.myportfolio.com"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "Scan 4 MEdi Jewellery"
+the_image_is_of_a: "Complete work"
+year: "2022"
+medium: "Laser cut plywood embellished with epoxy resin cast magnetic jewels"
+artwork_dimensions: ""
+height_cm: "20"
+width_cm: "10"
+depth_cm: "1"
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=17uGbHEjMT86NdLsnBmrnm5AKQ2Y5YeOr"
+do_you_require_any_additional_equipment_for_installing_your_work: "Plinth (please specify approximate size below), 50cmx50cmx100cm"
+---
+
+Default content

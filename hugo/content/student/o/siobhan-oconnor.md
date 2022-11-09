@@ -1,0 +1,27 @@
+---
+timestamp: "27/10/2022 11:47:21"
+title: "Prefer not to say"
+first_name: "Siobhan"
+last_name: "O'Connor"
+preferred_name: "Siobhan O'Connor"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Visual Arts"
+biography: "Siobhan O’Connor is an Australian contemporary artist, based on Ngunnawal and Ngambri land, Canberra, Australia. Her practice incorporates printmaking processes, traditional and experimental methods of drawing as well as multimedia works and photography. Siobhan currently works on large-scale paper to record her experiences of the body, and to comment on the culture we live in through a feminist lens. She uses print and the body itself for mark-making and often inclusive of text or poetry to highlight the world we live in, with a particular focus on rape culture and sexual assault. Siobhan’s practice discusses the process of non- representational drawing and intimate engagement with lived experience."
+image_location: "https://drive.google.com/open?id=1x5FAQrdNzmTykVzpNGgiAIkBpAEuFkhA"
+portfolio_url: "@_siobhanoconnor (Instagram)"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "If I leave this house It will burn down"
+the_image_is_of_a: "Detail"
+year: "2022"
+medium: "Screen print on rice paper with embroidery"
+artwork_dimensions: "dimensions variable; or"
+height_cm: ""
+width_cm: ""
+depth_cm: ""
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1OZVR1ATIJ5UnO-ACPhZDArV7cMFAhpp4"
+---
+
+Default content

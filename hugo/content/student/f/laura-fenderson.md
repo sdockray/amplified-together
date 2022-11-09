@@ -1,0 +1,27 @@
+---
+timestamp: "27/10/2022 16:30:58"
+title: "Miss"
+first_name: "Laura"
+last_name: "Fenderson"
+preferred_name: "Laura Fenderson"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Visual Arts"
+biography: "This series is an exploration of my youth culture - experiences of community, connection, joy and intimacy- filtered through an introspective lens.  My youth has been affected by times of prolonged isolation and uncertainty, this series is my attempt of reclaiming what I know to be true in the beauty of my lived experience. I have used personal photography as the source material for this work. I am interested in photography as a medium as it can provide the viewer an immortalised candid depiction of reality in an objective, unfiltered form. The work explores the aesthetic and philosophical principles of the photograph - with the aim to investigate the way in which the photo has defined my world. This series purposefully moves the photograph into the painted realm in order to offer the images- the people and emotions they reflect- a new reality. I use painterly abstraction to remove these works from the photographic source to allow the painting to become its own kind of reality."
+image_location: "https://drive.google.com/open?id=1lsMBXXyVjJWwzM5upW6oF_Xxkzbs64qq"
+portfolio_url: "https://www.instagram.com/laura.fendi/?hl=en"
+image_caption: ""
+name_of_photographer: "Laura Fenderson"
+artwork_title: "This Girl Loves to Party (with the girls)"
+the_image_is_of_a: "Complete work"
+year: "2022"
+medium: "Oil on canvas"
+artwork_dimensions: ""
+height_cm: "76"
+width_cm: "76"
+depth_cm: ""
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1sR8Yil5K9hQIo-U_ogf5UfXMLk4dgT-F"
+---
+
+Default content

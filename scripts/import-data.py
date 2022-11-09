@@ -8,6 +8,7 @@ import os.path
 import io
 import re
 import urllib
+import sys
 from pprint import pprint
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -26,7 +27,8 @@ SCOPES = [
 EVENTS_SPREADSHEET_ID = '1rdp3ll9gMX18RMCpwOIKmUWhLAN266mgea4PbLsJMBA'
 EVENTS_RANGE_NAME = 'A1:G50'
 
-STUDENT_SPREADSHEET_ID = '1xxoJAUZBCUPyA1ZDIeVE1beSsOrLH5Atmjhs-SnPxOE'
+STUDENT_SPREADSHEET_ID = '1a2flzF_ZT18PN7s9mkkRd3Lkb_EjR1LeVaMzB29HZHM'
+# STUDENT_SPREADSHEET_ID = '1xxoJAUZBCUPyA1ZDIeVE1beSsOrLH5Atmjhs-SnPxOE'
 # STUDENT_SPREADSHEET_ID = '1BoCYvSTdUe5KAu1PfiHCVZqxzutNmoLv3WPnna0aGk0'
 STUDENT_RANGE_NAME = 'A1:AC200'
 
@@ -39,18 +41,18 @@ STUDENT_FIELD_RENAME = {
     "artwork_title_do_not_use_quotation_marks": "artwork_title",
     "please_provide_your_biography_or_statement_written_in_third_person_max_150_words": "biography",
     "please_provide_your_artist_statement_approx_150_words": "biography",
-    "preferred_name_in_full_as_you_would_like_it_displayed_in_exhibition_and_promotional_texts": "preferred_name",
-    "please_upload_the_image_you_would_like_included_on_the_website_max_file_size_is_10mb": "image_location",
+    "preferred_name_in_full_as_you_would_like_it_displayed_in_the_exhibition_and_promotional_texts": "preferred_name",
+    "please_upload_one_image_you_would_like_included_in_the_online_catalogue_max_file_size_is_10mbplease_ensure_the_following_format_jpg_jpeg_or_png_colour_rgb_minimum_size_1200_x_800_pixels_file_name_surname_firstname_title_of_workjpeg": "image_location",
     "please_upload_the_same_image_to_be_featured_on_instagram_for_promotion_of_the_exhibition_the_following_formats_are_accepted_square_1080_x_1080_px_or_landscapehorizontal_1080_x_566_px_or_portraitvertical_1080_x_1350": "instagram_image",
-    "name_of_photographer_if_applicable_use_full_name": "photographer_name",
+    "full_name_of_photographer_if_taken_by_someone_other_than_the_yourself": "photographer_name",
     "please_provide_your_instagram_handle_if_you_wish_to_be_tagged_for_promotional_purposes": "instagram",
     "year_the_work_was_created": "year",
-    "url_for_your_student_portfolio_to_be_featured_on_the_2021_grad_show_website": "portfolio_url",
+    "please_provide_one_link_to_your_socials_website_portfolioif_you_would_like_to_use_more_than_one_link_please_create_and_submit_a_linktree__you_can_sign_up_here_stepbystep_instructions_on_how_to_create_a_linktree_can_be_found_here": "portfolio_url",
     "format_of_your_student_portfolio": "portfolio_format",
     "tags_for_your_work_select_all_that_apply": "tags",
     "curatorial_themes": "themes",
     "discipline_area": "disciplines",
-    "medium_please_provide_as_much_detail_as_is_relevant_such_as_rather_than_painting_you_can_write_oil_and_acrylic_on_linen_or_instead_of_glass_you_can_write_kiln_formed_glass": "medium",
+    "medium_please_be_as_specific_as_possible_for_example_you_might_replace_pencil_with_graphite_on_paper_painting_with_oil_on_linen_or_glass_with_kiln_formed_glass": "medium",
     "for_promotional_purposes_please_write_the_techniquesprocess_that_apply_to_your_graduating_body_of_work_eg_lithograph_kiln_formed_glass_digital_video_etc__please_use_comma_to_separate": "processes"
 }
 STUDENT_FIELD_FILTER = ["", "email_address" , "anu_u_number_eg_u1234567", "mobile_phone_number", ]
@@ -79,7 +81,7 @@ def get_google_creds():
     return creds
 
 
-def get_spreadsheet_values(id, range, rename_fields={}):
+def get_spreadsheet_values(id, range, rename_fields={}, debug=False):
     """Shows basic usage of the Sheets API.
     Prints values from a sample spreadsheet.
     """
@@ -107,6 +109,9 @@ def get_spreadsheet_values(id, range, rename_fields={}):
                 pprint(header_tmp)
                 # Filter out the fields we want to hide
                 header = [r if r not in rename_fields else rename_fields[r] for r in header_tmp]
+                if debug:
+                    pprint(header)
+                    sys.exit()
             elif row and idx>0:
                 data.append(zip(header, row))
             else:
@@ -186,7 +191,7 @@ def import_events(dest, filetype="toml"):
             f.write(content)
 
 
-def import_students(dest, images_dest, filetype="md"):
+def import_students(dest, images_dest, filetype="md", debug=False):
     """
     Import students and write data to disk
     """
@@ -196,7 +201,7 @@ def import_students(dest, images_dest, filetype="md"):
     # Now process student data
     os.makedirs(dest, exist_ok=True)
     # Get the spreadsheet data as [(field, value), ...]
-    data = get_spreadsheet_values(STUDENT_SPREADSHEET_ID, STUDENT_RANGE_NAME, rename_fields=STUDENT_FIELD_RENAME)
+    data = get_spreadsheet_values(STUDENT_SPREADSHEET_ID, STUDENT_RANGE_NAME, rename_fields=STUDENT_FIELD_RENAME, debug=debug)
     for idx, d in enumerate(data):
         content, fields = data_to_toml(d, 
             filetype=filetype, 

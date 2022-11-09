@@ -1,0 +1,28 @@
+---
+timestamp: "27/10/2022 16:01:17"
+title: "Prefer not to say"
+first_name: "Maxwell"
+last_name: "Macfarlane"
+preferred_name: "Max"
+preferred_pronouns: "they/he"
+your_degree: "Bachelor of Visual Arts / Bachelor of Arts"
+biography: "Animation grants us the power to bring any fantasy to life in motion. Pre-digital “2D” animation, in all its handmade forms, might bring us closest to this act of creation. This work - like all animated work - is a negotiation between aestheticism, nostalgia, and the enormous expense of labour required to make an image move. Weaponising technological nostalgia to sooth the uneasy residence of the animated image in gallery space, the installation describes a longing for the obsolete."
+image_location: "https://drive.google.com/open?id=1VZ-mME5b8U1FD-f5BILZNwzgPbvNEN8b"
+portfolio_url: "https://macmacfarlane.wixsite.com/macm"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "animation test"
+the_image_is_of_a: "Installation view"
+year: "2022"
+medium: "LCD and CRT TVs, digital and pencil-on-paper animation, digital compositing"
+artwork_dimensions: "dimensions variable; or"
+height_cm: ""
+width_cm: ""
+depth_cm: ""
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1mUwc_jWMgnH2dgx3bCEBpmJJfnlTf4o-"
+do_you_require_any_additional_equipment_for_installing_your_work: "Power outlet, Media player, Plinth (please specify approximate size below), probably 4 media players (and associated av cabling if possible)"
+---
+
+Default content

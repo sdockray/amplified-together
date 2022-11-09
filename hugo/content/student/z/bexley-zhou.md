@@ -1,0 +1,28 @@
+---
+timestamp: "27/10/2022 17:02:26"
+title: "Miss"
+first_name: "Siyu"
+last_name: "Zhou"
+preferred_name: "Bexley Zhou"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Visual Arts"
+biography: "Bexley Zhou is a 3D animation student in her final year at the Australian National University, Canberra, Australia. Her graduation show animation explores the journey of an environmental disaster caused by careless anthropogenic activities. ‘The Cycle’ is part of a series constructed across Semesters 1 and 2, 2022. The work chronicles the long-term cycle of natural landscapes, including their degradation and their healing. This reflects her passion for the environment, demonstrating her personal experiences of witnessing its deterioration throughout her life. Whilst she may not see Earth’s restoration in her own lifetime, she wants to pass on the message that with time, all wounds will heal. The key goal of this piece was to evoke a sense of urgency to preserve our environment, whilst also maintaining a sense of hope for the future of the planet. As such, realism was the first priority in the creation process, in order to elicit an emotional response from those who view her animation."
+image_location: "https://drive.google.com/open?id=1aqgXhW3jVbkSzlkdH4Cg5cY1ZC3FDbSo"
+portfolio_url: "https://www.youtube.com/channel/UCfP7fKUxrxq4Dr8EburmeKg"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "The Cycle"
+the_image_is_of_a: "Production still"
+year: "2022"
+medium: "Digital video"
+artwork_dimensions: "dimensions variable; or"
+height_cm: "50.8"
+width_cm: "28.5"
+depth_cm: ""
+duration_for_digital_work: "20 seconds"
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1VVkiR6DkN9tSSwq0PK854WnJPgceZrhx"
+do_you_require_any_additional_equipment_for_installing_your_work: "TV screen, Power outlet, Media player, projector"
+---
+
+Default content

@@ -1,0 +1,28 @@
+---
+timestamp: "27/10/2022 16:30:31"
+title: "Miss"
+first_name: "Bridget"
+last_name: "Baskerville"
+preferred_name: "Bridget Baskerville"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Visual Arts (Honours)"
+biography: "Undercurrent explores the social value of water in my hometown of Kandos, NSW, on Dabee Wiradjuri Country. These waterways around Kandos have been dammed, eroded, and diverted by industry, agriculture, and colonisation. This installation uses both audio and visual forms to investigate the way we value water and how these values interconnect with the history, ecology, community, and identity of place. I have drawn on field-based research with a strong focus on interdisciplinary collaboration. While referencing a specific location, Undercurrent also speaks to global water issues, highlighting a shared need to readdress our approach to water management, and decolonise the conversation around water futures."
+image_location: "https://drive.google.com/open?id=1a-Hpgvq8NkrPpkFojWbffXVNidJ1pIvG"
+portfolio_url: "https://www.instagram.com/bridgetgrace_art/"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "Undercurrent"
+the_image_is_of_a: "Detail"
+year: "2022"
+medium: "audio visual installation - photo, video, audio recorded conversations, digital prints on fabric, corroded zinc"
+artwork_dimensions: "dimensions variable; or"
+height_cm: ""
+width_cm: ""
+depth_cm: ""
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=10bG-CibH84DpoSBdqiWJE6LugDBxO60c"
+do_you_require_any_additional_equipment_for_installing_your_work: "TV screen, Power outlet, Access to 3 screens"
+---
+
+Default content

@@ -1,0 +1,27 @@
+---
+timestamp: "27/10/2022 16:06:56"
+title: "Miss"
+first_name: "Mackenzie"
+last_name: "Gniel"
+preferred_name: "Mackenzie Gniel"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Visual Arts"
+biography: "In April 2020 I was formally diagnosed with Anxiety, Depression and PTSD stemming from Medical Trauma. Though this wasn't surprising, it created an overwhelming feeling that my mind had betrayed my body. Living most of my life with chronic pain and illness, I had spent plenty of time in appointments, studying medical terminology, and overdosing on affirmations to cope with the dismissal and lack of explanation I received from both medical professionals and society. I know what I feel is not a fabrication of my mental health and my psychological state is a product of my physical pain.  Living with a disability during COVID-19 has forced me to reflect on my self-expression and creative output in multiple dimensions. It has taught me that I have a responsibility to myself to acknowledge all aspects of my being, not just the physical challenges. After all, empowerment is all in my head already."
+image_location: "https://drive.google.com/open?id=1RvB6RWJtXXbhoXNt0D_59zKydA92Wu0o"
+portfolio_url: "mackenziegniel.art"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "All In My Head"
+the_image_is_of_a: "Detail"
+year: "2022"
+medium: "inkjet photographs on folded paper sculpture"
+artwork_dimensions: ""
+height_cm: "154.5"
+width_cm: "309"
+depth_cm: "14.8"
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1v0FgcmktFIrbrwnNFS0HMnkp8Jtv4ss8"
+---
+
+Default content

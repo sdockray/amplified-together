@@ -1,0 +1,28 @@
+---
+timestamp: "24/10/2022 17:12:43"
+title: "Miss"
+first_name: "Kylie"
+last_name: "Kiu"
+preferred_name: "Kylie Kiu"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Design / Bachelor of Environment and Sustainability"
+biography: "This interactive exhibition explores the movement of water through our waterways and landscapes. Stream of String was made in conjunction with the Mulloon Institute’s Waterland Exhibition curated by Dr Laura Fisher. Designed to engage members of the community, individuals are prompted to wrap the string (representing water) around the pins to explore waters movement through obstacles and roughness. Slowing down water is important for landscape function, increasing biodiversity and creating a healthy ecosystem. Using a combination of words, visual images and tactile experience, this wall is engaging and informative for students and adults alike. This multidisciplinary project integrates the knowledge and skills I have learnt throughout both my Design and Environmental Sustainability Degrees."
+image_location: "https://drive.google.com/open?id=11c1Q9meZt8mS3XSs0d1K_JgCLwuL9gM6"
+portfolio_url: "https://kyliekiu8.wixsite.com/portfolio"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "Stream of String"
+the_image_is_of_a: "Installation view"
+year: "2022"
+medium: "Plywood, Cardboard, Acrylic Paint, Wool, 3D Printing"
+artwork_dimensions: ""
+height_cm: "100"
+width_cm: "200"
+depth_cm: ""
+duration_for_digital_work: ""
+photographer_name: "Gus Armstrong"
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1i8f4fXV4x57XPqeANKrvNS2gtF7utJY0"
+do_you_require_any_additional_equipment_for_installing_your_work: "3x A1 Posters"
+---
+
+Default content

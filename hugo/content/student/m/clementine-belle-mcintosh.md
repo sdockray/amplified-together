@@ -1,0 +1,28 @@
+---
+timestamp: "27/10/2022 00:10:21"
+title: "Ms"
+first_name: "Clementine Belle"
+last_name: "McIntosh"
+preferred_name: "Clementine Belle McIntosh"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Visual Arts (Honours)"
+biography: "“Local Gifts” uses the act of blanketing to make visible interweaving relationships in local suburban environments. The gift economy is used as a site of artmaking, to familiarise myself as a newcomer to the suburbia of Ngunnawal and Ngambri country, ACT. Fibre-based blankets made from gifted, recycled and collected waste, records site-specific narratives between myself and others (strangers and nonhuman). I made-with local nonhuman elements through the erosive acts of stomping, burying, hanging, and soaking. Audiences are invited to interact with the installation’s tactility - considering the local narratives suggested in collected roadside discards and assembled blanket parts. Once the graduate exhibition is over my blankets will be re-gifted and composted, returning to the nonlinear systems of the gift economy and environment."
+image_location: "https://drive.google.com/open?id=1sD-5NvszjLqSt2c3FhaxjvyoFCuYJr-D"
+portfolio_url: "https://clementinebelle.com/bva-hons/"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "Gifted Blanket with Asphalt"
+the_image_is_of_a: "Detail"
+year: "2022"
+medium: "Gifted Dickson green waste dye, gifted wattle dye, Acton iron mordant and secondhand market thread on roadside woollen blanket and gifted cotton sheet"
+artwork_dimensions: "dimensions variable; or"
+height_cm: ""
+width_cm: ""
+depth_cm: ""
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1rR18Vb7VlE7B6ADNMF4_nhp-TZtH4J-5"
+do_you_require_any_additional_equipment_for_installing_your_work: "Suspending objects/textiles from the ceiling in the indoor gallery and proposing to install three outdoor installations (proposal document to be sent 27/10)"
+---
+
+Default content

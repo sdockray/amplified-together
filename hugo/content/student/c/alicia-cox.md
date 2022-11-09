@@ -1,0 +1,27 @@
+---
+timestamp: "31/10/2022 07:27:53"
+title: "Ms"
+first_name: "Alicia"
+last_name: "Cox"
+preferred_name: "Alicia Cox"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Visual Arts"
+biography: "My work explores the gendered symbolism of domestic functional objects and my connection to them. I create familiar objects that are subverted via their affordances in order to recode them from function to dysfunction. I am interested in creating objects that silently protest their intended purpose and therefore our preconceived notions of how they, and women, should behave."
+image_location: "https://drive.google.com/open?id=1SygPhR16T9OneejndTK6hJ6lf1sLA6Sk"
+portfolio_url: "https://www.instagram.com/aliciacoxceramics/"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "Coffee Cup"
+the_image_is_of_a: "Detail"
+year: "2022"
+medium: "Glazed slip cast porcelain"
+artwork_dimensions: ""
+height_cm: "5"
+width_cm: "10.5"
+depth_cm: "9"
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1Zkg59MHqCAdqwFbHvZYbTNBsWZqufqE5"
+---
+
+Default content

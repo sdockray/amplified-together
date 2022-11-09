@@ -1,0 +1,27 @@
+---
+timestamp: "31/10/2022 12:59:08"
+title: "Miss"
+first_name: "Elektra"
+last_name: "Makas"
+preferred_name: "Elektra Makas"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Visual Arts"
+biography: "When creating \"fluid scenery\", I set out to investigate the connection between human emotion and water, closely considering the fluidity of water in relation to all forms, as well as my curiosity regarding my cultural identity and what land and environment mean to me. During my research and experimentation, my father fell critically ill and nearly lost his life. Experiencing an unconscious body in such a vulnerable and constantly changing state was horrifying, yet inspiring. Seeing someone so integral to my life so unwell shifted my perception of the body and life in general, leaving me feeling disconnected from my work as the concept no longer felt important to me. After some time, I started concentrating on the textures created by the play of light on water in my photographs and observed the similarities to the substances of the human body – fat, flesh, hair and bodily fluids. \"fluid scenery\" is a series of cyanotype prints that investigate the connection between the human body and water in a new light – their vulnerability, their fallibility yet ability to heal, focusing on the way water is always changing, reflecting the other changeable elements of life and our bodies."
+image_location: "https://drive.google.com/open?id=1_z04j5-KgEDoUGy1sUuxcOWTZU90bC5v"
+portfolio_url: "@elektramakasart - instagram - https://www.instagram.com/elektramakasart/"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "fluid scenery"
+the_image_is_of_a: "Detail"
+year: "2022"
+medium: "cyanotype on silk"
+artwork_dimensions: ""
+height_cm: "130"
+width_cm: "100"
+depth_cm: ""
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1sxsH2Reopl2SSEUqIjZ7vPSG69K-k89K"
+---
+
+Default content

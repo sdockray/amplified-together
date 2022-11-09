@@ -1,0 +1,28 @@
+---
+timestamp: "28/10/2022 14:39:19"
+title: "Miss"
+first_name: "Susana"
+last_name: "Byrne"
+preferred_name: "Susana Byrne"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Visual Arts"
+biography: "When spun by the viewer this display of bicycle wheels refers to the obsessive cycle of exercise I engaged in, to compensate for binge eating. This repetitive motion of spinning wheels creates continuous movement that leads to no clear outcome, embodying the toxic cycle that is binge eating and compulsive exercise. Intertwined between the spokes of the wheels are pairs of jeans I have held onto for many years. No longer fitting me, these jeans have been a source of ‘motivation', encouraging me to lose weight in order to someday fit in them again. However, it is through this very clothing that my eating disorder and compulsive exercise habits have been sustained. Acting as the fuel behind this toxic cycle of exercise I have cathartically ripped apart the very thing that has caused much of my distress, leaving behind entangled and disorientated remnants of my past."
+image_location: "https://drive.google.com/open?id=1zpqXgfMGpcxzRb3C9pjL8FVv6knQDnRa"
+portfolio_url: ""
+image_caption: ""
+name_of_photographer: "Susana Byrne"
+artwork_title: "Burning calories, a cycle of obsessive motion"
+the_image_is_of_a: "Complete work"
+year: "2022"
+medium: "Found bicycle wheels, jean pants, safety pins, welded aluminum square box tube, nylon rope."
+artwork_dimensions: ""
+height_cm: "177"
+width_cm: "195"
+depth_cm: "12"
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1zbHH6nbybmC9Mmk7ZIRJDDJA3sMbscXa"
+do_you_require_any_additional_equipment_for_installing_your_work: "Another label stating: I’m interactive, please spin me."
+---
+
+Default content

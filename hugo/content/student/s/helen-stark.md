@@ -1,0 +1,28 @@
+---
+timestamp: "27/10/2022 12:53:51"
+title: "Mrs"
+first_name: "Helen"
+last_name: "Stark"
+preferred_name: "Helen Stark"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Visual Arts (Honours)"
+biography: "This body of work addresses a deep feeling and knowing of a particular place that is now lost. Drawing on my memories and a layering of experiences, sculptural objects evoke a familiarity of my childhood home on the N.S.W. south coast.The utter destruction caused by bush fire was a painful reminder of the temporality of life. It is through the molten flow of kiln formed glass that I want to evoke the transient and impermanent nature of all things. I explore the cyclical nature of the natural world and the never-ending story of time feeding back on itself and the eternal cycle of birth, death and renewal."
+image_location: "https://drive.google.com/open?id=1o4fYG39XjXu8ZayVoleFPE8y5OWV_dIr"
+portfolio_url: "https://www.instagram.com/hstark7/"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "Yowani gone"
+the_image_is_of_a: "Detail"
+year: "2022"
+medium: "kiln formed glass"
+artwork_dimensions: ""
+height_cm: "8"
+width_cm: "38"
+depth_cm: "40"
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1_VjTk8z9HDGAckbfGKS7zT2AknBqIPTR"
+do_you_require_any_additional_equipment_for_installing_your_work: "Plinth (please specify approximate size below), 45cm x 45cm - 2 plinths"
+---
+
+Default content

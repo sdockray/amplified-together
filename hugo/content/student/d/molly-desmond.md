@@ -1,0 +1,28 @@
+---
+timestamp: "27/10/2022 23:43:35"
+title: "Ms"
+first_name: "Mary"
+last_name: "Desmond"
+preferred_name: "Molly Desmond"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Visual Arts"
+biography: "Generated from a resource of memories and sensations, this series of paintings and ceramics explores the formal qualities of surface. As the outermost layer of an object, the surface is often the most accessible to ones senses in the first instance, allowing itself to be directly seen or touched. Its value however, is often ascertained by its binary opposite with interest concerned in the in-depth rather than the superficial. Across the paintings and ceramic objects, material qualities have been exploited to create visual tactility to suggest a perceptual ambiguity of surface and depth. Employing the grid as a visual and processual device, the temporal surfaces speak to the transient nature of space."
+image_location: "https://drive.google.com/open?id=1yfAG5z4yLhF7mOmdh7GpluyBWCTdPzAX"
+portfolio_url: "Mollydesmond.art"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "Surface Study #2"
+the_image_is_of_a: "Complete work"
+year: "2022"
+medium: "Porcelain, found wild clay, mid-fire glazes"
+artwork_dimensions: ""
+height_cm: "10"
+width_cm: "10"
+depth_cm: "1"
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1f4k9AkZreiARFTu_o--3GVRINoQtziJn"
+do_you_require_any_additional_equipment_for_installing_your_work: "Plinth (please specify approximate size below), X2 plinth (approx 100cm H, 150cm W, 30cm D)  x2 plinth (approx 100cm H, 50cm W, 50cm D)"
+---
+
+Default content

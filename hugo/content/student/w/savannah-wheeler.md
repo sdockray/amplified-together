@@ -1,0 +1,28 @@
+---
+timestamp: "27/10/2022 16:49:46"
+title: "Mrs"
+first_name: "Savannah"
+last_name: "Wheeler"
+preferred_name: "Savannah Wheeler"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Visual Arts / Bachelor of Environment and Sustainability"
+biography: "Savannah Wheeler is a multidisciplinary artist, who primarily works in the mode of installation. Central to her practice is exploring the possibilities of environmentally conscious materials, through speculative world-building. Her bioplastic constructions are the starting point of an investigation into the different permutations and applications of biodegradable materials. With a distinct focus on the qualities of bioplastics, her work lends itself to the possibilities of future studies into the functionality of the material."
+image_location: "https://drive.google.com/open?id=1zb3A3Jm7RiZ0_SQoZjGYzdDWRsW_UdYl"
+portfolio_url: "https://www.instagram.com/algae.lettuce/?hl=en"
+image_caption: ""
+name_of_photographer: "Brenton McGeachie"
+artwork_title: ""
+the_image_is_of_a: "Detail"
+year: "2022"
+medium: "potato starch based bioplastic"
+artwork_dimensions: "dimensions variable; or"
+height_cm: ""
+width_cm: ""
+depth_cm: ""
+duration_for_digital_work: ""
+photographer_name: "Brenton McGeachie"
+please_upload_your_label_information_here: "https://drive.google.com/open?id=11j9vQ74MHClBC-MV0CgToQFQHy_C3jgL"
+do_you_require_any_additional_equipment_for_installing_your_work: "Ladder and nails"
+---
+
+Default content

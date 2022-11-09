@@ -1,0 +1,27 @@
+---
+timestamp: "28/10/2022 21:21:20"
+title: "Miss"
+first_name: "Lily"
+last_name: "Fowler"
+preferred_name: "Lily Fowler"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Visual Arts"
+biography: "While also a music composer, my visual art practice has focused on emulating personalized feelings of impactful experiences from videogames. In my fascination with the dependence on human interactivity and the simulation of natural elements in videogames, my works explore immersion, comfort, the sublime aesthetic, constructed environments, and the relationship between videogames and the player. Empowerment and participation are at the playful edges of my installation work Serene Screens. The added elements of spatial self-placement and nuanced options in choice elevate the visitor into spectatorship – following Olafur Eliasson’s ‘looped participation,’ I have extended the notions of hyper-engagement embedded in the video game experience to distil the clarity of curated moments. My work addresses my belief that participatory gaming experiences are forms of collaborative art-making. Representing my own experience through photography, original music, and sensory furniture, I develop an imitation of the unrepeatable uniqueness of a videogame to a player’s incomprehensible choice of interaction."
+image_location: "https://drive.google.com/open?id=1G3lvXVZBzRWvjSqequ5bk06p5-WGVQsG"
+portfolio_url: "https://www.instagram.com/lily_lyricallark/"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "Serene Screens: Genshin Impact the videogame"
+the_image_is_of_a: "Installation view"
+year: "2022"
+medium: "Video Installation, projectors, speakers, biome-like assorted tactile furniture."
+artwork_dimensions: "dimensions variable; or"
+height_cm: ""
+width_cm: ""
+depth_cm: ""
+duration_for_digital_work: "00:02:41 Loop"
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1knhGURqBhlhS67x6x6IUBv9lvMHOJCzO"
+---
+
+Default content

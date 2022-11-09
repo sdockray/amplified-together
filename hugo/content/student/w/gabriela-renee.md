@@ -1,0 +1,28 @@
+---
+timestamp: "27/10/2022 09:35:08"
+title: "Ms"
+first_name: "Gabriela"
+last_name: "Williams"
+preferred_name: "Gabriela Renee"
+preferred_pronouns: "She/ Her"
+your_degree: "Bachelor of Visual Arts / Bachelor of Art History and Curatorship"
+biography: "Balik Kampung, Going Home… explores my cultural identity and heritage as a mixed-race woman by reconfiguring and re-contextualising photos from family archives. Embedding and layering these images within textiles, that evoke the clothing made and worn by my ancestors around the world, I navigate a complex set of histories and challenge the documentary purpose of photography. Ethnically, I am of Sinhalese, Malayali, English, Shetlander, German and Irish decent. As an Australian Malaysian, the journey of uncovering this hybridity has been a deeply personal investigation of images, objects, and materials. Fabric – embroidered saris, handmade lace, and tartan – has interwoven the sensory and visual of the embodied here and now with fragments of family history. Rather than defining a fixed past or finding something that has been lost, a new set of connections to identity has been made and a future narrative discovered."
+image_location: "https://drive.google.com/open?id=1EktCmPurf-jC4V6lU_ZacpGjZddbvp49"
+portfolio_url: "https://www.instagram.com/____grw/"
+image_caption: ""
+name_of_photographer: "Brenton McGeachie"
+artwork_title: "Balik Kampung, Going Home…"
+the_image_is_of_a: "Installation view"
+year: "2022"
+medium: "Installation, altered family archives and photo transfer on textiles"
+artwork_dimensions: "dimensions variable; or"
+height_cm: ""
+width_cm: ""
+depth_cm: ""
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1xP_CrIhDgNmuNO6Pw3936O3XA5Je3zBH"
+do_you_require_any_additional_equipment_for_installing_your_work: "The four tall moveable walls in the printmedia drawing room (have arranged with Lucy)"
+---
+
+Default content
