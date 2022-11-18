@@ -1,972 +1,845 @@
-/* HOLDING/HOME
-   ========================================================================== */
+/* Import Fonts from Google Fonts (Open Sans + Inter) */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
- body, .home-content {
-    margin-top: 5%;
-    background-color: #aa1d4a;
-}
-
-.highlight h1, .highlight h2 {
-    background-color: #efb5a9;
-    display: inline-flex;
-}
-
-.highlighth2 {
-    background-color: #efb5a9;
-    margin-top: 0.5vw;
-    margin-bottom: 0.5vw;
-    display: flex;
-    margin-bottom: 5vh;
-}
-
-.highlighth2 h2 {
-line-height: 2;
-}
-
-.highlighth2-bold h2 {
-  background-color: #efb5a9;
-  margin-top: 1vw;
-  margin-bottom: 1vw; 
-  font-weight: 900;
-  display: inline;
-  line-height: 2;
-}
-
-.home-content h1 {
-    color: #aa1d4a;
-    text-transform: uppercase;
-    font-family: 'Public Sans', sans-serif;
-    font-size: 4.5em;
-    font-style: bold;
-    font-weight: 800;
-    display: inline;
-    margin-top: 0.5vw;
-    margin-bottom: 1vw;
-    line-height: 1.5em;
-}
-    
-.home-content h2 {
-    color: #aa1d4a;
-    text-transform: uppercase;
-    font-family: 'Public Sans', sans-serif;
-    font-size: 1.2em;
-    padding: 0.2em 0.4em;
-    line-height: 3;
-   
-}
-    
-.rotated-grid {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    transform: rotate(165deg); 
-    background-image: linear-gradient( #efb5a9 .1px, transparent 1px), linear-gradient(to right, #efb5a9 1px, transparent 1px);
-    background-size: 30px 30px;
-    position: absolute;
-    z-index: 1;
-
-}
-
-.home-content .left {
-    z-index: 3;
-}
-
-.home-content .right {
-    z-index: 2;
-}
-
-.home-content a {
-    text-decoration: underline;
-    color: #aa1d4a;
-}
-
-/* DESKTOP SYLES 4 HOLDING*/
-
-@media only screen and (min-width: 901px) {
-
-     .home-content {
-        display: flex;
-    }
-
-    .home-content .left {
-        max-width: 34%;
-        margin-right: 15vw;
-    }
-
-    .home-content .right {
-        max-width: 34%;
-    }
-
-    .space {
-        width: 30%;
-        height: 22vh;
-    }
-}
-
-/* RESPONSIVE STYLES 4 HOLDING */
-
-@media only screen and (max-width: 900px) {
-
-    .home-content {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
-
-    .home-content h1 {
-        font-size: 5em;
-    }
-
-    .home-content h2 {
-        font-size: 1.5em;
-        }
-
-    .space {
-        display: none;
-    }
-}
-
-/* MOBILE STYLES 4 HOLDING */
-
-@media only screen and (max-width: 600px) {
-
-    .home-content h1 {
-        font-size: 3em;
-    }
-
-    .home-content h2 {
-        font-size: 1em;
-        }
-
-    .space {
-        display: none;
-    }
-}
-
-
-/* UNIVERSAL STYLES 
-================================================================ */
-
+/* || GENERAL STYLES */
 body {
-    background-color: #aa1d4a;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
-
-h1 {
-    color: #aa1d4a;
-    background-color: #efb5a9;
-    text-transform: uppercase;
-    font-family: 'Public Sans', sans-serif;
-    font-size: 4em;
-    font-style: bold;
-    font-weight: 700;
-    padding: 0.1em 0.2em;
-    line-height: 1.7;
-    display: inline;
-  }
-  
-  .subtitle {    
-    background-color: #efb5a9;
-  }
-    
-  h2 {
-    color: #aa1d4a;
-    text-transform: uppercase;
-    font-family: 'Public Sans', sans-serif;
-    font-size: 2em;
-    font-style: medium;
-    line-height: 1.5em;
-    padding: 0.1em 0.2em;
-    margin: 0.1em;
-  }
-
-  h3 {
-    color: #aa1d4a;
-    background-color: #efb5a9;
-    text-transform: uppercase;
-    font-family: 'Public Sans', sans-serif;
-    font-size: 1.5em;
+p {
+    font-size: 18px;
     font-weight: 400;
-    padding: 0.1em;
-    line-height: 1.5em;
+    line-height: 27px;
+}
+
+main h3 { 
+    margin: 0px 0px 0px 3vw;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+@media (max-width: 880px) {
+
+    main h3{
+        width: 90vw;
+        margin: 1vh 0px 0px 5vw;
+        padding: 1vh 0px 1vh 0px;
+
+        font-size: 25px;
+        font-weight: 600;
+        border-bottom: solid 1px;
+    }
+}
+
+
+/* || HEADER STYLES */
+header {
+    /* Set child elements to display row flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    align-items: flex-end;
+    min-height: 7vh;
+
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+}
+header h1{
     display: inline-block;
-  }
-
-  p, li {
-    font-family: 'Public Sans', sans-serif;
-    color: #aa1d4a;
-    line-height: 1.4;
-  }
-
-  ul a {
-    text-decoration: underline;
-  }
-
-  ul {
-    list-style-type: none;
-  }
-
-  header {
-    margin-bottom: 4vw;
-    display: inline-block;
-  }
-
-  .rotated-grid {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    transform: rotate(165deg); 
-    background-image: linear-gradient( #efb5a9 .1px, transparent 1px), linear-gradient(to right, #efb5a9 1px, transparent 1px);
-    background-size: 30px 30px;
+    width: 100px;
+    margin-left: 30px;    
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+header h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    transform: rotate(90deg);
     position: absolute;
-    z-index: 1;
-  }
-  
-  a {
+    top: 48px;
+    left: 116px;
+    /*    display: block;
+    position: absolute;
+    margin: 00px 0px 6px 115px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    transform: rotate(90deg);
+*/
+}
+
+header nav a {
+    padding-right: 5vw;
+
     text-decoration: none;
-    color: #aa1d4a;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-
-  .student {
-    background-color: white;
-  }
-
-  main.student h1  {
-    background-color: white;
-    color: #aa1d4a;
-    font-weight: 700;
-    padding: 0.1em 0.2em;
-    line-height: 1.4;
-  }
-
- main.student h2 a {
-    color: white;
-    background-color: #aa1d4a;
-    font-weight: 700;
-    font-size: 2.8em;
-    line-height: 1.3;
-    padding: 0.1em 0.2em;
-    text-decoration: underline;
-  }
-
-  main.student h2 a:hover {
-    box-shadow: 0 0 40px #aa1d4a;
-    color: #aa1d4a;
-    background-color: white;
-    font-weight: 700;
-    font-size: 2.8em;
-    line-height: 1.3;
-    text-decoration: underline;
-  }
-
-.photo ul {
-   margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
+    color: #000;
+    font-size: 18px;
 }
 
-  .text h3 {
-    color: white;
-    background-color:#aa1d4a;
-    font-size: 1.5em;
-    font-weight: 700;
-    padding: 0.1em;
-  }
-
-  main.student h2 {
-    color: #aa1d4a;
-    background-color: white;
-    font-size: 1.5em;
-    font-weight: 700;
-    padding: 0.1em;
-  }
-
-.letters h2 {
+header nav a:hover{ /* On hover of nav links */
+    color: #585858;
+}
+header nav #activeLink{ /* Color of active nav links */
+    color: #A5A5A5;
+}
+header nav .navBarDropdown{
     display: inline-block;
-    background-color: #efb5a9;
-  }
+}
+header nav .navBarDropdownContent{
+    display: none;
+    position: absolute;
+    width: 110px;
+    padding: 10px;
 
-  ul.processes {
-    padding-inline-start: 0;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-  }
-
-  .processes li {
-    font-size: 1.2em;
-    background-color: #efb5a9;
-    display: inline-block;
-    padding: 0.4em;
-    margin-right: 1.2vw;
-    margin-bottom: 1.2vw;
-  }
-
-  .student-content li a {
-    text-transform: uppercase;
-  }
-
-  .list-content h3 {
-     background-color: white;
-     margin-bottom: 0px;
+    border: solid #000;
+    background-color: #ffffff;
+}
+header nav .navBarDropdownContent a{
+    margin-bottom: 10px;
+    color: #000;
+}
+header nav .navBarDropdownContent a:hover{
+    color: rgb(125, 125, 125);
+}
+header nav .navBarDropdown:hover .navBarDropdownContent{
+    display: block;
 }
 
-.preview h3 a {
-   background-color: #efb5a9;
+header h2{
+/*    margin: 0px 0px 0px 2vw;
+    font-size: 28px;*/
 }
 
-/* DESKTOP SYLES */
+header .mobileNav{
+    display: none;
+}
+@media (max-width: 880px) { /* when in mobile view */
+    header{
+        display: inline;
+        width: 100vw;
+        min-height: 10vh;
 
-@media only screen and (min-width: 901px) {
+        background-color: #fff;
+        border-bottom: solid 1px;
+        padding-bottom: 0px;
+    }
+/*    header h1{
+        display: inline-block;
+        width: 100px;
+        margin-left: 30px;    
+        
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+    }
 
-  .student.preview {
-    max-width: 35%;
-    margin-left: 3vw;
-    margin-right: 3vw;
-  }
+    header h2{
+        display: inline-block;
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        transform: rotate(90deg);
+        margin-left: -15px;
+    }
+*/
+    header .desktopNav{
+        display: none;
+    }
+    header .mobileNav{
+        display: block;
+    }
+    header .mobileNav input, header .mobileNav span{
+        position: absolute;
+        margin: 20px 0px 0px 85%;
+    }
+    header .mobileNav input{
+        width: 50px;
+        height: 50px;
 
-  .list-content {
-    padding-top: 2vw;
+        opacity: 0;
+        z-index: 3;
+        cursor: pointer;
+    }
+    header .mobileNav span{
+        width: 50px;
+        height: 50px;
+
+        z-index: 2;
+        background-image: url('img/hamburgerMenu.png');
+        background-position: center;
+        background-size: cover;
+    }
+    header .mobileNav .mobileNavBarContent{
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+
+        z-index: 1;
+        background: #181818;
+        color: #fff;
+    }
+    header .mobileNavBarContentTitle{
+        min-height: 10vh;
+
+        padding-bottom: 50px;
+    }
+    header .mobileNav .mobileNavBarContent a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 35px;
+        
+        font-size: 27px;
+        color: #fff;
+    }
+    header .mobileNav input:checked ~ .mobileNavBarContent{
+        display: block;
+    }
+    header .mobileNav input:checked ~ span{
+        background-image: url('img/closeMenu.png');
+    }
+    header .mobileNavBarContent input:checked ~ .mobileNavBarContent{
+        display: none;
+    }
+}
+
+
+/* || FOOTER STYLES */
+footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+
+    background-color: #000;
+    color: #fff;
+}
+footer .footerSectionLeft, .footerSectionRight{
+    width: 50vw;
+    padding: 25px;
+}
+footer .footerSectionLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: solid 1px;
+}
+footer .footerSectionLeft p{
+    width: 40vw;
+
+    font-size: 15px;
+}
+footer .footerSectionRightLinks{
+    display: flex;
+    flex-direction: column;
+}
+footer .footerSectionRight{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+footer a{
+    color: #fff;
+}
+footer img{
+    width: 18vw;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3vh 0px 0px 3vw;
+}
+@media (max-width: 880px) { /* when in mobile view */
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .footerSectionLeft{
+        display: none;
+    }
+    footer .footerSectionRight{
+        width: 100vw;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .footerSectionRight p{
+        padding-left: 3vw;
+        text-align: center;
+
+        color: #fff;
+        font-size: 15px;
+    }
+    footer .footerSectionRight a{
+        padding-left: 3vw;
+        text-align: center;
+
+        color: #fff;
+        font-size: 15px;
+    }
+    footer .footerSectionRight img{
+        width: 45vw;
+        margin-right: auto;
+
+    }
+}
+
+
+/* || ACKNOWLEDGEMENT OF COUNTRY PAGE STYLES */
+article{
+    position: absolute;
+    display: none;
+}
+article .acknowSection{
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #fff;
+    background-color: #000;
+}
+article h3{
+    font-weight: 500;
+}
+article .acknowSectionText{
+    margin-top: 15vh;
+    text-align: center;
+    width: 50vw;
+
+    font-size: 20px;
+    font-weight: 300;
+}
+article #menu__toggle {
+    opacity: 0;
+}
+
+article .acknowSection img{
+    align-items: center;
+
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+@media (max-width: 880px) { /* when in mobile view */
+    article{
+        position: absolute;
+        display: none;
+    }
+    article .acknowSection{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        color: #fff;
+        background-color: #000;
+    }
+    article .acknowSectionText{
+        width: 80vw;
+
+        font-size: 20px;
+    }
+    article .acknowSection img{
+    
+        cursor: pointer;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+/* || LANDING PAGE STYLES */
+main .landingPageInfoSection{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+main .landingPageLeftLogoSection, .landingPageLeftHostSection, .landingPageRightTeaserSection, .landingPageRightDateSection{
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    box-sizing: border-box;   
+    border-bottom: solid 1px;
+}
+main .landingPageLeftLogoSection{
+    width: 50vw;
+    display: flex;
+    justify-content: center;    
+    align-items: end;
+
+    border-right: solid 1px;
+}
+main .landingPageLeftLogoSection h1{
+    margin: 0px;
+    width: 350px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 90px;
+}
+main .landingPageLeftLogoSection h2{
+    margin-bottom: 7px;
+    margin-left: -96px;
+    font-family: inter,sans-serif;
+    font-weight: 800;
+    font-size: 68px;
+    transform: rotate(90deg);
+}
+main .landingPageRightTeaserSection{
+    width: 50vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+
+    font-size: 17px;
+}
+main .landingPageRightTeaserSection a{
+    color: #000;
+    font-weight: 500;
+}
+main .landingPageLeftHostSection{
+    width: 50vw;
+    text-align: center;
+    
+    border-right: solid 1px;
+}
+main .landingPageRightDateSection{
+    width: 50vw;
+    
+    text-align: center;
+}
+main .landingPageLeftHostSection h5, .landingPageRightDateSection h5{
+    margin: 0px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size:  23px;
+}
+main .landingPageStudentSection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 15px;
+}
+main .landingPageStudentWorkCard{
+    width: 33vw;
+    height: 400px;
+}
+@media (max-width: 1200px) { /* when in tablet view change to 2 column */
+    main .landingPageStudentSection{
+        grid-template-columns: repeat(2, 0fr);
+        justify-content: center;
+    }
+    main .landingPageStudentWorkCard{
+        width: 45vw;
+        height: 400px;
+    }
+}
+main .landingPageStudentSection .landingPageStudentWorkCard a{
+    text-decoration: none;
+}
+main .landingPageStudentSection .landingPageStudentWorkCard .landingPageStudentWorkCardImage{
     width: 100%;
-    background-color: white;
-  }
+    height: 300px;
 
-  .student.preview .image {
-      max-width: 400px;
-      padding-bottom: 4vw;
-      padding-top: 2vw;
-    }
-
-  .student.preview .image img {
-     max-width:100%;
-     max-height: 500px;
-    }
-   
-  .processes li {
-      display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 }
-   .page .text {
-    margin: 0 auto;
-    padding: 2vw;
-   }
-   
- .student-content {
-    max-width: 40%;
-    float: left;
-    display: inline-block;
-  }
- 
-  .student .text {
-    max-width: 40%;
-    float: right;
-    display: inline-block;
-    padding-right: 2em;
-  }
-   
-   main.page {
-     max-width: 1000px;
-     padding: 2vw;
-     background-color: white; 
-   }
-   
-   .letters {
-    max-width: 300px;
-    margin-left: 600px;
-   }
+main .landingPageStudentWorkCard img{
+    width: 80%;
+    align-items: center;
 }
-
-/* RESPONSIVE STYLES */
-
-@media only screen and (max-width: 900px) {
-
-    .student.preview {
-      max-width: 100%;
-      margin-left: 2vw;
-    }
-    
-    .list-content {
-      padding-top: 2vw;
-/*      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap; */
-      background-color: white;
-      justify-content: space-evenly;
-    }
-    
-    .student.preview .image {
-        max-width: 400px;
-        padding-bottom: 4vw;
-        padding-top: 2vw;
-    }
-    
-    .student.preview .image img {
-      max-width:100%;
-      max-height: 500px;
-    }
-   
-   .page .text {
-    max-width: 60%;
-    margin: 0 auto;
-    padding: 2vw;
-   }
-
+main .landingPageStudentWorkCard figcaption{
+    font-size: 15px;
+    text-decoration: none;
+    color: #171717;
 }
-
-/* MOBILE STYLES */
-
-@media only screen and (max-width: 600px) {
-
-    .student.preview {
-      max-width: 100%;
-      margin-left: 2vw;
-      margin-right: 2vw;
-    }
-  
-    .list-content {
-      padding-top: 2vw;
-      display: flex;
-      flex-direction: column;
-      background-color: white;
-      justify-content: space-evenly;
-    }
-  
-    .student.preview .image {
-        padding-bottom: 4vw;
-    }
-    
-    .student.preview .image img {
-      max-width: 400px;
-      max-height: 500px;
-    }
-
-    .student-content {
-      max-width: 95%;
-      margin-left: 4vw;
-      margin-right: 2vw;
-    }
-
-    .text {
-      max-width: 90%;
-      margin-left: 2vw;
-      margin-right: 2vw;
-    }
-   
-    ul.process {
-      list-style: none;
-    }
-
-    .processes li {
-      display: inline-block;
-      font-size: 2em;
-      margin-right: 1vw;
-      margin-bottom: 4vw;
-   }
-   
-    .page .text {
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 2vw;
-   }
-   
-}
-
-
-/* FONTS */
-
-@import url(https://fonts.googleapis.com/css2?family=Public+Sans:wght@800&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;800&display=swap);  
-    
-  main {
-    z-index: 4;
-    position: relative;
-    display: inline-block;
-    padding: 2vw;
-  }
-
-  /* Document
-     ========================================================================== */
-  
-  /**
-   * 1. Correct the line height in all browsers.
-   * 2. Prevent adjustments of font size after orientation changes in iOS.
-   */
-  
-  html {
-    -webkit-text-size-adjust: 100%; /* 2 */
-  }
-  
-  /* Sections
-     ========================================================================== */
-  
-  /**
-   * Correct the font size and margin on `h1` elements within `section` and
-   * `article` contexts in Chrome, Firefox, and Safari.
-   */
-
-  * Navigation
- */
-
-.navigation {
-  
-}
-
-.brand {
-  width: 200px;
-  height: 50px;
-  position: relative;
-}
-
-.homepage-logo {
-  width: 100%;
-  height: 190px;
-  position: relative;
-}
-
-.brand a img,
-.homepage-logo img,
-.box img {
-  max-height: 80%;
-  max-width: 80%;
-  width: auto;
-  height: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
-.nav-container {
-  max-width: 1000px;
-  min-height: 50px;
-  margin: 0 auto;
-}
-
-nav {
-  float: right;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-nav ul li {
-  float: left;
-  position: relative;
-}
-nav ul li a,
-nav ul li a:visited {
-  display: block;
-  padding: 0 20px;
-  color: #aa1d4a;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.nav-mobile {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #aa1d4a;
-  height: 70px;
-  width: 70px;
-}
-
-  .nav-mobile {
-    display: block;
-  }
-
-  nav {
-    width: 100%;
-    padding: 70px 0 15px;
-    z-index: 100;
-    position: absolute;
-/*    background-color: #aa1d4a;*/
-  }
-  nav ul {
-    display: none;
-    background-color: #efb5a9;
-    box-shadow: 10px 10px 10px #aa1d4a;
-  }
-
-  nav ul li {
-    float: none;
-  }
-  nav ul li a {
-    padding: 15px;
-    color: #aa1d4a;
-    line-height: 20px;
-    font-weight: 900;
-    background-color: #efb5a9;
-    font-size: 1.5em;
-}
-  nav ul li ul li a {
-    padding-left: 30px;
-  }
-  .nav-container {
-    border: none;
-  }
-
-  .nav-dropdown {
-    position: static;
-  }
-
-  
-  
-    /* New Styles for student pages */
-  
-      h1 {
-          text-align: center;
-      }
-      .content {
-          width: 100%;
-      }
-  
-      main.student  {
-          margin-left:2vw;
-          margin-right:2vw;
-          padding: 2vw;
-      }
-  
-      main.student h1 {
-          text-align: left;
-      }
-  
-  
-      main.student .text {
-          margin-left: 2vw;
-      }
-  
-      .photo {
-          width: 95%;
-      }
-  
-      .student .text {
-          text-align: left;
-      }
-
-      .letters {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-bottom: 2vw;
-      }
-     
-  }
-  
-  /* DESKTOP */
-  
-  @media screen and (min-width: 768px) {
-    .nav-list {
-        display: block !important;
-        direction: rtl;
-    }
-  
-    .disciplines, .letters {
-      float: right;
-      display: block;
-      margin-left: 15vw;
-    }
-  
-    .text, .themes {
-      max-width: 60%;
-      margin-left: 10px;
-    }
-  
-    .events {
-      max-width: 30%;
-      float: right;
-    }
-  
-    .themes .theme.box {
-      width:150px;
-      height:150px;
-      font-size:0.9em;
-      margin:6px 0 0 6px
-    }
-     
-    main {
-     max-width: 1000px;
-     }
-     
-     main.page {
-      background-color: white;
-      max-width: 1000px;
-      padding: 2v;
-     }
-
-    main.student {
-      background-color: white;
-      max-width: 1080px;
-      padding-top: 2em;
-      padding-left: 2em;
-    }
-
-    .student-content {
-      max-width: 40%;
-      float: left;
-      display: inline-block;
-    }
-
-    .text {
-      max-width: 40%;
-      float: right;
-      display: inline-block;
-      padding-right: 2em;
-    }  
-    
-    .letters {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      max-width: 300px;
-      margin-left: 750px;
-      margin-bottom: 2vw;
-    }
-     
-  }
-  
-  #nav-toggle {
-    position: absolute;
-    left: 18px;
-    top: 22px;
-    cursor: pointer;
-    padding: 10px 35px 16px 0px;
-  }
-  
-  #nav-toggle span,
-  #nav-toggle span:before,
-  #nav-toggle span:after {
-    cursor: pointer;
-    border-radius: 1px;
-    height: 5px;
-    width: 35px;
-    background: #efb5a9;
-    position: absolute;
-    display: block;
-    content: "";
-    transition: all 300ms ease-in-out;
-  }
-
-  #nav-toggle span:before {
-    top: -10px;
-  }
-
-  #nav-toggle span:after {
-    bottom: -10px;
-  }
-
-  #nav-toggle.active span {
-    background-color: transparent;
-  }
-
-  #nav-toggle.active span:before, #nav-toggle.active span:after {
-    top: 0;
-  }
-
-  #nav-toggle.active span:before {
-    transform: rotate(45deg);
-  }
-
-  #nav-toggle.active span:after {
-    transform: rotate(-45deg);
-  }
-  
-  /*
-   * Page content
-   */
-  
-  .content {
-    max-width: 1000px;
-    min-height: 50px;
-    margin: 20px auto;
-  }
-  
-  .content header {
-    position: relative;
-    z-index: 10;
-  }
-
-  .wrap {
-/*    width: 100%; */
-    max-width: 1080px;
-  }
-  
-  .box {
-    text-align: left;
-    position: relative;
-    text-transform: uppercase;
-  }
-  
-  .box.wide {
-    width: 438px;
-  }
-  
-  .box.content {
-    width: 100%;
-    height:100%;
-    vertical-align: text-top;
-  }
-  
-  .box.contact {
+main .landingPageStudentWorkCard .landingPageStudentWorkName{
     font-size: 16px;
-  }
-  
-@media only screen and (max-width: 767px) {
+    color: #5c5c5c;
+}
+main .landingPageStudentSection .landingPageStudentSectionLink{
+    display: flex;    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+main .landingPageStudentSectionLink{
+    display: flex;
+    justify-content: center;
 
-   .wrap {
-      margin: auto;
-      /* width: 94%; */
-    }  
-     
-    .box {
-      min-height: 200px;
-      margin-left: 0;
-      order:2;
-/*change made for new update here because homepage will be diff. */
-/*  display: none; */
-   }
-     
-/* intentionally broke the boxes */
+    color: #000;
+}
+@media (max-width: 880px) { /* when in mobile view */
+    main .landingPageLeftLogoSection, main .landingPageVideoSection{
+        display: none;
+    }
+    main .landingPageRightTeaserSection, main .landingPageLeftHostSection, main .landingPageRightDateSection{
+        width: 100vw;
+        
+        border-right: none;
+    }
+    main .landingPageLeftHostSection h5, .landingPageRightDateSection h5{
+        font-size: 18px;
+    }
+    main .landingPageStudentSection{
+        grid-template-columns: repeat(1, 0fr);
+        justify-content: center;
+    }
+    main .landingPageStudentWorkCard{
+        width: 100vw;
+        height: 400px;
+    }
+}
 
-     .box.wide {
-       width: 100%;
-    }
-  
-    .box.info {
-      order: 1;
-      display: block;
-    }
-     
-    .text, .themes {
-      text-align: center;
-    }
-  
-    .events {
-        max-width: 85%;
-        margin: 0 auto;
-    }
-  
-  .indent {
-    margin-left: 6px;
-   }
-  
-   main.wrap article {
-    width: 45%;
-    margin-right: 30px;
-    }
-  
-   main.wrap .right {
-   }
 
-/* Student preview */
-  
-  
-/* Events */
-
-.events {
-  /*  width: 190px; */
-    padding: 5px 15px 5px 20px;
-    text-align: left;
-    position: relative;
-    font-size: 1em;
-    text-transform: uppercase;
-  }
-
-  .events .event {
-    margin-top: 20px;
-  }
-  
-  /* Student Profile */
-
-  .student h1{
-      margin-bottom: 0;
-      text-align: left;
-  }
-  
-  main.student img {
-      max-width: 300px;
-      padding-right: 20px;
-  }  
-
-  /*student bio */
-    .text {
-      padding-left: 2vw;
-    }
-
-    .photo h2 {
-        padding-top: 40px;
-    }
-  
-    .right.disciplines h2 {
-      padding-top: 0.8em;
-      padding-left: 0.8em;
-      padding-right: 0.8em;
-      float: right;
-    }
+/* || GRADUATE A-Z PAGE */
+main .graduateA-ZPageFilterSection{
+    display: flex;
+    align-items: flex-end;
+    width: 80vw;
+    margin-left: 10vw;
     
-    .right {
-       float: right;
+    box-sizing: border-box;   
+    border-bottom: solid 1px;
+    background-color: #fff;
+}
+main .graduateA-ZPageFilterSection h5{
+    margin: 0px;
+    padding: 15px;
+
+    font-size: 20px;
+    font-weight: 400;
+}
+main .graduateA-ZPageFilterSection a{
+    margin: 0px;
+    padding: 15px;
+
+    color: #000;
+    text-decoration: none;
+}
+main .graduateA-ZPageFilterSection #activeLink{
+    color: #B0B0B0;
+}
+main .graduate1-ZPageFilterButtonSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 10px;
+}
+main .graduate1-ZPageFilterButtonSection button{
+    color: #787878;
+    background: none;
+    border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+main .graduate1-ZPageFilterButtonSection #activeButton{
+    font-weight: 600;
+    color: #b12626;
+}
+@media (max-width: 880px) { /* when in mobile view */
+    main .graduateA-ZPageFilterSection{
+        width: 90vw;
+        margin-left: 5vw;
     }
-   
-   .right.letters {
-   float: none;
-   }
-   
-   .right.letters h2 {
-      display: inline-block;
+    main .graduateA-ZPageFilterSection h5, main .graduateA-ZPageFilterSection a{
+        padding: 10px;
+    
+        font-size: 15px;
+        font-weight: 400;
     }
-  }
+    main .graduate1-ZPageFilterButtonSection{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 80vw;
+        margin-left: 11vw;
 
-#footer {
-   padding-top: 100px;
+        font-size: 20px;
+    }
+    main .graduate1-ZPageFilterButtonSection button{
+        padding: 0px 20px 0px 0px;
+    }
 }
 
-.footer-left {
-float: left;
+
+/* || GRADUATE TECHNIQUE INDEX PAGE */
+main .graduateA-ZPageH2{
+    display: block;
+}
+main .graduateTecniqueAreaSection{
+    display: flex;
+    flex-direction: row;
+}
+main .graduateTechniquesSection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80vw;
+    margin-left: 11vw;
+}
+main .graduateTechniquesSection a{
+    padding-bottom: 35px;
+
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+main .graduateTechniquesSection a:hover{
+    font-size: 30px;
+}
+main .graduateTechniquesHoverViewSection{
+    display: none;
+    position: fixed;
+    margin-left: 50vw;
+    margin-top: 5vh;
+}
+main .graduateTechniquesSection a:hover ~ .graduateTechniquesHoverViewSection{
+    display: block;
+}
+main .graduateTechniquesHoverViewSection img{
+    width: 20vw;
+}
+@media (max-width: 880px) { /* when in mobile view */
+    main .graduateTechniquesSection a:hover ~ .graduateTechniquesHoverViewSection{
+        display: none;
+    }
 }
 
-.footer-right {
-float:right;
+
+/* || STUDENT PAGE */
+main .studentProfileSection header{    
+    margin: 5vh 0px 0px 0px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    border: none;
+}
+main .studentProfileSection h4{
+    margin: 0px 0px 0px 8vw;
+
+    font-size: 35px;
+    font-weight: 600;
+}
+main .studentProfileSection h5{
+    margin: 2vh 0px 0px 8vw;
+    width: 100%;
+
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+}
+main .studentProfileSection img{
+    margin: 0px 0px 5px 20px;
+    width: 20px;
+}
+main .studentProfileSection figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .studentProfileSection figure img{
+    margin: 0px 0px 0px 0px;
+    width: 70vw;
+}
+main .studentProfileSection figure figcaption{
+    margin: 2vh 0px 2vh 0px;
+    width: 50vw;
+
+    font-size: 15px;
+}
+main .studentProfileSection .studentProfleWorkDetailSection{
+    margin: 0px 0px 0px 5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90vw;   
+}
+main .studentProfileSection p{
+    margin: 0px 0px 5vh 0px;
+}
+main .studentProfileSection dt{
+    margin: 0px 0px 1.5vh 0px;
+    
+    font-weight: 550;
+}
+main .studentProfileSection dd{
+    margin: 0px 0px 1.5vh 0px;
+}
+main .studentProfileSection dd a{    
+    text-decoration: underline;
+    color: #000;
+}
+@media (max-width: 880px) { /* when in mobile view */
+    main .studentProfileSection header{
+        margin: 3vh 0px 0px 0px;
+    }
+    main .studentProfileSection h4{
+        font-size: 30px;
+    }
+    main .studentProfileSection h5{
+        margin: 0vh 0px 1vh 8vw;
+        font-size: 15px;
+    }
+    main .studentProfileSection figure img{
+        width: 85vw;
+    }
+    main .studentProfileSection figure figcaption{
+        width: 85vw;
+    }
+    main .studentProfileSection .studentProfleWorkDetailSection{
+        margin: 0px 0px 0px 7.5vw;
+        width: 85vw;   
+    }
+    main .studentProfileSection dl{    
+        width: 100vw;
+    }
 }
 
-.footer-left p {
-   color: #efb5a9;
+/* || ABOUT US PAGE */
+main .aboutPageAboutSection{
+    margin: 5vh 0px 0px 5vw;
+    width: 90vw;
+
+    border-bottom: solid 1px;
+}
+main .aboutPageAboutSection a{
+    color: #000;
+}
+main .aboutPageAboutSection p{
+    margin: 0px 0px 5vh 0px;    
+}
+main .aboutPageMessageSection{
+    margin: 5vh 0px 5vh 5vw;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+}
+main .aboutPageMessageSection blockquote{
+    width: 25vw;
+
+    font-weight: 800;
+    font-size: 20px;
+}
+main .aboutPageMessageSection blockquote span{
+    font-size: 40px;
+    font-weight: 500;
+}
+main .aboutPageMessageSection .aboutPageMessageSectionRight{   
+    width: 75vw;
+}
+main .aboutPageMessageSection p{
+    font-style: italic;
+}
+@media (max-width: 880px) { /* when in mobile view */
+    main .aboutPageMessageSection{
+        flex-direction: column-reverse;
+    }
+    main .aboutPageMessageSection .aboutPageMessageSectionRight{
+        width: 90vw;
+    }
+    main .aboutPageMessageSection{
+        margin: 1vh 0px 5vh 5vw;
+    }
+    main .aboutPageMessageSection h5{
+        font-size: 16px;
+    }
+    main .aboutPageMessageSection blockquote{
+        width: 80vw;
+    }
 }
 
-.footer-left a {
-   color: #efb5a9;
+/* || SUPPORT PAGE */
+main .supportPageSection{
+    margin: 5vh 0px 5vh 5vw;
+    width: 90vw;
+}
+main .supportPageSection a{
+    color: #000;
+}
+main .supportPageSection h5{
+    margin: 5vh 0px 0px 0px;
 }
 
-#footer img {
-  border: 0;
-  width: 150px;
+/* || ACKNOWLEDGE PAGE */
+main .acknowledgmentsPageSection{
+    margin: 5vh 0px 5vh 5vw;
+    width: 90vw;
+}
+main .acknowledgmentsPageSection p{
+    margin: 0px 0px 5vh 0px;
+}
+main .acknowledgmentsPageSection a{
+    color: #000;
 }
 
-.list-content header {
-   margin-left: 2vw;
+/* || CONTACT PAGE */
+main .contactUsPageSection{
+    margin: 5vh 0px 30vh 5vw;
+    width: 90vw;
+}
+main .contactUsPageSection h5{
+    margin: 5vh 0px 0px 0px;
 }
 
-.page .text {
-   background-color: white;
-   display: block;
-   float: none;
+/* || EVENTS PAGE */
+main .soadEventsSection{
+    margin: 5vh 0px 0px 5vw;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+main .soadEventsSection h5{
+    margin: 0px;
+    width: 100vw;
 
-main.page {
-   background-color: white;
+    font-size: 20px;
+}
+main .soadEventsSection figure{
+    margin: 5vh 5vw 5vh 0px;
+}
+main .soadEventsSection figure img{
+    width: 30vw;
+}
+main .soadEventsSection figure a{
+    text-decoration: none;
+    color: #000;
+}
+main .soadEventsSection figure figcaption h6{
+    margin: 0px;
+
+    font-size: 16px;
+}
+main .soadEventsSection a{
+    width: 100vw;
+    text-align: center;
+
+    color: #000;
+}
+@media (max-width: 880px) { /* when in mobile view */
+    main .soadEventsSection figure img{
+        width: 80vw;
+    }
 }
