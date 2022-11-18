@@ -1,75 +1,51 @@
 {{ define "main" }}
+<main>
+<section class="landingPageInfoSection">
+    <!-- GradShow Large Typography Section - Styled Left -->
+    <section class="landingPageLeftLogoSection">
 
-<section class="home-content">
- 
-        <div class="left">
-            
-            <div class="highlight">
-                <h1>Grad</h1>
-            </div>
-            <div class="highlight">
-                <h1>Show<br></h1>
-            </div>
-            <div class="highlight">
-                <h1>2021<br></h1>
-            </div>
+        <!-- GradShow 2022 Large Logo -->
+        <h1>[grad show]</h1>
+        <h2>22</h2>
+    </section>
+
+    <!-- About Teaser Section - Styled Right -->
+    <section class="landingPageRightTeaserSection">
+
+        <!-- About Section Teaser Heading -->
+        <h5>ABOUT THE EXHIBITION</h5>
         
-        </br>
-    
-            <div class="highlighth2-bold">
-             <h2><a href="https://soad.cass.anu.edu.au/">ANU School of Art & Design</a></h2>
-            <br>
-            <h2>Graduating Exhibition</h2>
-            </div>
-        
-        </div>
-        
-    <!--</div>--What is this?-->
+        <!-- About Section Teaser Text -->
+        <p>Welcome to the Australian National University School of Art and Design 2022 Graduating Exhibition. The exhibition showcases the work of students completing undergraduate and postgraduate coursework programs at the School. The show is a culmination of years of study in art, design, art history and art theory.</p>
 
-    <div class="right">
+        <!-- About Section Teaser Link - Styled as 20 Point Open Sans (SemiBold) Underlined -->
+        <a href="AboutUs_Page.html">Read More</a>
+    </section>
 
-        <div class="home-space">
-        </div>
 
-        <div class="highlighth2-bold">
-            <h2><a href="/info/">about the exhibition</a></h2>
-        </div>
+    <!-- Host Section - Styled Left -->
+    <section class="landingPageLeftHostSection">
 
-        <div class="highlighth2-bold">
-            <h2><a href ="/student/">Graduates a-z</a></h2>
-        </div>
-
-        <div class="highlighth2-bold">
-            <h2><a href="/processes/">Graduates by Technique</a></h2>
-        </div>
-
-        <div class="highlighth2-bold">
-            <h2><a href="https://www.youtube.com/playlist?list=PL-xZUBWVA78RMe04dFJN0GZ8Zs8pd3rLO">Tours and Talks</a></h2>
-        </div>
-
-        <div class="highlighth2-bold">
-            <h2><a href="/support/">Support our Graduates</a></h2>
-        </div>
-
-        <div class="highlighth2-bold">
-            <h2><a href="https://soad.cass.anu.edu.au/study">Study Options</a></h2>
-        </div>
-
-        <div class="highlighth2-bold">
-            <h2><a href="/contact/">Contact</a></h2>
-        </div>
-
-        <div class="highlighth2-bold">
-            <h2><a href="/acknowledgements/">Acknowledgements</a></h2>
-        </div>
-
-        <div class="highlight2-bold">
-            <h2><a href="/archive/">Archive</a></h2>
-        </div>
-    </div>
-
-    <!--</div>--What is this?-->
+        <!-- Hosting School Text - Styled as 25 Point Inter (Medium) Italics-->
+        <h5 class="landingPageLeftHostText">ANU SCHOOL OF ART AND DESIGN</h5>
 
     </section>
 
+    <!-- Exhibition Date Section - Styled Right -->
+    <section class="landingPageRightDateSection">
+
+        <!-- Exhibition Dates - Styled as 25 Point Inter (Medium) Italics-->
+        <h5 class="landingPageRightDateText">25.11.2022 – 04.12.2022</h5>
+    </section>
+</section>
+
+<!-- Video Section - Styled full viewport width (Include when supplied by SOAD)-->
+<section class="landingPageVideoSection">
+    <!-- Play (without audio) On Load -->
+    <video autoplay>
+        <source src="gradShowVideo.mp4" type="video/mp4">
+    </video>
+</section>
+        
+</main>
 {{ end }}
