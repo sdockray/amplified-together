@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-**__MESSAGE FROM THE HEAD OF SCHOOL__** 
+**__Message from the Head of School__** 
 
 Welcome to the Australian National University School of Art and Design 2022 Graduating Exhibition.
 
