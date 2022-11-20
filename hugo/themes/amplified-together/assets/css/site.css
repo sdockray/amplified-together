@@ -172,7 +172,7 @@ header .mobileNav{
         height: 50px;
 
         z-index: 2;
-        background-image: url('img/hamburgerMenu.png');
+        background-image: url('/img/hamburgerMenu.png');
         background-position: center;
         background-size: cover;
     }
@@ -204,7 +204,7 @@ header .mobileNav{
         display: block;
     }
     header .mobileNav input:checked ~ span{
-        background-image: url('img/closeMenu.png');
+        background-image: url('/img/closeMenu.png');
     }
     header .mobileNavBarContent input:checked ~ .mobileNavBarContent{
         display: none;
