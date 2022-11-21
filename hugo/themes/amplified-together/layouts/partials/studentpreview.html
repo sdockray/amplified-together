@@ -1,11 +1,14 @@
-<section class="landingPageStudentWorkCard">    
+
+<section class="landingPageStudentWorkCard">
+    
     <figure class="studentpreview">
         <div class="landingPageStudentWorkCardImage">
             <a href="{{ .Permalink }}">{{ partial "image.html" . }}</a>
                 <figcaption class="landingPageStudentWorkCardImage">
-                <h4 class="studentname"><a href="{{ .Permalink }}">{{ partial "studentname.html" . }}</h4>
+                <h4 class="studentname"><a href="{{ .Permalink }}">{{ partial "studentname.html" . }}</h4></a>
                 </figcaption>
         </div>
-        </a>
+
     </figure>
+
 </section>
