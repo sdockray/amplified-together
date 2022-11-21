@@ -15,15 +15,15 @@
   
   <!-- grid of letters -->
   {{ if eq .RelPermalink "/student/" }}
-  <div class="right letters">
+  <section class="graduate1-ZPageFilterButtonSection">
     {{range .Pages.ByTitle }}
       <h2 class="letter">
         <a href="#{{ .Title }}">{{ .Title }}</a>
       </h2>
     {{ end }}
-  </div>
+    </section>
   
-<div class="list-content">
+<section class="landingPageStudentSection">
   <!-- list of students -->
   {{ $currLet := "0" }}
   {{range (where .Site.RegularPages.ByTitle "Section" "student" ).ByParam "last_name" }}
@@ -37,6 +37,6 @@
   {{ end }}
 
   {{ end }}
-  </div>
+</section>
 </main>
 {{ end }}
