@@ -685,10 +685,7 @@ main.student header h2 {
 }
 main .studentProfileSection header{    
     margin: 5vh 40px 0;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-
+    display: block;
     border: none;
 }
 main .studentProfileSection h4{
