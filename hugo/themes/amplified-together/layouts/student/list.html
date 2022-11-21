@@ -23,20 +23,19 @@
     {{ end }}
     </section>
   
-<section class="landingPageStudentSection">
+<section class="studentlist">
   <!-- list of students -->
-  {{ $currLet := "0" }}
-  {{range (where .Site.RegularPages.ByTitle "Section" "student" ).ByParam "last_name" }}
+    {{ $currLet := "0" }}
+    {{range (where .Site.RegularPages.ByTitle "Section" "student" ).ByParam "last_name" }}
     {{ if not (hasPrefix (.Param "last_name") $currLet) }}
-      {{ $currLet := (substr (.Param "last_name") 0 1) }}
-      {{ with $currLet }}
+    {{ $currLet := (substr (.Param "last_name") 0 1) }}
+    {{ with $currLet }}
       <a name="{{ . }}"></a>
-      {{ end }}
+    {{ end }}
     {{ end }}
     {{ partial "studentpreview.html" . }}
-  {{ end }}
-
-  {{ end }}
+    {{ end }}
+    {{ end }}
 </section>
 </main>
 {{ end }}
