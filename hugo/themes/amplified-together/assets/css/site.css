@@ -22,6 +22,24 @@ main h3 {
     font-weight: 600;
 }
 
+h4 {
+    font-size: 27px;
+    font-weight: 600;
+    margin: 0;
+  } 
+
+a:link {
+color: #000;
+}
+
+a:hover{
+    color: f75605;
+}
+
+a:visited {
+    color: #3c027a
+}
+
 @media (max-width: 880px) {
 
     main h3{
@@ -50,7 +68,7 @@ header {
 }
 header h1{
     display: inline-block;
-    width: 100px;
+    /* width: 100px; */
     margin-left: 30px;    
     
     font-family: 'Inter', sans-serif;
@@ -77,17 +95,20 @@ header h2 {
 
 header nav a {
     padding-right: 5vw;
-
     text-decoration: none;
     color: #000;
     font-size: 18px;
 }
 
 header nav a:hover{ /* On hover of nav links */
-    color: #585858;
+    color: #f75605;
 }
 header nav #activeLink{ /* Color of active nav links */
-    color: #A5A5A5;
+    color: #f75605;
+}
+
+header nav a:visited {
+    color:#000;
 }
 header nav .navBarDropdown{
     display: inline-block;
@@ -106,8 +127,9 @@ header nav .navBarDropdownContent a{
     color: #000;
 }
 header nav .navBarDropdownContent a:hover{
-    color: rgb(125, 125, 125);
+    color: #f75605;
 }
+
 header nav .navBarDropdown:hover .navBarDropdownContent{
     display: block;
 }
@@ -626,8 +648,16 @@ main .graduateTechniquesHoverViewSection img{
 
 
 /* || STUDENT PAGE */
+
+main.student {
+    margin-left: 100px;
+}
+
+main.student header h2 {
+    margin-left: 30px;
+}
 main .studentProfileSection header{    
-    margin: 5vh 0px 0px 0px;
+    margin: 5vh 40px 0;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -635,13 +665,10 @@ main .studentProfileSection header{
     border: none;
 }
 main .studentProfileSection h4{
-    margin: 0px 0px 0px 8vw;
-
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
 }
 main .studentProfileSection h5{
-    margin: 2vh 0px 0px 8vw;
     width: 100%;
 
     font-family: 'Inter';
@@ -655,7 +682,6 @@ main .studentProfileSection img{
 main .studentProfileSection figure{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 main .studentProfileSection figure img{
     margin: 0px 0px 0px 0px;
@@ -668,13 +694,12 @@ main .studentProfileSection figure figcaption{
     font-size: 15px;
 }
 main .studentProfileSection .studentProfleWorkDetailSection{
-    margin: 0px 0px 0px 5vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
     align-items: center;
-    justify-content: space-evenly;
     width: 90vw;   
+    margin-left: 40px;
 }
 main .studentProfileSection p{
     margin: 0px 0px 5vh 0px;
@@ -692,18 +717,27 @@ main .studentProfileSection dd a{
     color: #000;
 }
 @media (max-width: 880px) { /* when in mobile view */
+    main.student {
+        margin-left: 5px;
+    }
     main .studentProfileSection header{
-        margin: 3vh 0px 0px 0px;
+        margin-top: 3vh;
+        margin-left: 30px;
     }
     main .studentProfileSection h4{
         font-size: 30px;
+        margin-left: ;
     }
     main .studentProfileSection h5{
-        margin: 0vh 0px 1vh 8vw;
+        margin: 0vh 0px; 1vh 8vw;
         font-size: 15px;
+    }
+    main .studentProfileSection figure {
+        margin-left: 30px;
     }
     main .studentProfileSection figure img{
         width: 85vw;
+        
     }
     main .studentProfileSection figure figcaption{
         width: 85vw;
