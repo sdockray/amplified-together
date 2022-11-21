@@ -1,6 +1,11 @@
-<div class="student preview">
-    <h3><a href="{{ .Permalink }}">{{ partial "studentname.html" . }}</a></h3>
-    <div class="image">
-        <a href="{{ .Permalink }}">{{ partial "image.html" . }}</a>
-    </div>
-</div>
+<section class="landingPageStudentWorkCard">    
+    <figure class="studentpreview">
+        <div class="landingPageStudentWorkCardImage">
+            <a href="{{ .Permalink }}">{{ partial "image.html" . }}</a>
+                <figcaption class="landingPageStudentWorkCardImage">
+                <h4 class="studentname"><a href="{{ .Permalink }}">{{ partial "studentname.html" . }}</h4>
+                </figcaption>
+        </div>
+        </a>
+    </figure>
+</section>
