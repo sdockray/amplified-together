@@ -262,6 +262,11 @@ footer {
     background-color: #000;
     color: #fff;
 }
+
+footer a, a:visited, a:hover{
+    color:#fff;
+}
+
 footer .footerSectionLeft, .footerSectionRight{
     width: 50vw;
     padding: 25px;
