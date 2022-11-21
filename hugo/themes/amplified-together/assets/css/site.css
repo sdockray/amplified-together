@@ -13,6 +13,10 @@ main {
     padding-bottom: 300px;
 }
 
+main.page {
+    margin-left: 30px;
+}
+
 footer {
     position: absolute;
     bottom: 0;
