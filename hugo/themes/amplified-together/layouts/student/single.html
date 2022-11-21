@@ -1,56 +1,63 @@
 {{ define "main" }}
 {{ $imgsrc := printf "/images/%s.md.jpg" (path.Base .RelPermalink) }}
 <main class="student">
-    <div class="student-content">
-    <h1>{{ partial "studentname.html" . }}</h1>
-    <!--<p>{{ $.Param "disciplines" }}</p> -->
-    <h2>{{ $.Param "your_degree" }}</h2>
+    <section class="studentProfileSection">
+        <header>
+            <!-- Student Name -->
+            <h4>{{ partial "studentname.html" . }}</h4>
+            <!--<p>{{ $.Param "disciplines" }}</p> -->
+            <!-- Student Degree -->
+            <h5>{{ $.Param "your_degree" }}</h5>
+        </header>
 
-    <div class="photo">
-        <p>
+
+        <!-- Student Work Image Section -->
+        <figure>
             {{ partial "image.html" . }}<br/>
-            {{ $.Param "image_caption" }}<br/>
-            {{ with $.Param "name_of_photographer" }}
-            Photographer: {{ . }}
-            {{ end }} 
-        </p>
-        <p>
-        {{- with $.Param "artwork_title" -}}"{{ . }}"{{ end }}
-        {{- with $.Param "the_image_is_of_a" -}}, {{ . }}{{ end }}
-        {{- with $.Param "year" -}}, {{ . }}{{ end }}
-        {{- with $.Param "medium" -}}, {{ $.Param "medium" }}{{ end }}
-        {{- with $.Param "dimensions" -}}
-        , {{ . }}
-        {{- else -}}
-            {{- with $.Param "width_in_centimetres_only" -}}
-            , {{ . }}x{{ $.Param "height_in_centimetres_only" }}{{ with $.Param "depth_in_centimetres_only" }}x{{ . }}{{ end }}cm
-            {{ end }}
-        {{ end }}
-        {{- with $.Param "duration_for_digital_work" -}}, {{ . }}{{ end }}
-        </p>
-        </div>
-        
-        <ul>
-            {{ range (.GetTerms "processes") }}
-                <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-            {{ end }}
-        </ul>
-    </div>
+            <figcaption>{{ $.Param "image_caption" }}<br>
+                    {{ with $.Param "name_of_photographer" }}
+                    Photographer: {{ . }}
+                    {{ end }}
+                <p>
+                    {{- with $.Param "artwork_title" -}}"{{ . }}"{{ end }}
+                    {{- with $.Param "the_image_is_of_a" -}}, {{ . }}{{ end }}
+                    {{- with $.Param "year" -}}, {{ . }}{{ end }}
+                    {{- with $.Param "medium" -}}, {{ $.Param "medium" }}{{ end }}
+                    {{- with $.Param "dimensions" -}}
+                    , {{ . }}
+                    {{- else -}}
+                    {{- with $.Param "width_in_centimetres_only" -}}
+                    , {{ . }}x{{ $.Param "height_in_centimetres_only" }}{{ with $.Param "depth_in_centimetres_only" }}x{{ . }}{{ end }}cm
+                    {{ end }}
+                    {{ end }}
+                    {{- with $.Param "duration_for_digital_work" -}}, {{ . }}{{ end }}
+                </p>
+            </figcaption>
+            </figure>
 
-    <div class="text">
-        <h2>
-            {{ with $.Param "portfolio_url" }}
-                {{ if hasPrefix . "http" }}
-                <a href="{{ . }}" target="_new">view graduate work</a><!--({{ $.Param "portfolio_format" }})-->
-                {{ else }}
-                <a href="http://{{ . }}" target="_new">view graduate work</a><!--({{ $.Param "portfolio_format" }})-->
-                {{ end }}
-            {{ end }}
-            
-        </h2>
-        <h3>artist statement</h3>
-        <div><p>{{ $.Param "biography" | safeHTML }}</p></div>
-    </div>    
+            <section class="studentProfleWorkDetailSection">
+
+                <!-- Student Statement - Styled as 20point Open Sans Font (Regular) -->
+                <h2>Artist Statement</h2>
+                <p>{{ $.Param "biography" | safeHTML }}</p>
+                <!-- Student Links -->
+                <h2>
+                    {{ with $.Param "portfolio_url" }}
+                        {{ if hasPrefix . "http" }}
+                        <a href="{{ . }}" target="_new">Graduate Link/s</a><!--({{ $.Param "portfolio_format" }})-->
+                        {{ else }}
+                        <a href="http://{{ . }}" target="_new">Graduate Link/s</a><!--({{ $.Param "portfolio_format" }})-->
+                        {{ end }}
+                    {{ end }}
+                </h2>
+
+                <dl>
+                    {{ range (.GetTerms "processes") }}
+                    <dt><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></dt>
+                    {{ end }}
+                </dl>
+            </section>    
+        </section>
 </main>
 </div>
 
