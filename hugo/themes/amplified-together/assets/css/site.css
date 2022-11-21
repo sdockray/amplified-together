@@ -258,6 +258,29 @@ header .mobileNav{
 
 
 /* || FOOTER STYLES */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+footer a:visited {
+    color:#fff;
+}
+
+footer a:link {
+    color:#fff;
+}
+
+footer a:hover {
+    color:#fff;
+}
+
 footer {
     display: flex;
     flex-direction: row;
@@ -331,7 +354,6 @@ footer img{
     footer .footerSectionRight a{
         padding-left: 3vw;
         text-align: center;
-
         color: #fff;
         font-size: 15px;
     }
