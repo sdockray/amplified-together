@@ -52,7 +52,7 @@ color: #000;
 }
 
 a:hover{
-    color: f75605;
+    color: #f75605;
 }
 
 a:visited {
@@ -533,6 +533,38 @@ main .landingPageStudentSectionLink{
 
     color: #000;
 }
+
+/* LIST LAYOUT FIX HERE */
+
+section.studentlist {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section.studentlist {
+    margin-left: 50px;
+}
+section.studentlistpreview {
+    /* margin-left: 3vw; */
+    width:400px;
+    margin-bottom: 5vh;
+}
+
+section.studentlistpreview a {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+section.studentlistpreview ~ a:hover {
+
+}
+
+.studentlistimage img {
+    max-width: 300px;
+}
+
+
 @media (max-width: 880px) { /* when in mobile view */
     main .landingPageLeftLogoSection, main .landingPageVideoSection{
         display: none;
