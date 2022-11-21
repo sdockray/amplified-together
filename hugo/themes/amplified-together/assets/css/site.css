@@ -213,6 +213,11 @@ header .mobileNav{
 
         padding-bottom: 50px;
     }
+	
+    header .mobileNavBarContentTitle h2{
+    top: 67px;
+    }
+	
     header .mobileNav .mobileNavBarContent a{
         display: flex;
         flex-direction: column;
