@@ -1,0 +1,27 @@
+---
+timestamp: "27/10/2022 13:45:03"
+title: "Miss"
+first_name: "Yulin"
+last_name: "Xia"
+preferred_name: "Yulin Xia"
+preferred_pronouns: "She/ Her"
+your_degree: "Master of Contemporary Practices in Art and Design"
+biography: "Untitled Melody' series consists of three section: Humankind (0), ME (1) and New chapter (2), which are explorations of sound, the psychological unconscious and the intertwining of body gestures and space. Through automatic painting, I investigate the visual language of the unconscious while listening to music. The id is linked to the involvement, immediacy, and perceptual acuity of the drawing experience, which is released onto the paper through sound. I am interested in observing the creative act of doing work without rationality, sensing my body's response to the melody and witnessing the instantaneous feedback I record on paper with lines or blocks of colour as the id emerges. Strong and soft marks, overlapping lines, sparse and dense lines, these are the forms that depict what music would look like if it could be seen, with some forms floating in the air and others close to the ground, the visual description of a three-dimensional space on a two-dimensional plane. For me, the composition of these paintings is not imagination but rather the fact that I am in that space, feeling everything in music that can emerge and disappear."
+image_location: "https://drive.google.com/open?id=1SGM4RP7ojXAwBg4c7p0JwpqlrXk-T5kX"
+portfolio_url: "https://www.instagram.com/__yulin.xia/"
+image_caption: ""
+name_of_photographer: ""
+artwork_title: "Untitled Melody"
+the_image_is_of_a: "Complete work"
+year: "2022"
+medium: "Chinese ink, mineral pigments on rice paper"
+artwork_dimensions: ""
+height_cm: ""
+width_cm: ""
+depth_cm: ""
+duration_for_digital_work: ""
+photographer_name: ""
+please_upload_your_label_information_here: "https://drive.google.com/open?id=1UAYwvsczPXJtkQXQjIZVvR8Ev9ngPa8u"
+---
+
+Default content
