@@ -3,6 +3,7 @@ Imports data from the shared Google spreadsheets
 """
 
 from __future__ import print_function
+from os import mkdir
 import pickle
 import os.path
 import io
@@ -220,6 +221,12 @@ def download_image(url, drive, slug, dest):
     #filename = "test.jpg"
     #urllib.request.urlretrieve(url,filename) 
     file_dest = os.path.join(dest, f"{slug}.jpg")
+    resizing = [
+        {'resized_dir': '_400images',
+        'basewidth': 400},
+        {'resized_dir': '_800images',
+        'basewidth': 800},
+    ]
     resized_dir = '_400images'
     if not os.path.exists(file_dest):
         parts = url.split('=')
@@ -241,15 +248,18 @@ def download_image(url, drive, slug, dest):
         else:
             print('Unable to download malformed url:', url)
     # now resize the image
-    basewidth = 400
-    resized_loc = os.path.join(dest, resized_dir, f"{slug}.jpg")
-    if os.path.exists(file_dest) and not os.path.exists(resized_loc):
-        img = Image.open(file_dest)
-        wpercent = (basewidth / float(img.size[0]))
-        hsize = int((float(img.size[1]) * float(wpercent)))
-        img = img.resize((basewidth, hsize), Image.ANTIALIAS)
-        img = img.convert('RGB')
-        img.save(resized_loc)
+    for r in resizing:
+        basewidth = r['basewidth']
+        resized_loc = os.path.join(dest, r['resized_dir'], f"{slug}.jpg")
+        if not os.path.exists(os.path.join(dest, r['resized_dir'])):
+            os.mkdir(os.path.join(dest, r['resized_dir']))
+        if os.path.exists(file_dest) and not os.path.exists(resized_loc):
+            img = Image.open(file_dest)
+            wpercent = (basewidth / float(img.size[0]))
+            hsize = int((float(img.size[1]) * float(wpercent)))
+            img = img.resize((basewidth, hsize), Image.ANTIALIAS)
+            img = img.convert('RGB')
+            img.save(resized_loc)
 
 
 def main():
